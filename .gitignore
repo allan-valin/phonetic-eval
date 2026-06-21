@@ -20,4 +20,10 @@ __pycache__/
 # private working notes (contain server/SSH details)
 RESUME.md
 
+# transient working copies at root (regenerated each run; archived per-phase in runs/)
+/references.tsv
+/summary_by_model.tsv
+/summary_by_family.tsv
+/per_file_results.tsv
+
 # raw per-file predictions are archived in runs/<name>/results.tar.gz, not tracked

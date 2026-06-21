@@ -1,0 +1,16 @@
+[2026-06-22 00:31:50] PHASE full START
+[2026-06-22 00:31:50] build: scripts/build_full.py
+  Afro-Asiatic       tzm: 37 utts
+  Sino-Tibetan       wuu: 64 utts
+  Sino-Tibetan       yue: 126 utts
+
+Wrote 5416 files to audio/ and references.tsv across 95 langs / 21 families
+[2026-06-22 00:35:31] built 5416 wav files
+[2026-06-22 00:35:31] clearing old results/*.txt
+[2026-06-22 00:35:31] model zipa-small start
+[2026-06-22 00:37:49] model zipa-small done rc=0
+[2026-06-22 00:37:49] model zipa-large start
+[2026-06-22 00:43:09] model zipa-large done rc=0
+[2026-06-22 00:43:09] model allosaurus start
+[2026-06-22 00:46:29] model allosaurus done rc=0
+[2026-06-22 00:46:29] model allophant start

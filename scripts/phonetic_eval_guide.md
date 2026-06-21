@@ -15,7 +15,7 @@ score them with Phone Error Rate (PER) and Phonological Feature Error Rate (PFER
 ## Table of Contents
 
 0. Important concepts (read once)
-1. Connect to the server (SSH)
+1. Get onto your machine
 2. Create the project folder structure
 3. Python environments (one per model family — why and how)
 4. Install the models
@@ -30,9 +30,9 @@ score them with Phone Error Rate (PER) and Phonological Feature Error Rate (PFER
 
 ## 0. Important concepts (read once)
 
-- **PowerShell is only the launcher.** After `ssh` connects, you are in a Linux
-  bash shell. Use Linux commands (`ls`, `cd`, `pwd`, `mkdir`), not PowerShell or
-  cmd.exe commands.
+- **You work in a Linux bash shell.** All commands below are Linux shell commands
+  (`ls`, `cd`, `pwd`, `mkdir`). How you reach that shell (local terminal, SSH to a
+  server, etc.) is up to your setup.
 - **One model per environment.** These projects pin conflicting versions of
   PyTorch, transformers, and (for ZIPA) the k2 library. Installing them all in
   one environment will break things. We create a separate virtual environment
@@ -47,34 +47,17 @@ score them with Phone Error Rate (PER) and Phonological Feature Error Rate (PFER
 
 ---
 
-## 1. Connect to the server (SSH)
+## 1. Get onto your machine
 
-On your own machine, with the university VPN active, open PowerShell and run:
+This benchmark runs on any Linux box with Python 3.10–3.12. How you connect is
+specific to your environment (a local terminal, SSH to a remote server, a
+container, …) and is out of scope here — the rest of this guide assumes you have
+a shell on that machine and start in your home directory.
 
-```powershell
-ssh your_username@<SERVER_IP>
-```
-
-Replace `your_username` with the account the professor gave you. Enter your
-(newly changed) password when prompted. After connecting, your prompt changes to
-something like `your_username@hostname:~$` — you are now on the Linux machine.
-
-Start a persistent tmux session immediately so long jobs survive disconnects:
+Run long jobs inside `tmux` so they survive a dropped connection:
 
 ```bash
-tmux new -s phoneval
-```
-
-If you get disconnected later, reconnect with `ssh ...` then `tmux attach -t phoneval`.
-
-To copy files between your laptop and the server, use `scp` **from your own
-machine** (not from inside the SSH session). Examples:
-
-```powershell
-# laptop -> server
-scp -r C:\path\to\local\folder your_username@<SERVER_IP>:/home/your_username/
-# server -> laptop
-scp your_username@<SERVER_IP>:/home/your_username/phonetic_eval/results.zip C:\path\to\save\
+tmux new -s phoneval          # later, reattach with:  tmux attach -t phoneval
 ```
 
 ---
