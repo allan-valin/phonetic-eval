@@ -74,6 +74,7 @@ def to_phone_tokens(text):
 
 
 def load_references():
+    """Read references.tsv -> {file_key: {language, family, reference_ipa}}."""
     refs = {}
     with open(REFERENCES, encoding="utf-8") as f:
         for row in csv.DictReader(f, delimiter="\t"):
@@ -87,6 +88,7 @@ def load_references():
 
 
 def discover_models():
+    """Each subfolder of results/ is one model's hypotheses; return their names."""
     return sorted(
         d for d in os.listdir(RESULTS_DIR)
         if os.path.isdir(os.path.join(RESULTS_DIR, d))
@@ -94,6 +96,7 @@ def discover_models():
 
 
 def load_hypothesis(model, key):
+    """Read one model's IPA output for file `key`, or None if it was not produced."""
     path = os.path.join(RESULTS_DIR, model, key + ".txt")
     if not os.path.exists(path):
         return None
@@ -102,6 +105,7 @@ def load_hypothesis(model, key):
 
 
 def compute_per(reference, hypothesis):
+    """Phone Error Rate: jiwer edit distance over space-separated phones / ref length."""
     ref_tokens = to_phone_tokens(reference)
     hyp_tokens = to_phone_tokens(hypothesis)
     if not ref_tokens:
@@ -110,6 +114,7 @@ def compute_per(reference, hypothesis):
 
 
 def compute_pfer(reference, hypothesis):
+    """Phonological Feature ER: panphon feature edit distance / number of ref phones."""
     ref = clean_ipa(reference).replace(" ", "")
     hyp = clean_ipa(hypothesis).replace(" ", "")
     if not ref:
