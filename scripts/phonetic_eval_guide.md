@@ -5,7 +5,7 @@ Linux server. It is written to be self-contained: you can follow it top to
 bottom, and you can paste any section into Claude CLI when you need help with a
 specific step.
 
-**Server:** <SERVER_IP> (university VPN required, accessed via SSH)
+**Environment:** any Linux machine with Python 3.10–3.12 (CPU is fine).
 **Goal:** run several phonetic transcription models on shared test audio, then
 score them with Phone Error Rate (PER) and Phonological Feature Error Rate (PFER).
 **Test corpora chosen:** VoxAngeles, DoReCo, THCHS-30, ASC.
@@ -212,11 +212,8 @@ ls voxangeles
 ### DoReCo — naturalistic, IPA via X-SAMPA conversion
 DoReCo is downloaded per language from https://doreco.huma-num.fr/ (you accept a
 licence and download bundles). There is no simple one-line CLI. Recommended:
-download the 3-4 language bundles you want on your laptop, then `scp` them up:
-```powershell
-# on your laptop, after downloading bundles to a local folder:
-scp -r C:\path\to\doreco_bundles your_username@<SERVER_IP>:/home/your_username/phonetic_eval/corpora/doreco/
-```
+download the 3-4 language bundles you want, then place them under
+`corpora/doreco/` (if you downloaded them elsewhere, copy them across with `scp`).
 DoReCo transcriptions are in **X-SAMPA** and need conversion to IPA. Use the
 Python library `jhasegaw/phonecodes` (academically citable):
 ```bash
