@@ -1,0 +1,1441 @@
+filename	language	family	model	PER	PFER
+indoeuropean_isl_001	Icelandic	Indo-European	allophant	0.6667	0.3333
+indoeuropean_isl_001	Icelandic	Indo-European	allosaurus	0.6667	0.0139
+indoeuropean_isl_001	Icelandic	Indo-European	multipa	1.0000	0.0417
+indoeuropean_isl_001	Icelandic	Indo-European	powsm	1.0000	0.3333
+indoeuropean_isl_001	Icelandic	Indo-European	wav2vec2phoneme	0.3333	0.0139
+indoeuropean_isl_001	Icelandic	Indo-European	whipa	0.6667	0.0417
+indoeuropean_isl_001	Icelandic	Indo-European	whipa_comb	0.6667	0.0694
+indoeuropean_isl_001	Icelandic	Indo-European	zipa	1.3333	0.3819
+indoeuropean_isl_001	Icelandic	Indo-European	zipa_large	0.6667	0.0278
+indoeuropean_isl_002	Icelandic	Indo-European	allophant	0.6667	0.3958
+indoeuropean_isl_002	Icelandic	Indo-European	allosaurus	1.0000	0.0694
+indoeuropean_isl_002	Icelandic	Indo-European	multipa	1.0000	0.0556
+indoeuropean_isl_002	Icelandic	Indo-European	powsm	1.0000	0.3333
+indoeuropean_isl_002	Icelandic	Indo-European	wav2vec2phoneme	0.6667	0.3403
+indoeuropean_isl_002	Icelandic	Indo-European	whipa	0.6667	0.0833
+indoeuropean_isl_002	Icelandic	Indo-European	whipa_comb	1.6667	0.9931
+indoeuropean_isl_002	Icelandic	Indo-European	zipa	1.0000	0.0972
+indoeuropean_isl_002	Icelandic	Indo-European	zipa_large	0.6667	0.0833
+indoeuropean_isl_003	Icelandic	Indo-European	allophant	1.0000	0.0972
+indoeuropean_isl_003	Icelandic	Indo-European	allosaurus	1.0000	0.0833
+indoeuropean_isl_003	Icelandic	Indo-European	multipa	1.0000	0.0833
+indoeuropean_isl_003	Icelandic	Indo-European	powsm	0.6667	0.0556
+indoeuropean_isl_003	Icelandic	Indo-European	wav2vec2phoneme	0.6667	0.0556
+indoeuropean_isl_003	Icelandic	Indo-European	whipa	0.6667	0.0556
+indoeuropean_isl_003	Icelandic	Indo-European	whipa_comb	1.0000	0.0556
+indoeuropean_isl_003	Icelandic	Indo-European	zipa	1.0000	0.0833
+indoeuropean_isl_003	Icelandic	Indo-European	zipa_large	0.6667	0.0694
+indoeuropean_isl_004	Icelandic	Indo-European	allophant	0.6667	0.0694
+indoeuropean_isl_004	Icelandic	Indo-European	allosaurus	1.0000	0.1389
+indoeuropean_isl_004	Icelandic	Indo-European	multipa	1.0000	0.0694
+indoeuropean_isl_004	Icelandic	Indo-European	powsm	1.0000	0.3472
+indoeuropean_isl_004	Icelandic	Indo-European	wav2vec2phoneme	0.3333	0.3056
+indoeuropean_isl_004	Icelandic	Indo-European	whipa	1.0000	0.0972
+indoeuropean_isl_004	Icelandic	Indo-European	whipa_comb	1.0000	0.0833
+indoeuropean_isl_004	Icelandic	Indo-European	zipa	1.0000	0.1319
+indoeuropean_isl_004	Icelandic	Indo-European	zipa_large	0.6667	0.0694
+indoeuropean_isl_005	Icelandic	Indo-European	allophant	0.3333	0.0139
+indoeuropean_isl_005	Icelandic	Indo-European	allosaurus	1.0000	0.1042
+indoeuropean_isl_005	Icelandic	Indo-European	multipa	0.6667	0.0625
+indoeuropean_isl_005	Icelandic	Indo-European	powsm	0.6667	0.0625
+indoeuropean_isl_005	Icelandic	Indo-European	wav2vec2phoneme	0.3333	0.0139
+indoeuropean_isl_005	Icelandic	Indo-European	whipa	0.6667	0.0694
+indoeuropean_isl_005	Icelandic	Indo-European	whipa_comb	0.6667	0.0694
+indoeuropean_isl_005	Icelandic	Indo-European	zipa	1.3333	0.0556
+indoeuropean_isl_005	Icelandic	Indo-European	zipa_large	1.0000	0.0694
+indoeuropean_isl_006	Icelandic	Indo-European	allophant	0.3333	0.0278
+indoeuropean_isl_006	Icelandic	Indo-European	allosaurus	1.0000	0.4167
+indoeuropean_isl_006	Icelandic	Indo-European	multipa	0.6667	0.0278
+indoeuropean_isl_006	Icelandic	Indo-European	powsm	1.0000	0.3611
+indoeuropean_isl_006	Icelandic	Indo-European	wav2vec2phoneme	0.6667	0.0417
+indoeuropean_isl_006	Icelandic	Indo-European	whipa	1.3333	0.4028
+indoeuropean_isl_006	Icelandic	Indo-European	whipa_comb	1.0000	0.0556
+indoeuropean_isl_006	Icelandic	Indo-European	zipa	1.3333	0.0556
+indoeuropean_isl_006	Icelandic	Indo-European	zipa_large	1.0000	0.0972
+indoeuropean_isl_007	Icelandic	Indo-European	allophant	0.6667	0.3611
+indoeuropean_isl_007	Icelandic	Indo-European	allosaurus	1.3333	0.9792
+indoeuropean_isl_007	Icelandic	Indo-European	multipa	1.0000	0.0556
+indoeuropean_isl_007	Icelandic	Indo-European	powsm	1.3333	0.3889
+indoeuropean_isl_007	Icelandic	Indo-European	wav2vec2phoneme	0.6667	0.0278
+indoeuropean_isl_007	Icelandic	Indo-European	whipa	1.0000	0.0556
+indoeuropean_isl_007	Icelandic	Indo-European	whipa_comb	1.3333	0.3472
+indoeuropean_isl_007	Icelandic	Indo-European	zipa	1.3333	0.3889
+indoeuropean_isl_007	Icelandic	Indo-European	zipa_large	1.3333	0.3889
+indoeuropean_isl_008	Icelandic	Indo-European	allophant	0.6667	0.0278
+indoeuropean_isl_008	Icelandic	Indo-European	allosaurus	1.0000	0.0833
+indoeuropean_isl_008	Icelandic	Indo-European	multipa	0.6667	0.0278
+indoeuropean_isl_008	Icelandic	Indo-European	powsm	0.6667	0.0278
+indoeuropean_isl_008	Icelandic	Indo-European	wav2vec2phoneme	1.0000	0.3194
+indoeuropean_isl_008	Icelandic	Indo-European	whipa	1.0000	0.0417
+indoeuropean_isl_008	Icelandic	Indo-European	whipa_comb	0.6667	0.0278
+indoeuropean_isl_008	Icelandic	Indo-European	zipa	1.3333	0.0278
+indoeuropean_isl_008	Icelandic	Indo-European	zipa_large	1.3333	0.0278
+indoeuropean_isl_009	Icelandic	Indo-European	allophant	1.0000	0.1042
+indoeuropean_isl_009	Icelandic	Indo-European	allosaurus	1.0000	0.0764
+indoeuropean_isl_009	Icelandic	Indo-European	multipa	1.0000	0.0556
+indoeuropean_isl_009	Icelandic	Indo-European	powsm	0.6667	0.0278
+indoeuropean_isl_009	Icelandic	Indo-European	wav2vec2phoneme	0.6667	0.0278
+indoeuropean_isl_009	Icelandic	Indo-European	whipa	1.0000	0.0417
+indoeuropean_isl_009	Icelandic	Indo-European	whipa_comb	1.0000	0.0417
+indoeuropean_isl_009	Icelandic	Indo-European	zipa	1.0000	0.0556
+indoeuropean_isl_009	Icelandic	Indo-European	zipa_large	1.0000	0.0556
+indoeuropean_isl_010	Icelandic	Indo-European	allophant	1.0000	0.3333
+indoeuropean_isl_010	Icelandic	Indo-European	allosaurus	1.0000	0.1250
+indoeuropean_isl_010	Icelandic	Indo-European	multipa	1.0000	0.0694
+indoeuropean_isl_010	Icelandic	Indo-European	powsm	1.3333	0.3472
+indoeuropean_isl_010	Icelandic	Indo-European	wav2vec2phoneme	0.6667	0.0417
+indoeuropean_isl_010	Icelandic	Indo-European	whipa	1.0000	0.0694
+indoeuropean_isl_010	Icelandic	Indo-European	whipa_comb	1.0000	0.0556
+indoeuropean_isl_010	Icelandic	Indo-European	zipa	1.0000	0.0694
+indoeuropean_isl_010	Icelandic	Indo-European	zipa_large	1.3333	0.0556
+indoeuropean_pes_001	Farsi, Western	Indo-European	allophant	0.3333	0.0139
+indoeuropean_pes_001	Farsi, Western	Indo-European	allosaurus	1.0000	0.0694
+indoeuropean_pes_001	Farsi, Western	Indo-European	multipa	0.0000	0.0000
+indoeuropean_pes_001	Farsi, Western	Indo-European	powsm	0.0000	0.0000
+indoeuropean_pes_001	Farsi, Western	Indo-European	wav2vec2phoneme	0.0000	0.0000
+indoeuropean_pes_001	Farsi, Western	Indo-European	whipa	0.0000	0.0000
+indoeuropean_pes_001	Farsi, Western	Indo-European	whipa_comb	1.6667	0.9653
+indoeuropean_pes_001	Farsi, Western	Indo-European	zipa	0.3333	0.0278
+indoeuropean_pes_001	Farsi, Western	Indo-European	zipa_large	0.3333	0.0278
+indoeuropean_pes_002	Farsi, Western	Indo-European	allophant	0.6667	0.0278
+indoeuropean_pes_002	Farsi, Western	Indo-European	allosaurus	0.6667	0.3264
+indoeuropean_pes_002	Farsi, Western	Indo-European	multipa	0.3333	0.3056
+indoeuropean_pes_002	Farsi, Western	Indo-European	powsm	1.0000	0.9236
+indoeuropean_pes_002	Farsi, Western	Indo-European	wav2vec2phoneme	0.3333	0.3056
+indoeuropean_pes_002	Farsi, Western	Indo-European	whipa	0.6667	0.6111
+indoeuropean_pes_002	Farsi, Western	Indo-European	whipa_comb	0.3333	0.0139
+indoeuropean_pes_002	Farsi, Western	Indo-European	zipa	0.3333	0.0139
+indoeuropean_pes_002	Farsi, Western	Indo-European	zipa_large	0.3333	0.0278
+indoeuropean_pes_003	Farsi, Western	Indo-European	allophant	1.0000	0.0694
+indoeuropean_pes_003	Farsi, Western	Indo-European	allosaurus	1.0000	0.4028
+indoeuropean_pes_003	Farsi, Western	Indo-European	multipa	1.0000	0.0556
+indoeuropean_pes_003	Farsi, Western	Indo-European	powsm	1.0000	0.0417
+indoeuropean_pes_003	Farsi, Western	Indo-European	wav2vec2phoneme	1.0000	0.0417
+indoeuropean_pes_003	Farsi, Western	Indo-European	whipa	1.0000	0.0556
+indoeuropean_pes_003	Farsi, Western	Indo-European	whipa_comb	1.0000	0.0556
+indoeuropean_pes_003	Farsi, Western	Indo-European	zipa	1.3333	0.0278
+indoeuropean_pes_003	Farsi, Western	Indo-European	zipa_large	1.0000	0.0417
+indoeuropean_pes_004	Farsi, Western	Indo-European	allophant	1.0000	0.0417
+indoeuropean_pes_004	Farsi, Western	Indo-European	allosaurus	0.6667	0.1042
+indoeuropean_pes_004	Farsi, Western	Indo-European	multipa	1.0000	0.3472
+indoeuropean_pes_004	Farsi, Western	Indo-European	powsm	1.0000	0.0417
+indoeuropean_pes_004	Farsi, Western	Indo-European	wav2vec2phoneme	0.6667	0.0278
+indoeuropean_pes_004	Farsi, Western	Indo-European	whipa	0.6667	0.0278
+indoeuropean_pes_004	Farsi, Western	Indo-European	whipa_comb	0.6667	0.0417
+indoeuropean_pes_004	Farsi, Western	Indo-European	zipa	1.3333	0.0556
+indoeuropean_pes_004	Farsi, Western	Indo-European	zipa_large	1.6667	0.3611
+indoeuropean_pes_005	Farsi, Western	Indo-European	allophant	0.6667	0.0278
+indoeuropean_pes_005	Farsi, Western	Indo-European	allosaurus	0.6667	0.0417
+indoeuropean_pes_005	Farsi, Western	Indo-European	multipa	0.6667	0.0278
+indoeuropean_pes_005	Farsi, Western	Indo-European	powsm	0.3333	0.0139
+indoeuropean_pes_005	Farsi, Western	Indo-European	wav2vec2phoneme	1.3333	0.6458
+indoeuropean_pes_005	Farsi, Western	Indo-European	whipa	1.3333	0.6667
+indoeuropean_pes_005	Farsi, Western	Indo-European	whipa_comb	1.3333	0.6944
+indoeuropean_pes_005	Farsi, Western	Indo-European	zipa	1.0000	0.0417
+indoeuropean_pes_005	Farsi, Western	Indo-European	zipa_large	0.6667	0.0278
+indoeuropean_pes_006	Farsi, Western	Indo-European	allophant	1.0000	0.0556
+indoeuropean_pes_006	Farsi, Western	Indo-European	allosaurus	1.3333	0.9792
+indoeuropean_pes_006	Farsi, Western	Indo-European	multipa	1.6667	0.6528
+indoeuropean_pes_006	Farsi, Western	Indo-European	powsm	0.6667	0.0278
+indoeuropean_pes_006	Farsi, Western	Indo-European	wav2vec2phoneme	1.6667	0.7083
+indoeuropean_pes_006	Farsi, Western	Indo-European	whipa	2.0000	0.9861
+indoeuropean_pes_006	Farsi, Western	Indo-European	whipa_comb	1.3333	0.5694
+indoeuropean_pes_006	Farsi, Western	Indo-European	zipa	1.0000	0.0417
+indoeuropean_pes_006	Farsi, Western	Indo-European	zipa_large	0.6667	0.0278
+indoeuropean_pes_007	Farsi, Western	Indo-European	allophant	1.0000	0.3611
+indoeuropean_pes_007	Farsi, Western	Indo-European	allosaurus	1.0000	0.2222
+indoeuropean_pes_007	Farsi, Western	Indo-European	multipa	1.0000	0.0972
+indoeuropean_pes_007	Farsi, Western	Indo-European	powsm	1.0000	0.0833
+indoeuropean_pes_007	Farsi, Western	Indo-European	wav2vec2phoneme	1.0000	0.0347
+indoeuropean_pes_007	Farsi, Western	Indo-European	whipa	1.6667	0.6806
+indoeuropean_pes_007	Farsi, Western	Indo-European	whipa_comb	1.0000	0.0972
+indoeuropean_pes_007	Farsi, Western	Indo-European	zipa	1.0000	0.0833
+indoeuropean_pes_007	Farsi, Western	Indo-European	zipa_large	1.0000	0.0833
+indoeuropean_pes_008	Farsi, Western	Indo-European	allophant	0.5000	0.2656
+indoeuropean_pes_008	Farsi, Western	Indo-European	allosaurus	0.7500	0.2969
+indoeuropean_pes_008	Farsi, Western	Indo-European	multipa	1.0000	0.2708
+indoeuropean_pes_008	Farsi, Western	Indo-European	powsm	0.5000	0.2396
+indoeuropean_pes_008	Farsi, Western	Indo-European	wav2vec2phoneme	0.5000	0.2656
+indoeuropean_pes_008	Farsi, Western	Indo-European	whipa	0.5000	0.0208
+indoeuropean_pes_008	Farsi, Western	Indo-European	whipa_comb	0.7500	0.0521
+indoeuropean_pes_008	Farsi, Western	Indo-European	zipa	0.7500	0.2552
+indoeuropean_pes_008	Farsi, Western	Indo-European	zipa_large	0.7500	0.2552
+indoeuropean_pes_009	Farsi, Western	Indo-European	allophant	1.0000	0.4948
+indoeuropean_pes_009	Farsi, Western	Indo-European	allosaurus	0.5000	0.0417
+indoeuropean_pes_009	Farsi, Western	Indo-European	multipa	0.5000	0.0312
+indoeuropean_pes_009	Farsi, Western	Indo-European	powsm	0.5000	0.0312
+indoeuropean_pes_009	Farsi, Western	Indo-European	wav2vec2phoneme	0.7500	0.2604
+indoeuropean_pes_009	Farsi, Western	Indo-European	whipa	1.2500	0.7187
+indoeuropean_pes_009	Farsi, Western	Indo-European	whipa_comb	1.5000	0.7396
+indoeuropean_pes_009	Farsi, Western	Indo-European	zipa	0.5000	0.0417
+indoeuropean_pes_009	Farsi, Western	Indo-European	zipa_large	0.5000	0.0417
+indoeuropean_pes_010	Farsi, Western	Indo-European	allophant	0.6667	0.0278
+indoeuropean_pes_010	Farsi, Western	Indo-European	allosaurus	0.6667	0.3333
+indoeuropean_pes_010	Farsi, Western	Indo-European	multipa	1.3333	0.6528
+indoeuropean_pes_010	Farsi, Western	Indo-European	powsm	0.6667	0.0278
+indoeuropean_pes_010	Farsi, Western	Indo-European	wav2vec2phoneme	1.0000	0.3472
+indoeuropean_pes_010	Farsi, Western	Indo-European	whipa	0.6667	0.0694
+indoeuropean_pes_010	Farsi, Western	Indo-European	whipa_comb	0.6667	0.0417
+indoeuropean_pes_010	Farsi, Western	Indo-European	zipa	0.6667	0.0278
+indoeuropean_pes_010	Farsi, Western	Indo-European	zipa_large	0.6667	0.0278
+atlanticcongo_lug_001	Ganda	Atlantic-Congo	allophant	0.5000	0.1667
+atlanticcongo_lug_001	Ganda	Atlantic-Congo	allosaurus	0.5000	0.1875
+atlanticcongo_lug_001	Ganda	Atlantic-Congo	multipa	0.1667	0.0208
+atlanticcongo_lug_001	Ganda	Atlantic-Congo	powsm	0.1667	0.0139
+atlanticcongo_lug_001	Ganda	Atlantic-Congo	wav2vec2phoneme	0.0000	0.0000
+atlanticcongo_lug_001	Ganda	Atlantic-Congo	whipa	0.3333	0.0208
+atlanticcongo_lug_001	Ganda	Atlantic-Congo	whipa_comb	0.8333	0.2049
+atlanticcongo_lug_001	Ganda	Atlantic-Congo	zipa	0.0000	0.0000
+atlanticcongo_lug_001	Ganda	Atlantic-Congo	zipa_large	0.0000	0.0000
+atlanticcongo_lug_002	Ganda	Atlantic-Congo	allophant	0.6667	0.1736
+atlanticcongo_lug_002	Ganda	Atlantic-Congo	allosaurus	0.5000	0.1667
+atlanticcongo_lug_002	Ganda	Atlantic-Congo	multipa	0.6667	0.3403
+atlanticcongo_lug_002	Ganda	Atlantic-Congo	powsm	0.5000	0.3125
+atlanticcongo_lug_002	Ganda	Atlantic-Congo	wav2vec2phoneme	0.6667	0.3403
+atlanticcongo_lug_002	Ganda	Atlantic-Congo	whipa	0.5000	0.0312
+atlanticcongo_lug_002	Ganda	Atlantic-Congo	whipa_comb	0.3333	0.0278
+atlanticcongo_lug_002	Ganda	Atlantic-Congo	zipa	0.5000	0.1667
+atlanticcongo_lug_002	Ganda	Atlantic-Congo	zipa_large	0.5000	0.1667
+atlanticcongo_lug_003	Ganda	Atlantic-Congo	allophant	0.6667	0.1736
+atlanticcongo_lug_003	Ganda	Atlantic-Congo	allosaurus	0.8333	0.0521
+atlanticcongo_lug_003	Ganda	Atlantic-Congo	multipa	0.5000	0.1597
+atlanticcongo_lug_003	Ganda	Atlantic-Congo	powsm	0.1667	0.1528
+atlanticcongo_lug_003	Ganda	Atlantic-Congo	wav2vec2phoneme	0.1667	0.1528
+atlanticcongo_lug_003	Ganda	Atlantic-Congo	whipa	0.8333	0.1806
+atlanticcongo_lug_003	Ganda	Atlantic-Congo	whipa_comb	0.6667	0.1875
+atlanticcongo_lug_003	Ganda	Atlantic-Congo	zipa	0.1667	0.0000
+atlanticcongo_lug_003	Ganda	Atlantic-Congo	zipa_large	0.0000	0.0000
+atlanticcongo_lug_004	Ganda	Atlantic-Congo	allophant	0.6667	0.1736
+atlanticcongo_lug_004	Ganda	Atlantic-Congo	allosaurus	0.8333	0.0972
+atlanticcongo_lug_004	Ganda	Atlantic-Congo	multipa	0.5000	0.0486
+atlanticcongo_lug_004	Ganda	Atlantic-Congo	powsm	0.3333	0.1597
+atlanticcongo_lug_004	Ganda	Atlantic-Congo	wav2vec2phoneme	0.3333	0.1597
+atlanticcongo_lug_004	Ganda	Atlantic-Congo	whipa	0.8333	0.1736
+atlanticcongo_lug_004	Ganda	Atlantic-Congo	whipa_comb	0.6667	0.1806
+atlanticcongo_lug_004	Ganda	Atlantic-Congo	zipa	0.3333	0.0069
+atlanticcongo_lug_004	Ganda	Atlantic-Congo	zipa_large	0.3333	0.1597
+atlanticcongo_lug_005	Ganda	Atlantic-Congo	allophant	0.8333	0.1806
+atlanticcongo_lug_005	Ganda	Atlantic-Congo	allosaurus	0.8333	0.0799
+atlanticcongo_lug_005	Ganda	Atlantic-Congo	multipa	0.1667	0.0069
+atlanticcongo_lug_005	Ganda	Atlantic-Congo	powsm	0.1667	0.0069
+atlanticcongo_lug_005	Ganda	Atlantic-Congo	wav2vec2phoneme	0.3333	0.1597
+atlanticcongo_lug_005	Ganda	Atlantic-Congo	whipa	0.8333	0.0556
+atlanticcongo_lug_005	Ganda	Atlantic-Congo	whipa_comb	0.8333	0.2292
+atlanticcongo_lug_005	Ganda	Atlantic-Congo	zipa	0.3333	0.0208
+atlanticcongo_lug_005	Ganda	Atlantic-Congo	zipa_large	0.3333	0.0208
+atlanticcongo_lug_006	Ganda	Atlantic-Congo	allophant	0.6667	0.1667
+atlanticcongo_lug_006	Ganda	Atlantic-Congo	allosaurus	1.0000	0.3472
+atlanticcongo_lug_006	Ganda	Atlantic-Congo	multipa	0.5000	0.0347
+atlanticcongo_lug_006	Ganda	Atlantic-Congo	powsm	0.6667	0.1840
+atlanticcongo_lug_006	Ganda	Atlantic-Congo	wav2vec2phoneme	0.3333	0.1597
+atlanticcongo_lug_006	Ganda	Atlantic-Congo	whipa	0.8333	0.0625
+atlanticcongo_lug_006	Ganda	Atlantic-Congo	whipa_comb	0.6667	0.0833
+atlanticcongo_lug_006	Ganda	Atlantic-Congo	zipa	0.6667	0.1806
+atlanticcongo_lug_006	Ganda	Atlantic-Congo	zipa_large	0.6667	0.1806
+atlanticcongo_lug_007	Ganda	Atlantic-Congo	allophant	0.6667	0.0729
+atlanticcongo_lug_007	Ganda	Atlantic-Congo	allosaurus	0.6667	0.2188
+atlanticcongo_lug_007	Ganda	Atlantic-Congo	multipa	0.5000	0.2014
+atlanticcongo_lug_007	Ganda	Atlantic-Congo	powsm	0.1667	0.0069
+atlanticcongo_lug_007	Ganda	Atlantic-Congo	wav2vec2phoneme	0.1667	0.0000
+atlanticcongo_lug_007	Ganda	Atlantic-Congo	whipa	0.8333	0.1042
+atlanticcongo_lug_007	Ganda	Atlantic-Congo	whipa_comb	0.6667	0.1736
+atlanticcongo_lug_007	Ganda	Atlantic-Congo	zipa	0.3333	0.0139
+atlanticcongo_lug_007	Ganda	Atlantic-Congo	zipa_large	0.3333	0.0139
+atlanticcongo_lug_008	Ganda	Atlantic-Congo	allophant	0.6667	0.3125
+atlanticcongo_lug_008	Ganda	Atlantic-Congo	allosaurus	0.8333	0.2014
+atlanticcongo_lug_008	Ganda	Atlantic-Congo	multipa	0.3333	0.1875
+atlanticcongo_lug_008	Ganda	Atlantic-Congo	powsm	0.1667	0.0139
+atlanticcongo_lug_008	Ganda	Atlantic-Congo	wav2vec2phoneme	0.3333	0.3056
+atlanticcongo_lug_008	Ganda	Atlantic-Congo	whipa	0.6667	0.2292
+atlanticcongo_lug_008	Ganda	Atlantic-Congo	whipa_comb	0.6667	0.3403
+atlanticcongo_lug_008	Ganda	Atlantic-Congo	zipa	0.3333	0.1597
+atlanticcongo_lug_008	Ganda	Atlantic-Congo	zipa_large	0.1667	0.0139
+atlanticcongo_lug_009	Ganda	Atlantic-Congo	allophant	0.5000	0.0451
+atlanticcongo_lug_009	Ganda	Atlantic-Congo	allosaurus	1.0000	0.5069
+atlanticcongo_lug_009	Ganda	Atlantic-Congo	multipa	0.5000	0.1806
+atlanticcongo_lug_009	Ganda	Atlantic-Congo	powsm	0.0000	0.0000
+atlanticcongo_lug_009	Ganda	Atlantic-Congo	wav2vec2phoneme	0.0000	0.0000
+atlanticcongo_lug_009	Ganda	Atlantic-Congo	whipa	1.1667	0.5347
+atlanticcongo_lug_009	Ganda	Atlantic-Congo	whipa_comb	0.8333	0.1979
+atlanticcongo_lug_009	Ganda	Atlantic-Congo	zipa	0.6667	0.1701
+atlanticcongo_lug_009	Ganda	Atlantic-Congo	zipa_large	0.5000	0.1632
+atlanticcongo_lug_010	Ganda	Atlantic-Congo	allophant	0.3333	0.0208
+atlanticcongo_lug_010	Ganda	Atlantic-Congo	allosaurus	0.8333	0.4965
+atlanticcongo_lug_010	Ganda	Atlantic-Congo	multipa	0.1667	0.0174
+atlanticcongo_lug_010	Ganda	Atlantic-Congo	powsm	0.3333	0.0243
+atlanticcongo_lug_010	Ganda	Atlantic-Congo	wav2vec2phoneme	0.3333	0.0243
+atlanticcongo_lug_010	Ganda	Atlantic-Congo	whipa	0.8333	0.2153
+atlanticcongo_lug_010	Ganda	Atlantic-Congo	whipa_comb	0.5000	0.1701
+atlanticcongo_lug_010	Ganda	Atlantic-Congo	zipa	0.3333	0.0243
+atlanticcongo_lug_010	Ganda	Atlantic-Congo	zipa_large	0.3333	0.0243
+atlanticcongo_cpn_001	Cherepon	Atlantic-Congo	allophant	0.0000	0.0000
+atlanticcongo_cpn_001	Cherepon	Atlantic-Congo	allosaurus	1.3333	0.6528
+atlanticcongo_cpn_001	Cherepon	Atlantic-Congo	multipa	0.6667	0.0278
+atlanticcongo_cpn_001	Cherepon	Atlantic-Congo	powsm	1.0000	0.3333
+atlanticcongo_cpn_001	Cherepon	Atlantic-Congo	wav2vec2phoneme	0.3333	0.0139
+atlanticcongo_cpn_001	Cherepon	Atlantic-Congo	whipa	0.6667	0.0278
+atlanticcongo_cpn_001	Cherepon	Atlantic-Congo	whipa_comb	1.0000	0.0903
+atlanticcongo_cpn_001	Cherepon	Atlantic-Congo	zipa	1.0000	0.3333
+atlanticcongo_cpn_001	Cherepon	Atlantic-Congo	zipa_large	1.0000	0.3333
+atlanticcongo_cpn_002	Cherepon	Atlantic-Congo	allophant	1.0000	0.3194
+atlanticcongo_cpn_002	Cherepon	Atlantic-Congo	allosaurus	1.6667	0.6389
+atlanticcongo_cpn_002	Cherepon	Atlantic-Congo	multipa	0.3333	0.0139
+atlanticcongo_cpn_002	Cherepon	Atlantic-Congo	powsm	0.6667	0.3194
+atlanticcongo_cpn_002	Cherepon	Atlantic-Congo	wav2vec2phoneme	0.3333	0.0139
+atlanticcongo_cpn_002	Cherepon	Atlantic-Congo	whipa	0.6667	0.3194
+atlanticcongo_cpn_002	Cherepon	Atlantic-Congo	whipa_comb	0.6667	0.0417
+atlanticcongo_cpn_002	Cherepon	Atlantic-Congo	zipa	0.6667	0.3194
+atlanticcongo_cpn_002	Cherepon	Atlantic-Congo	zipa_large	0.6667	0.3194
+atlanticcongo_cpn_003	Cherepon	Atlantic-Congo	allophant	1.0000	0.2396
+atlanticcongo_cpn_003	Cherepon	Atlantic-Congo	allosaurus	1.0000	0.5625
+atlanticcongo_cpn_003	Cherepon	Atlantic-Congo	multipa	1.0000	0.1250
+atlanticcongo_cpn_003	Cherepon	Atlantic-Congo	powsm	0.5000	0.1146
+atlanticcongo_cpn_003	Cherepon	Atlantic-Congo	wav2vec2phoneme	0.2500	0.2292
+atlanticcongo_cpn_003	Cherepon	Atlantic-Congo	whipa	1.0000	0.4896
+atlanticcongo_cpn_003	Cherepon	Atlantic-Congo	whipa_comb	0.7500	0.2500
+atlanticcongo_cpn_003	Cherepon	Atlantic-Congo	zipa	0.2500	0.2292
+atlanticcongo_cpn_003	Cherepon	Atlantic-Congo	zipa_large	0.5000	0.0938
+atlanticcongo_cpn_004	Cherepon	Atlantic-Congo	allophant	1.3333	0.3403
+atlanticcongo_cpn_004	Cherepon	Atlantic-Congo	allosaurus	1.6667	0.9514
+atlanticcongo_cpn_004	Cherepon	Atlantic-Congo	multipa	0.6667	0.0278
+atlanticcongo_cpn_004	Cherepon	Atlantic-Congo	powsm	1.0000	0.4097
+atlanticcongo_cpn_004	Cherepon	Atlantic-Congo	wav2vec2phoneme	0.3333	0.0139
+atlanticcongo_cpn_004	Cherepon	Atlantic-Congo	whipa	1.0000	0.3542
+atlanticcongo_cpn_004	Cherepon	Atlantic-Congo	whipa_comb	0.6667	0.0556
+atlanticcongo_cpn_004	Cherepon	Atlantic-Congo	zipa	0.6667	0.3264
+atlanticcongo_cpn_004	Cherepon	Atlantic-Congo	zipa_large	0.6667	0.3264
+atlanticcongo_cpn_005	Cherepon	Atlantic-Congo	allophant	1.3333	0.3333
+atlanticcongo_cpn_005	Cherepon	Atlantic-Congo	allosaurus	1.0000	0.6458
+atlanticcongo_cpn_005	Cherepon	Atlantic-Congo	multipa	0.6667	0.0278
+atlanticcongo_cpn_005	Cherepon	Atlantic-Congo	powsm	0.6667	0.0208
+atlanticcongo_cpn_005	Cherepon	Atlantic-Congo	wav2vec2phoneme	0.3333	0.0139
+atlanticcongo_cpn_005	Cherepon	Atlantic-Congo	whipa	1.3333	0.6458
+atlanticcongo_cpn_005	Cherepon	Atlantic-Congo	whipa_comb	1.3333	0.3403
+atlanticcongo_cpn_005	Cherepon	Atlantic-Congo	zipa	0.3333	0.3125
+atlanticcongo_cpn_005	Cherepon	Atlantic-Congo	zipa_large	0.6667	0.6250
+atlanticcongo_cpn_006	Cherepon	Atlantic-Congo	allophant	0.6667	0.6319
+atlanticcongo_cpn_006	Cherepon	Atlantic-Congo	allosaurus	1.3333	0.3750
+atlanticcongo_cpn_006	Cherepon	Atlantic-Congo	multipa	1.0000	0.0903
+atlanticcongo_cpn_006	Cherepon	Atlantic-Congo	powsm	0.3333	0.0139
+atlanticcongo_cpn_006	Cherepon	Atlantic-Congo	wav2vec2phoneme	1.0000	0.3750
+atlanticcongo_cpn_006	Cherepon	Atlantic-Congo	whipa	1.0000	0.0833
+atlanticcongo_cpn_006	Cherepon	Atlantic-Congo	whipa_comb	1.0000	0.0764
+atlanticcongo_cpn_006	Cherepon	Atlantic-Congo	zipa	1.0000	0.3403
+atlanticcongo_cpn_006	Cherepon	Atlantic-Congo	zipa_large	1.0000	0.3403
+atlanticcongo_cpn_007	Cherepon	Atlantic-Congo	allophant	1.0000	0.9236
+atlanticcongo_cpn_007	Cherepon	Atlantic-Congo	allosaurus	0.6667	0.3264
+atlanticcongo_cpn_007	Cherepon	Atlantic-Congo	multipa	0.3333	0.0278
+atlanticcongo_cpn_007	Cherepon	Atlantic-Congo	powsm	0.3333	0.3125
+atlanticcongo_cpn_007	Cherepon	Atlantic-Congo	wav2vec2phoneme	0.3333	0.3056
+atlanticcongo_cpn_007	Cherepon	Atlantic-Congo	whipa	0.3333	0.0139
+atlanticcongo_cpn_007	Cherepon	Atlantic-Congo	whipa_comb	0.3333	0.0139
+atlanticcongo_cpn_007	Cherepon	Atlantic-Congo	zipa	0.6667	0.3125
+atlanticcongo_cpn_007	Cherepon	Atlantic-Congo	zipa_large	0.3333	0.3125
+atlanticcongo_cpn_008	Cherepon	Atlantic-Congo	allophant	0.6667	0.3194
+atlanticcongo_cpn_008	Cherepon	Atlantic-Congo	allosaurus	1.6667	0.7222
+atlanticcongo_cpn_008	Cherepon	Atlantic-Congo	multipa	0.3333	0.0139
+atlanticcongo_cpn_008	Cherepon	Atlantic-Congo	powsm	0.6667	0.3194
+atlanticcongo_cpn_008	Cherepon	Atlantic-Congo	wav2vec2phoneme	0.0000	0.0000
+atlanticcongo_cpn_008	Cherepon	Atlantic-Congo	whipa	1.0000	0.0278
+atlanticcongo_cpn_008	Cherepon	Atlantic-Congo	whipa_comb	1.0000	0.0417
+atlanticcongo_cpn_008	Cherepon	Atlantic-Congo	zipa	0.6667	0.3194
+atlanticcongo_cpn_008	Cherepon	Atlantic-Congo	zipa_large	0.6667	0.3194
+atlanticcongo_cpn_009	Cherepon	Atlantic-Congo	allophant	0.6000	0.2083
+atlanticcongo_cpn_009	Cherepon	Atlantic-Congo	allosaurus	1.0000	0.2667
+atlanticcongo_cpn_009	Cherepon	Atlantic-Congo	multipa	0.4000	0.0167
+atlanticcongo_cpn_009	Cherepon	Atlantic-Congo	powsm	0.8000	0.2375
+atlanticcongo_cpn_009	Cherepon	Atlantic-Congo	wav2vec2phoneme	0.2000	0.0083
+atlanticcongo_cpn_009	Cherepon	Atlantic-Congo	whipa	0.8000	0.0500
+atlanticcongo_cpn_009	Cherepon	Atlantic-Congo	whipa_comb	0.6000	0.0333
+atlanticcongo_cpn_009	Cherepon	Atlantic-Congo	zipa	0.4000	0.2125
+atlanticcongo_cpn_009	Cherepon	Atlantic-Congo	zipa_large	0.8000	0.2458
+atlanticcongo_cpn_010	Cherepon	Atlantic-Congo	allophant	0.3333	0.0417
+atlanticcongo_cpn_010	Cherepon	Atlantic-Congo	allosaurus	0.6667	0.0417
+atlanticcongo_cpn_010	Cherepon	Atlantic-Congo	multipa	0.3333	0.0139
+atlanticcongo_cpn_010	Cherepon	Atlantic-Congo	powsm	0.3333	0.0139
+atlanticcongo_cpn_010	Cherepon	Atlantic-Congo	wav2vec2phoneme	1.0000	0.3611
+atlanticcongo_cpn_010	Cherepon	Atlantic-Congo	whipa	1.3333	0.4097
+atlanticcongo_cpn_010	Cherepon	Atlantic-Congo	whipa_comb	1.3333	0.3681
+atlanticcongo_cpn_010	Cherepon	Atlantic-Congo	zipa	0.6667	0.3194
+atlanticcongo_cpn_010	Cherepon	Atlantic-Congo	zipa_large	0.6667	0.3194
+sinotibetan_yue_001	Chinese, Cantonese	Sino-Tibetan	allophant	0.6667	0.0417
+sinotibetan_yue_001	Chinese, Cantonese	Sino-Tibetan	allosaurus	0.6667	0.0694
+sinotibetan_yue_001	Chinese, Cantonese	Sino-Tibetan	multipa	0.6667	0.0417
+sinotibetan_yue_001	Chinese, Cantonese	Sino-Tibetan	powsm	0.3333	0.0278
+sinotibetan_yue_001	Chinese, Cantonese	Sino-Tibetan	wav2vec2phoneme	0.6667	0.0417
+sinotibetan_yue_001	Chinese, Cantonese	Sino-Tibetan	whipa	0.6667	0.0556
+sinotibetan_yue_001	Chinese, Cantonese	Sino-Tibetan	whipa_comb	1.0000	0.0764
+sinotibetan_yue_001	Chinese, Cantonese	Sino-Tibetan	zipa	1.0000	0.0139
+sinotibetan_yue_001	Chinese, Cantonese	Sino-Tibetan	zipa_large	1.0000	0.0139
+sinotibetan_yue_002	Chinese, Cantonese	Sino-Tibetan	allophant	1.0000	0.3750
+sinotibetan_yue_002	Chinese, Cantonese	Sino-Tibetan	allosaurus	0.6667	0.1111
+sinotibetan_yue_002	Chinese, Cantonese	Sino-Tibetan	multipa	1.0000	0.3611
+sinotibetan_yue_002	Chinese, Cantonese	Sino-Tibetan	powsm	0.6667	0.0764
+sinotibetan_yue_002	Chinese, Cantonese	Sino-Tibetan	wav2vec2phoneme	0.6667	0.0278
+sinotibetan_yue_002	Chinese, Cantonese	Sino-Tibetan	whipa	0.6667	0.0903
+sinotibetan_yue_002	Chinese, Cantonese	Sino-Tibetan	whipa_comb	0.6667	0.0278
+sinotibetan_yue_002	Chinese, Cantonese	Sino-Tibetan	zipa	1.0000	0.0278
+sinotibetan_yue_002	Chinese, Cantonese	Sino-Tibetan	zipa_large	1.3333	0.0903
+sinotibetan_yue_003	Chinese, Cantonese	Sino-Tibetan	allophant	0.6667	0.0903
+sinotibetan_yue_003	Chinese, Cantonese	Sino-Tibetan	allosaurus	0.6667	0.2847
+sinotibetan_yue_003	Chinese, Cantonese	Sino-Tibetan	multipa	1.0000	0.3750
+sinotibetan_yue_003	Chinese, Cantonese	Sino-Tibetan	powsm	0.3333	0.0139
+sinotibetan_yue_003	Chinese, Cantonese	Sino-Tibetan	wav2vec2phoneme	1.0000	0.2986
+sinotibetan_yue_003	Chinese, Cantonese	Sino-Tibetan	whipa	1.0000	0.1042
+sinotibetan_yue_003	Chinese, Cantonese	Sino-Tibetan	whipa_comb	0.6667	0.0903
+sinotibetan_yue_003	Chinese, Cantonese	Sino-Tibetan	zipa	0.6667	0.3542
+sinotibetan_yue_003	Chinese, Cantonese	Sino-Tibetan	zipa_large	0.6667	0.0694
+sinotibetan_yue_004	Chinese, Cantonese	Sino-Tibetan	allophant	1.0000	0.1042
+sinotibetan_yue_004	Chinese, Cantonese	Sino-Tibetan	allosaurus	0.5000	0.5104
+sinotibetan_yue_004	Chinese, Cantonese	Sino-Tibetan	multipa	0.5000	0.0833
+sinotibetan_yue_004	Chinese, Cantonese	Sino-Tibetan	powsm	0.5000	0.0208
+sinotibetan_yue_004	Chinese, Cantonese	Sino-Tibetan	wav2vec2phoneme	0.5000	0.0833
+sinotibetan_yue_004	Chinese, Cantonese	Sino-Tibetan	whipa	1.0000	0.0417
+sinotibetan_yue_004	Chinese, Cantonese	Sino-Tibetan	whipa_comb	1.5000	0.5312
+sinotibetan_yue_004	Chinese, Cantonese	Sino-Tibetan	zipa	1.0000	0.5104
+sinotibetan_yue_004	Chinese, Cantonese	Sino-Tibetan	zipa_large	1.0000	0.5104
+sinotibetan_yue_005	Chinese, Cantonese	Sino-Tibetan	allophant	1.0000	0.1250
+sinotibetan_yue_005	Chinese, Cantonese	Sino-Tibetan	allosaurus	0.5000	0.1771
+sinotibetan_yue_005	Chinese, Cantonese	Sino-Tibetan	multipa	0.5000	0.1042
+sinotibetan_yue_005	Chinese, Cantonese	Sino-Tibetan	powsm	0.5000	0.0833
+sinotibetan_yue_005	Chinese, Cantonese	Sino-Tibetan	wav2vec2phoneme	1.0000	0.5625
+sinotibetan_yue_005	Chinese, Cantonese	Sino-Tibetan	whipa	1.0000	0.1562
+sinotibetan_yue_005	Chinese, Cantonese	Sino-Tibetan	whipa_comb	1.0000	0.1458
+sinotibetan_yue_005	Chinese, Cantonese	Sino-Tibetan	zipa	1.5000	0.5104
+sinotibetan_yue_005	Chinese, Cantonese	Sino-Tibetan	zipa_large	1.5000	0.5104
+sinotibetan_yue_006	Chinese, Cantonese	Sino-Tibetan	allophant	0.5000	0.1042
+sinotibetan_yue_006	Chinese, Cantonese	Sino-Tibetan	allosaurus	0.5000	0.1250
+sinotibetan_yue_006	Chinese, Cantonese	Sino-Tibetan	multipa	0.0000	0.0000
+sinotibetan_yue_006	Chinese, Cantonese	Sino-Tibetan	powsm	0.0000	0.0000
+sinotibetan_yue_006	Chinese, Cantonese	Sino-Tibetan	wav2vec2phoneme	1.0000	0.0833
+sinotibetan_yue_006	Chinese, Cantonese	Sino-Tibetan	whipa	1.0000	0.1250
+sinotibetan_yue_006	Chinese, Cantonese	Sino-Tibetan	whipa_comb	1.0000	0.4792
+sinotibetan_yue_006	Chinese, Cantonese	Sino-Tibetan	zipa	0.5000	0.4583
+sinotibetan_yue_006	Chinese, Cantonese	Sino-Tibetan	zipa_large	0.0000	0.0000
+sinotibetan_yue_007	Chinese, Cantonese	Sino-Tibetan	allophant	1.0000	0.1181
+sinotibetan_yue_007	Chinese, Cantonese	Sino-Tibetan	allosaurus	0.6667	0.2917
+sinotibetan_yue_007	Chinese, Cantonese	Sino-Tibetan	multipa	1.0000	0.1319
+sinotibetan_yue_007	Chinese, Cantonese	Sino-Tibetan	powsm	0.3333	0.0139
+sinotibetan_yue_007	Chinese, Cantonese	Sino-Tibetan	wav2vec2phoneme	0.6667	0.3819
+sinotibetan_yue_007	Chinese, Cantonese	Sino-Tibetan	whipa	0.6667	0.0903
+sinotibetan_yue_007	Chinese, Cantonese	Sino-Tibetan	whipa_comb	0.6667	0.0694
+sinotibetan_yue_007	Chinese, Cantonese	Sino-Tibetan	zipa	0.3333	0.0556
+sinotibetan_yue_007	Chinese, Cantonese	Sino-Tibetan	zipa_large	0.6667	0.3403
+sinotibetan_yue_008	Chinese, Cantonese	Sino-Tibetan	allophant	0.3333	0.0278
+sinotibetan_yue_008	Chinese, Cantonese	Sino-Tibetan	allosaurus	1.0000	0.3889
+sinotibetan_yue_008	Chinese, Cantonese	Sino-Tibetan	multipa	0.6667	0.0903
+sinotibetan_yue_008	Chinese, Cantonese	Sino-Tibetan	powsm	0.3333	0.0139
+sinotibetan_yue_008	Chinese, Cantonese	Sino-Tibetan	wav2vec2phoneme	0.6667	0.1111
+sinotibetan_yue_008	Chinese, Cantonese	Sino-Tibetan	whipa	0.6667	0.0903
+sinotibetan_yue_008	Chinese, Cantonese	Sino-Tibetan	whipa_comb	0.6667	0.1181
+sinotibetan_yue_008	Chinese, Cantonese	Sino-Tibetan	zipa	0.6667	0.3333
+sinotibetan_yue_008	Chinese, Cantonese	Sino-Tibetan	zipa_large	0.3333	0.0278
+sinotibetan_yue_009	Chinese, Cantonese	Sino-Tibetan	allophant	0.6667	0.0278
+sinotibetan_yue_009	Chinese, Cantonese	Sino-Tibetan	allosaurus	0.6667	0.3542
+sinotibetan_yue_009	Chinese, Cantonese	Sino-Tibetan	multipa	0.6667	0.0278
+sinotibetan_yue_009	Chinese, Cantonese	Sino-Tibetan	powsm	0.0000	0.0000
+sinotibetan_yue_009	Chinese, Cantonese	Sino-Tibetan	wav2vec2phoneme	0.3333	0.0278
+sinotibetan_yue_009	Chinese, Cantonese	Sino-Tibetan	whipa	0.3333	0.0278
+sinotibetan_yue_009	Chinese, Cantonese	Sino-Tibetan	whipa_comb	0.0000	0.0000
+sinotibetan_yue_009	Chinese, Cantonese	Sino-Tibetan	zipa	0.6667	0.3264
+sinotibetan_yue_009	Chinese, Cantonese	Sino-Tibetan	zipa_large	0.3333	0.0139
+sinotibetan_yue_010	Chinese, Cantonese	Sino-Tibetan	allophant	0.6667	0.3333
+sinotibetan_yue_010	Chinese, Cantonese	Sino-Tibetan	allosaurus	0.3333	0.0278
+sinotibetan_yue_010	Chinese, Cantonese	Sino-Tibetan	multipa	0.3333	0.0278
+sinotibetan_yue_010	Chinese, Cantonese	Sino-Tibetan	powsm	0.0000	0.0000
+sinotibetan_yue_010	Chinese, Cantonese	Sino-Tibetan	wav2vec2phoneme	0.3333	0.0278
+sinotibetan_yue_010	Chinese, Cantonese	Sino-Tibetan	whipa	1.3333	0.9375
+sinotibetan_yue_010	Chinese, Cantonese	Sino-Tibetan	whipa_comb	0.6667	0.0833
+sinotibetan_yue_010	Chinese, Cantonese	Sino-Tibetan	zipa	0.3333	0.0278
+sinotibetan_yue_010	Chinese, Cantonese	Sino-Tibetan	zipa_large	0.3333	0.3056
+sinotibetan_mya_001	Burmese	Sino-Tibetan	allophant	1.0000	0.5000
+sinotibetan_mya_001	Burmese	Sino-Tibetan	allosaurus	1.0000	0.0729
+sinotibetan_mya_001	Burmese	Sino-Tibetan	multipa	1.0000	0.2708
+sinotibetan_mya_001	Burmese	Sino-Tibetan	powsm	0.7500	0.4896
+sinotibetan_mya_001	Burmese	Sino-Tibetan	wav2vec2phoneme	0.7500	0.2708
+sinotibetan_mya_001	Burmese	Sino-Tibetan	whipa	1.0000	0.5000
+sinotibetan_mya_001	Burmese	Sino-Tibetan	whipa_comb	1.0000	0.2812
+sinotibetan_mya_001	Burmese	Sino-Tibetan	zipa	0.5000	0.2604
+sinotibetan_mya_001	Burmese	Sino-Tibetan	zipa_large	0.5000	0.2604
+sinotibetan_mya_002	Burmese	Sino-Tibetan	allophant	1.0000	0.9896
+sinotibetan_mya_002	Burmese	Sino-Tibetan	allosaurus	1.0000	0.1146
+sinotibetan_mya_002	Burmese	Sino-Tibetan	multipa	1.0000	0.5000
+sinotibetan_mya_002	Burmese	Sino-Tibetan	powsm	0.5000	0.0417
+sinotibetan_mya_002	Burmese	Sino-Tibetan	wav2vec2phoneme	1.0000	1.0312
+sinotibetan_mya_002	Burmese	Sino-Tibetan	whipa	1.5000	0.5729
+sinotibetan_mya_002	Burmese	Sino-Tibetan	whipa_comb	1.5000	0.5521
+sinotibetan_mya_002	Burmese	Sino-Tibetan	zipa	1.5000	0.5729
+sinotibetan_mya_002	Burmese	Sino-Tibetan	zipa_large	1.5000	0.5729
+sinotibetan_mya_003	Burmese	Sino-Tibetan	allophant	0.5000	0.0208
+sinotibetan_mya_003	Burmese	Sino-Tibetan	allosaurus	1.0000	0.2188
+sinotibetan_mya_003	Burmese	Sino-Tibetan	multipa	0.5000	0.4583
+sinotibetan_mya_003	Burmese	Sino-Tibetan	powsm	0.0000	0.0000
+sinotibetan_mya_003	Burmese	Sino-Tibetan	wav2vec2phoneme	0.5000	0.0208
+sinotibetan_mya_003	Burmese	Sino-Tibetan	whipa	0.0000	0.0000
+sinotibetan_mya_003	Burmese	Sino-Tibetan	whipa_comb	0.5000	0.0208
+sinotibetan_mya_003	Burmese	Sino-Tibetan	zipa	1.5000	0.9583
+sinotibetan_mya_003	Burmese	Sino-Tibetan	zipa_large	1.5000	0.9583
+sinotibetan_mya_004	Burmese	Sino-Tibetan	allophant	1.0000	0.3333
+sinotibetan_mya_004	Burmese	Sino-Tibetan	allosaurus	1.0000	0.0625
+sinotibetan_mya_004	Burmese	Sino-Tibetan	multipa	0.0000	0.0000
+sinotibetan_mya_004	Burmese	Sino-Tibetan	powsm	0.6667	0.3194
+sinotibetan_mya_004	Burmese	Sino-Tibetan	wav2vec2phoneme	1.0000	0.1250
+sinotibetan_mya_004	Burmese	Sino-Tibetan	whipa	1.0000	0.3333
+sinotibetan_mya_004	Burmese	Sino-Tibetan	whipa_comb	0.3333	0.0139
+sinotibetan_mya_004	Burmese	Sino-Tibetan	zipa	0.3333	0.0139
+sinotibetan_mya_004	Burmese	Sino-Tibetan	zipa_large	0.6667	0.0278
+sinotibetan_mya_005	Burmese	Sino-Tibetan	allophant	1.0000	0.4792
+sinotibetan_mya_005	Burmese	Sino-Tibetan	allosaurus	1.0000	0.0729
+sinotibetan_mya_005	Burmese	Sino-Tibetan	multipa	1.0000	0.0417
+sinotibetan_mya_005	Burmese	Sino-Tibetan	powsm	1.5000	0.5000
+sinotibetan_mya_005	Burmese	Sino-Tibetan	wav2vec2phoneme	1.0000	0.0625
+sinotibetan_mya_005	Burmese	Sino-Tibetan	whipa	1.0000	0.0625
+sinotibetan_mya_005	Burmese	Sino-Tibetan	whipa_comb	1.0000	0.0625
+sinotibetan_mya_005	Burmese	Sino-Tibetan	zipa	1.5000	0.5000
+sinotibetan_mya_005	Burmese	Sino-Tibetan	zipa_large	1.5000	0.5000
+sinotibetan_mya_006	Burmese	Sino-Tibetan	allophant	0.3333	0.0278
+sinotibetan_mya_006	Burmese	Sino-Tibetan	allosaurus	1.0000	0.4653
+sinotibetan_mya_006	Burmese	Sino-Tibetan	multipa	0.6667	0.0625
+sinotibetan_mya_006	Burmese	Sino-Tibetan	powsm	0.3333	0.0139
+sinotibetan_mya_006	Burmese	Sino-Tibetan	wav2vec2phoneme	0.3333	0.0347
+sinotibetan_mya_006	Burmese	Sino-Tibetan	whipa	0.3333	0.0278
+sinotibetan_mya_006	Burmese	Sino-Tibetan	whipa_comb	0.6667	0.0417
+sinotibetan_mya_006	Burmese	Sino-Tibetan	zipa	0.6667	0.3264
+sinotibetan_mya_006	Burmese	Sino-Tibetan	zipa_large	0.6667	0.3264
+sinotibetan_mya_007	Burmese	Sino-Tibetan	allophant	0.6667	0.1181
+sinotibetan_mya_007	Burmese	Sino-Tibetan	allosaurus	0.6667	0.1042
+sinotibetan_mya_007	Burmese	Sino-Tibetan	multipa	0.6667	0.3194
+sinotibetan_mya_007	Burmese	Sino-Tibetan	powsm	0.6667	0.3194
+sinotibetan_mya_007	Burmese	Sino-Tibetan	wav2vec2phoneme	1.0000	0.3333
+sinotibetan_mya_007	Burmese	Sino-Tibetan	whipa	1.0000	0.3333
+sinotibetan_mya_007	Burmese	Sino-Tibetan	whipa_comb	1.3333	0.3472
+sinotibetan_mya_007	Burmese	Sino-Tibetan	zipa	0.0000	0.0000
+sinotibetan_mya_007	Burmese	Sino-Tibetan	zipa_large	0.3333	0.0139
+sinotibetan_mya_008	Burmese	Sino-Tibetan	allophant	1.0000	0.3889
+sinotibetan_mya_008	Burmese	Sino-Tibetan	allosaurus	0.6667	0.3611
+sinotibetan_mya_008	Burmese	Sino-Tibetan	multipa	1.0000	0.1319
+sinotibetan_mya_008	Burmese	Sino-Tibetan	powsm	0.6667	0.0694
+sinotibetan_mya_008	Burmese	Sino-Tibetan	wav2vec2phoneme	0.6667	0.3194
+sinotibetan_mya_008	Burmese	Sino-Tibetan	whipa	1.0000	0.3819
+sinotibetan_mya_008	Burmese	Sino-Tibetan	whipa_comb	1.0000	0.3681
+sinotibetan_mya_008	Burmese	Sino-Tibetan	zipa	0.6667	0.3194
+sinotibetan_mya_008	Burmese	Sino-Tibetan	zipa_large	0.6667	0.3194
+sinotibetan_mya_009	Burmese	Sino-Tibetan	allophant	0.8000	0.2333
+sinotibetan_mya_009	Burmese	Sino-Tibetan	allosaurus	1.0000	0.1750
+sinotibetan_mya_009	Burmese	Sino-Tibetan	multipa	0.8000	0.2333
+sinotibetan_mya_009	Burmese	Sino-Tibetan	powsm	0.6000	0.1042
+sinotibetan_mya_009	Burmese	Sino-Tibetan	wav2vec2phoneme	0.8000	0.2167
+sinotibetan_mya_009	Burmese	Sino-Tibetan	whipa	0.6000	0.2083
+sinotibetan_mya_009	Burmese	Sino-Tibetan	whipa_comb	0.8000	0.2292
+sinotibetan_mya_009	Burmese	Sino-Tibetan	zipa	0.8000	0.1833
+sinotibetan_mya_009	Burmese	Sino-Tibetan	zipa_large	0.8000	0.1125
+sinotibetan_mya_010	Burmese	Sino-Tibetan	allophant	0.6000	0.0167
+sinotibetan_mya_010	Burmese	Sino-Tibetan	allosaurus	0.8000	0.5583
+sinotibetan_mya_010	Burmese	Sino-Tibetan	multipa	0.6000	0.2250
+sinotibetan_mya_010	Burmese	Sino-Tibetan	powsm	0.4000	0.0333
+sinotibetan_mya_010	Burmese	Sino-Tibetan	wav2vec2phoneme	0.6000	0.0250
+sinotibetan_mya_010	Burmese	Sino-Tibetan	whipa	0.8000	0.0917
+sinotibetan_mya_010	Burmese	Sino-Tibetan	whipa_comb	0.8000	0.2375
+sinotibetan_mya_010	Burmese	Sino-Tibetan	zipa	0.4000	0.0333
+sinotibetan_mya_010	Burmese	Sino-Tibetan	zipa_large	0.4000	0.0333
+afroasiatic_apc_001	Arabic, North Levantine Spoken	Afro-Asiatic	allophant	0.6667	0.0278
+afroasiatic_apc_001	Arabic, North Levantine Spoken	Afro-Asiatic	allosaurus	1.0000	0.0486
+afroasiatic_apc_001	Arabic, North Levantine Spoken	Afro-Asiatic	multipa	0.6667	0.0556
+afroasiatic_apc_001	Arabic, North Levantine Spoken	Afro-Asiatic	powsm	0.3333	0.0139
+afroasiatic_apc_001	Arabic, North Levantine Spoken	Afro-Asiatic	wav2vec2phoneme	0.3333	0.0417
+afroasiatic_apc_001	Arabic, North Levantine Spoken	Afro-Asiatic	whipa	0.3333	0.0417
+afroasiatic_apc_001	Arabic, North Levantine Spoken	Afro-Asiatic	whipa_comb	0.3333	0.0347
+afroasiatic_apc_001	Arabic, North Levantine Spoken	Afro-Asiatic	zipa	0.3333	0.0139
+afroasiatic_apc_001	Arabic, North Levantine Spoken	Afro-Asiatic	zipa_large	0.3333	0.0139
+afroasiatic_apc_002	Arabic, North Levantine Spoken	Afro-Asiatic	allophant	0.0000	0.0000
+afroasiatic_apc_002	Arabic, North Levantine Spoken	Afro-Asiatic	allosaurus	1.0000	0.3472
+afroasiatic_apc_002	Arabic, North Levantine Spoken	Afro-Asiatic	multipa	0.3333	0.0139
+afroasiatic_apc_002	Arabic, North Levantine Spoken	Afro-Asiatic	powsm	0.6667	0.0278
+afroasiatic_apc_002	Arabic, North Levantine Spoken	Afro-Asiatic	wav2vec2phoneme	0.6667	0.0278
+afroasiatic_apc_002	Arabic, North Levantine Spoken	Afro-Asiatic	whipa	0.3333	0.0139
+afroasiatic_apc_002	Arabic, North Levantine Spoken	Afro-Asiatic	whipa_comb	0.3333	0.0139
+afroasiatic_apc_002	Arabic, North Levantine Spoken	Afro-Asiatic	zipa	0.6667	0.0278
+afroasiatic_apc_002	Arabic, North Levantine Spoken	Afro-Asiatic	zipa_large	0.6667	0.0278
+afroasiatic_apc_003	Arabic, North Levantine Spoken	Afro-Asiatic	allophant	0.7500	0.2760
+afroasiatic_apc_003	Arabic, North Levantine Spoken	Afro-Asiatic	allosaurus	1.0000	0.0781
+afroasiatic_apc_003	Arabic, North Levantine Spoken	Afro-Asiatic	multipa	1.0000	0.3073
+afroasiatic_apc_003	Arabic, North Levantine Spoken	Afro-Asiatic	powsm	1.0000	0.3177
+afroasiatic_apc_003	Arabic, North Levantine Spoken	Afro-Asiatic	wav2vec2phoneme	0.7500	0.2969
+afroasiatic_apc_003	Arabic, North Levantine Spoken	Afro-Asiatic	whipa	1.0000	0.3073
+afroasiatic_apc_003	Arabic, North Levantine Spoken	Afro-Asiatic	whipa_comb	1.0000	0.3073
+afroasiatic_apc_003	Arabic, North Levantine Spoken	Afro-Asiatic	zipa	0.7500	0.0781
+afroasiatic_apc_003	Arabic, North Levantine Spoken	Afro-Asiatic	zipa_large	0.7500	0.0573
+afroasiatic_apc_004	Arabic, North Levantine Spoken	Afro-Asiatic	allophant	0.2500	0.0052
+afroasiatic_apc_004	Arabic, North Levantine Spoken	Afro-Asiatic	allosaurus	1.0000	0.2448
+afroasiatic_apc_004	Arabic, North Levantine Spoken	Afro-Asiatic	multipa	0.5000	0.0312
+afroasiatic_apc_004	Arabic, North Levantine Spoken	Afro-Asiatic	powsm	0.5000	0.0521
+afroasiatic_apc_004	Arabic, North Levantine Spoken	Afro-Asiatic	wav2vec2phoneme	0.5000	0.0156
+afroasiatic_apc_004	Arabic, North Levantine Spoken	Afro-Asiatic	whipa	0.2500	0.0000
+afroasiatic_apc_004	Arabic, North Levantine Spoken	Afro-Asiatic	whipa_comb	0.7500	0.0625
+afroasiatic_apc_004	Arabic, North Levantine Spoken	Afro-Asiatic	zipa	0.7500	0.0312
+afroasiatic_apc_004	Arabic, North Levantine Spoken	Afro-Asiatic	zipa_large	0.7500	0.0312
+afroasiatic_apc_005	Arabic, North Levantine Spoken	Afro-Asiatic	allophant	0.7500	0.2396
+afroasiatic_apc_005	Arabic, North Levantine Spoken	Afro-Asiatic	allosaurus	1.0000	0.2969
+afroasiatic_apc_005	Arabic, North Levantine Spoken	Afro-Asiatic	multipa	0.2500	0.0312
+afroasiatic_apc_005	Arabic, North Levantine Spoken	Afro-Asiatic	powsm	0.2500	0.0104
+afroasiatic_apc_005	Arabic, North Levantine Spoken	Afro-Asiatic	wav2vec2phoneme	0.2500	0.0312
+afroasiatic_apc_005	Arabic, North Levantine Spoken	Afro-Asiatic	whipa	0.2500	0.0312
+afroasiatic_apc_005	Arabic, North Levantine Spoken	Afro-Asiatic	whipa_comb	0.5000	0.0417
+afroasiatic_apc_005	Arabic, North Levantine Spoken	Afro-Asiatic	zipa	0.5000	0.0208
+afroasiatic_apc_005	Arabic, North Levantine Spoken	Afro-Asiatic	zipa_large	0.5000	0.0208
+afroasiatic_apc_006	Arabic, North Levantine Spoken	Afro-Asiatic	allophant	0.7500	0.4688
+afroasiatic_apc_006	Arabic, North Levantine Spoken	Afro-Asiatic	allosaurus	1.0000	0.4792
+afroasiatic_apc_006	Arabic, North Levantine Spoken	Afro-Asiatic	multipa	0.7500	0.4896
+afroasiatic_apc_006	Arabic, North Levantine Spoken	Afro-Asiatic	powsm	0.5000	0.2604
+afroasiatic_apc_006	Arabic, North Levantine Spoken	Afro-Asiatic	wav2vec2phoneme	0.5000	0.2604
+afroasiatic_apc_006	Arabic, North Levantine Spoken	Afro-Asiatic	whipa	0.7500	0.4688
+afroasiatic_apc_006	Arabic, North Levantine Spoken	Afro-Asiatic	whipa_comb	0.5000	0.2396
+afroasiatic_apc_006	Arabic, North Levantine Spoken	Afro-Asiatic	zipa	0.7500	0.4688
+afroasiatic_apc_006	Arabic, North Levantine Spoken	Afro-Asiatic	zipa_large	0.7500	0.2500
+afroasiatic_apc_007	Arabic, North Levantine Spoken	Afro-Asiatic	allophant	0.5000	0.2292
+afroasiatic_apc_007	Arabic, North Levantine Spoken	Afro-Asiatic	allosaurus	1.2500	0.4792
+afroasiatic_apc_007	Arabic, North Levantine Spoken	Afro-Asiatic	multipa	0.2500	0.0104
+afroasiatic_apc_007	Arabic, North Levantine Spoken	Afro-Asiatic	powsm	0.2500	0.0104
+afroasiatic_apc_007	Arabic, North Levantine Spoken	Afro-Asiatic	wav2vec2phoneme	0.2500	0.0104
+afroasiatic_apc_007	Arabic, North Levantine Spoken	Afro-Asiatic	whipa	0.7500	0.0208
+afroasiatic_apc_007	Arabic, North Levantine Spoken	Afro-Asiatic	whipa_comb	0.5000	0.0156
+afroasiatic_apc_007	Arabic, North Levantine Spoken	Afro-Asiatic	zipa	0.2500	0.0104
+afroasiatic_apc_007	Arabic, North Levantine Spoken	Afro-Asiatic	zipa_large	0.2500	0.0104
+afroasiatic_apc_008	Arabic, North Levantine Spoken	Afro-Asiatic	allophant	0.4000	0.0292
+afroasiatic_apc_008	Arabic, North Levantine Spoken	Afro-Asiatic	allosaurus	0.4000	0.0250
+afroasiatic_apc_008	Arabic, North Levantine Spoken	Afro-Asiatic	multipa	0.6000	0.0583
+afroasiatic_apc_008	Arabic, North Levantine Spoken	Afro-Asiatic	powsm	0.4000	0.0250
+afroasiatic_apc_008	Arabic, North Levantine Spoken	Afro-Asiatic	wav2vec2phoneme	0.4000	0.0250
+afroasiatic_apc_008	Arabic, North Levantine Spoken	Afro-Asiatic	whipa	0.4000	0.0417
+afroasiatic_apc_008	Arabic, North Levantine Spoken	Afro-Asiatic	whipa_comb	0.8000	0.0500
+afroasiatic_apc_008	Arabic, North Levantine Spoken	Afro-Asiatic	zipa	0.2000	0.0250
+afroasiatic_apc_008	Arabic, North Levantine Spoken	Afro-Asiatic	zipa_large	0.2000	0.0167
+afroasiatic_apc_009	Arabic, North Levantine Spoken	Afro-Asiatic	allophant	1.0000	0.2458
+afroasiatic_apc_009	Arabic, North Levantine Spoken	Afro-Asiatic	allosaurus	1.0000	0.2667
+afroasiatic_apc_009	Arabic, North Levantine Spoken	Afro-Asiatic	multipa	0.2000	0.0083
+afroasiatic_apc_009	Arabic, North Levantine Spoken	Afro-Asiatic	powsm	0.6000	0.2167
+afroasiatic_apc_009	Arabic, North Levantine Spoken	Afro-Asiatic	wav2vec2phoneme	0.8000	0.2250
+afroasiatic_apc_009	Arabic, North Levantine Spoken	Afro-Asiatic	whipa	1.0000	0.4042
+afroasiatic_apc_009	Arabic, North Levantine Spoken	Afro-Asiatic	whipa_comb	0.6000	0.0583
+afroasiatic_apc_009	Arabic, North Levantine Spoken	Afro-Asiatic	zipa	0.6000	0.2000
+afroasiatic_apc_009	Arabic, North Levantine Spoken	Afro-Asiatic	zipa_large	0.8000	0.2167
+afroasiatic_apc_010	Arabic, North Levantine Spoken	Afro-Asiatic	allophant	0.8000	0.2667
+afroasiatic_apc_010	Arabic, North Levantine Spoken	Afro-Asiatic	allosaurus	1.0000	0.1625
+afroasiatic_apc_010	Arabic, North Levantine Spoken	Afro-Asiatic	multipa	1.0000	0.2250
+afroasiatic_apc_010	Arabic, North Levantine Spoken	Afro-Asiatic	powsm	1.2000	0.4083
+afroasiatic_apc_010	Arabic, North Levantine Spoken	Afro-Asiatic	wav2vec2phoneme	1.0000	0.2250
+afroasiatic_apc_010	Arabic, North Levantine Spoken	Afro-Asiatic	whipa	0.6000	0.0333
+afroasiatic_apc_010	Arabic, North Levantine Spoken	Afro-Asiatic	whipa_comb	0.8000	0.2375
+afroasiatic_apc_010	Arabic, North Levantine Spoken	Afro-Asiatic	zipa	0.8000	0.0250
+afroasiatic_apc_010	Arabic, North Levantine Spoken	Afro-Asiatic	zipa_large	1.0000	0.0333
+afroasiatic_mlt_001	Maltese	Afro-Asiatic	allophant	0.2500	0.0312
+afroasiatic_mlt_001	Maltese	Afro-Asiatic	allosaurus	0.2500	0.0104
+afroasiatic_mlt_001	Maltese	Afro-Asiatic	multipa	0.2500	0.0104
+afroasiatic_mlt_001	Maltese	Afro-Asiatic	powsm	0.2500	0.0469
+afroasiatic_mlt_001	Maltese	Afro-Asiatic	wav2vec2phoneme	0.0000	0.0000
+afroasiatic_mlt_001	Maltese	Afro-Asiatic	whipa	0.2500	0.2292
+afroasiatic_mlt_001	Maltese	Afro-Asiatic	whipa_comb	0.5000	0.2396
+afroasiatic_mlt_001	Maltese	Afro-Asiatic	zipa	0.2500	0.0469
+afroasiatic_mlt_001	Maltese	Afro-Asiatic	zipa_large	0.0000	0.0000
+afroasiatic_mlt_002	Maltese	Afro-Asiatic	allophant	0.7500	0.0312
+afroasiatic_mlt_002	Maltese	Afro-Asiatic	allosaurus	1.0000	0.3333
+afroasiatic_mlt_002	Maltese	Afro-Asiatic	multipa	0.0000	0.0000
+afroasiatic_mlt_002	Maltese	Afro-Asiatic	powsm	0.2500	0.0104
+afroasiatic_mlt_002	Maltese	Afro-Asiatic	wav2vec2phoneme	0.2500	0.0104
+afroasiatic_mlt_002	Maltese	Afro-Asiatic	whipa	0.5000	0.0573
+afroasiatic_mlt_002	Maltese	Afro-Asiatic	whipa_comb	0.2500	0.0104
+afroasiatic_mlt_002	Maltese	Afro-Asiatic	zipa	0.2500	0.0156
+afroasiatic_mlt_002	Maltese	Afro-Asiatic	zipa_large	0.5000	0.0365
+afroasiatic_mlt_003	Maltese	Afro-Asiatic	allophant	0.2500	0.2292
+afroasiatic_mlt_003	Maltese	Afro-Asiatic	allosaurus	1.0000	0.7083
+afroasiatic_mlt_003	Maltese	Afro-Asiatic	multipa	0.2500	0.0104
+afroasiatic_mlt_003	Maltese	Afro-Asiatic	powsm	0.2500	0.0104
+afroasiatic_mlt_003	Maltese	Afro-Asiatic	wav2vec2phoneme	0.2500	0.0104
+afroasiatic_mlt_003	Maltese	Afro-Asiatic	whipa	0.5000	0.0573
+afroasiatic_mlt_003	Maltese	Afro-Asiatic	whipa_comb	0.2500	0.0104
+afroasiatic_mlt_003	Maltese	Afro-Asiatic	zipa	0.2500	0.0104
+afroasiatic_mlt_003	Maltese	Afro-Asiatic	zipa_large	0.2500	0.0104
+afroasiatic_mlt_004	Maltese	Afro-Asiatic	allophant	0.6000	0.0083
+afroasiatic_mlt_004	Maltese	Afro-Asiatic	allosaurus	1.0000	0.8125
+afroasiatic_mlt_004	Maltese	Afro-Asiatic	multipa	0.2000	0.0000
+afroasiatic_mlt_004	Maltese	Afro-Asiatic	powsm	0.0000	0.0000
+afroasiatic_mlt_004	Maltese	Afro-Asiatic	wav2vec2phoneme	0.0000	0.0000
+afroasiatic_mlt_004	Maltese	Afro-Asiatic	whipa	0.6000	0.0500
+afroasiatic_mlt_004	Maltese	Afro-Asiatic	whipa_comb	0.6000	0.0542
+afroasiatic_mlt_004	Maltese	Afro-Asiatic	zipa	0.2000	0.0000
+afroasiatic_mlt_004	Maltese	Afro-Asiatic	zipa_large	0.2000	0.0000
+afroasiatic_mlt_005	Maltese	Afro-Asiatic	allophant	0.6000	0.0083
+afroasiatic_mlt_005	Maltese	Afro-Asiatic	allosaurus	1.0000	0.0792
+afroasiatic_mlt_005	Maltese	Afro-Asiatic	multipa	0.4000	0.0167
+afroasiatic_mlt_005	Maltese	Afro-Asiatic	powsm	0.2000	0.0083
+afroasiatic_mlt_005	Maltese	Afro-Asiatic	wav2vec2phoneme	0.2000	0.0083
+afroasiatic_mlt_005	Maltese	Afro-Asiatic	whipa	0.6000	0.0250
+afroasiatic_mlt_005	Maltese	Afro-Asiatic	whipa_comb	0.6000	0.0250
+afroasiatic_mlt_005	Maltese	Afro-Asiatic	zipa	0.4000	0.0167
+afroasiatic_mlt_005	Maltese	Afro-Asiatic	zipa_large	0.2000	0.0083
+afroasiatic_mlt_006	Maltese	Afro-Asiatic	allophant	0.6000	0.2333
+afroasiatic_mlt_006	Maltese	Afro-Asiatic	allosaurus	1.0000	0.4167
+afroasiatic_mlt_006	Maltese	Afro-Asiatic	multipa	0.2000	0.0083
+afroasiatic_mlt_006	Maltese	Afro-Asiatic	powsm	0.6000	0.0333
+afroasiatic_mlt_006	Maltese	Afro-Asiatic	wav2vec2phoneme	0.4000	0.0167
+afroasiatic_mlt_006	Maltese	Afro-Asiatic	whipa	0.2000	0.0083
+afroasiatic_mlt_006	Maltese	Afro-Asiatic	whipa_comb	0.4000	0.0167
+afroasiatic_mlt_006	Maltese	Afro-Asiatic	zipa	0.4000	0.0167
+afroasiatic_mlt_006	Maltese	Afro-Asiatic	zipa_large	0.4000	0.0167
+afroasiatic_mlt_007	Maltese	Afro-Asiatic	allophant	2.6000	2.0750
+afroasiatic_mlt_007	Maltese	Afro-Asiatic	allosaurus	1.8000	1.5500
+afroasiatic_mlt_007	Maltese	Afro-Asiatic	multipa	2.0000	1.5125
+afroasiatic_mlt_007	Maltese	Afro-Asiatic	powsm	1.8000	1.3375
+afroasiatic_mlt_007	Maltese	Afro-Asiatic	wav2vec2phoneme	2.0000	1.6875
+afroasiatic_mlt_007	Maltese	Afro-Asiatic	whipa	2.6000	1.9208
+afroasiatic_mlt_007	Maltese	Afro-Asiatic	whipa_comb	2.6000	2.0833
+afroasiatic_mlt_007	Maltese	Afro-Asiatic	zipa	2.4000	1.5750
+afroasiatic_mlt_007	Maltese	Afro-Asiatic	zipa_large	2.2000	1.6917
+afroasiatic_mlt_008	Maltese	Afro-Asiatic	allophant	1.0000	0.3073
+afroasiatic_mlt_008	Maltese	Afro-Asiatic	allosaurus	1.0000	0.2708
+afroasiatic_mlt_008	Maltese	Afro-Asiatic	multipa	0.7500	0.2604
+afroasiatic_mlt_008	Maltese	Afro-Asiatic	powsm	0.7500	0.0938
+afroasiatic_mlt_008	Maltese	Afro-Asiatic	wav2vec2phoneme	0.7500	0.2604
+afroasiatic_mlt_008	Maltese	Afro-Asiatic	whipa	1.0000	0.2708
+afroasiatic_mlt_008	Maltese	Afro-Asiatic	whipa_comb	1.0000	0.4896
+afroasiatic_mlt_008	Maltese	Afro-Asiatic	zipa	0.7500	0.2604
+afroasiatic_mlt_008	Maltese	Afro-Asiatic	zipa_large	0.7500	0.2604
+afroasiatic_mlt_009	Maltese	Afro-Asiatic	allophant	0.8333	0.3264
+afroasiatic_mlt_009	Maltese	Afro-Asiatic	allosaurus	0.8333	0.1875
+afroasiatic_mlt_009	Maltese	Afro-Asiatic	multipa	0.3333	0.0312
+afroasiatic_mlt_009	Maltese	Afro-Asiatic	powsm	0.6667	0.0764
+afroasiatic_mlt_009	Maltese	Afro-Asiatic	wav2vec2phoneme	0.3333	0.0556
+afroasiatic_mlt_009	Maltese	Afro-Asiatic	whipa	0.3333	0.1875
+afroasiatic_mlt_009	Maltese	Afro-Asiatic	whipa_comb	1.1667	0.2569
+afroasiatic_mlt_009	Maltese	Afro-Asiatic	zipa	0.3333	0.1667
+afroasiatic_mlt_009	Maltese	Afro-Asiatic	zipa_large	0.5000	0.1736
+afroasiatic_mlt_010	Maltese	Afro-Asiatic	allophant	1.0000	0.0417
+afroasiatic_mlt_010	Maltese	Afro-Asiatic	allosaurus	1.0000	0.1667
+afroasiatic_mlt_010	Maltese	Afro-Asiatic	multipa	0.6667	0.3333
+afroasiatic_mlt_010	Maltese	Afro-Asiatic	powsm	0.6667	0.0417
+afroasiatic_mlt_010	Maltese	Afro-Asiatic	wav2vec2phoneme	0.6667	0.0417
+afroasiatic_mlt_010	Maltese	Afro-Asiatic	whipa	1.0000	0.0556
+afroasiatic_mlt_010	Maltese	Afro-Asiatic	whipa_comb	0.6667	0.0417
+afroasiatic_mlt_010	Maltese	Afro-Asiatic	zipa	1.0000	0.0486
+afroasiatic_mlt_010	Maltese	Afro-Asiatic	zipa_large	1.0000	0.0486
+austronesian_ilo_001	Ilocano	Austronesian	allophant	0.7500	0.4688
+austronesian_ilo_001	Ilocano	Austronesian	allosaurus	0.7500	0.0469
+austronesian_ilo_001	Ilocano	Austronesian	multipa	1.0000	0.0417
+austronesian_ilo_001	Ilocano	Austronesian	powsm	0.5000	0.2396
+austronesian_ilo_001	Ilocano	Austronesian	wav2vec2phoneme	0.2500	0.0104
+austronesian_ilo_001	Ilocano	Austronesian	whipa	0.2500	0.0104
+austronesian_ilo_001	Ilocano	Austronesian	whipa_comb	0.7500	0.0312
+austronesian_ilo_001	Ilocano	Austronesian	zipa	0.2500	0.0104
+austronesian_ilo_001	Ilocano	Austronesian	zipa_large	0.2500	0.0104
+austronesian_ilo_002	Ilocano	Austronesian	allophant	0.8000	0.0292
+austronesian_ilo_002	Ilocano	Austronesian	allosaurus	0.8000	0.2083
+austronesian_ilo_002	Ilocano	Austronesian	multipa	0.6000	0.0292
+austronesian_ilo_002	Ilocano	Austronesian	powsm	0.6000	0.0208
+austronesian_ilo_002	Ilocano	Austronesian	wav2vec2phoneme	0.6000	0.2083
+austronesian_ilo_002	Ilocano	Austronesian	whipa	0.6000	0.0292
+austronesian_ilo_002	Ilocano	Austronesian	whipa_comb	0.6000	0.0292
+austronesian_ilo_002	Ilocano	Austronesian	zipa	0.8000	0.0292
+austronesian_ilo_002	Ilocano	Austronesian	zipa_large	1.0000	0.0375
+austronesian_ilo_003	Ilocano	Austronesian	allophant	0.0000	0.0000
+austronesian_ilo_003	Ilocano	Austronesian	allosaurus	0.3333	0.1701
+austronesian_ilo_003	Ilocano	Austronesian	multipa	0.5000	0.0486
+austronesian_ilo_003	Ilocano	Austronesian	powsm	0.3333	0.0278
+austronesian_ilo_003	Ilocano	Austronesian	wav2vec2phoneme	0.0000	0.0000
+austronesian_ilo_003	Ilocano	Austronesian	whipa	0.3333	0.0139
+austronesian_ilo_003	Ilocano	Austronesian	whipa_comb	0.3333	0.0486
+austronesian_ilo_003	Ilocano	Austronesian	zipa	0.6667	0.0278
+austronesian_ilo_003	Ilocano	Austronesian	zipa_large	0.3333	0.0278
+austronesian_ilo_004	Ilocano	Austronesian	allophant	0.5000	0.2396
+austronesian_ilo_004	Ilocano	Austronesian	allosaurus	0.5000	0.0260
+austronesian_ilo_004	Ilocano	Austronesian	multipa	0.5000	0.0208
+austronesian_ilo_004	Ilocano	Austronesian	powsm	0.0000	0.0000
+austronesian_ilo_004	Ilocano	Austronesian	wav2vec2phoneme	0.0000	0.0000
+austronesian_ilo_004	Ilocano	Austronesian	whipa	0.0000	0.0000
+austronesian_ilo_004	Ilocano	Austronesian	whipa_comb	0.5000	0.0208
+austronesian_ilo_004	Ilocano	Austronesian	zipa	0.0000	0.0000
+austronesian_ilo_004	Ilocano	Austronesian	zipa_large	0.0000	0.0000
+austronesian_ilo_005	Ilocano	Austronesian	allophant	0.6000	0.0208
+austronesian_ilo_005	Ilocano	Austronesian	allosaurus	0.6000	0.2000
+austronesian_ilo_005	Ilocano	Austronesian	multipa	0.4000	0.2000
+austronesian_ilo_005	Ilocano	Austronesian	powsm	0.2000	0.0042
+austronesian_ilo_005	Ilocano	Austronesian	wav2vec2phoneme	0.4000	0.2000
+austronesian_ilo_005	Ilocano	Austronesian	whipa	0.4000	0.0208
+austronesian_ilo_005	Ilocano	Austronesian	whipa_comb	0.4000	0.0208
+austronesian_ilo_005	Ilocano	Austronesian	zipa	0.8000	0.0292
+austronesian_ilo_005	Ilocano	Austronesian	zipa_large	0.8000	0.0292
+austronesian_ilo_006	Ilocano	Austronesian	allophant	0.0000	0.0000
+austronesian_ilo_006	Ilocano	Austronesian	allosaurus	0.5000	0.1806
+austronesian_ilo_006	Ilocano	Austronesian	multipa	0.1667	0.0174
+austronesian_ilo_006	Ilocano	Austronesian	powsm	0.3333	0.0278
+austronesian_ilo_006	Ilocano	Austronesian	wav2vec2phoneme	0.0000	0.0000
+austronesian_ilo_006	Ilocano	Austronesian	whipa	0.0000	0.0000
+austronesian_ilo_006	Ilocano	Austronesian	whipa_comb	0.0000	0.0000
+austronesian_ilo_006	Ilocano	Austronesian	zipa	0.0000	0.0000
+austronesian_ilo_006	Ilocano	Austronesian	zipa_large	0.0000	0.0000
+austronesian_ilo_007	Ilocano	Austronesian	allophant	0.5000	0.0104
+austronesian_ilo_007	Ilocano	Austronesian	allosaurus	1.2500	0.2812
+austronesian_ilo_007	Ilocano	Austronesian	multipa	0.5000	0.0208
+austronesian_ilo_007	Ilocano	Austronesian	powsm	0.5000	0.0104
+austronesian_ilo_007	Ilocano	Austronesian	wav2vec2phoneme	0.5000	0.0104
+austronesian_ilo_007	Ilocano	Austronesian	whipa	0.5000	0.0104
+austronesian_ilo_007	Ilocano	Austronesian	whipa_comb	0.7500	0.0312
+austronesian_ilo_007	Ilocano	Austronesian	zipa	0.7500	0.0208
+austronesian_ilo_007	Ilocano	Austronesian	zipa_large	1.0000	0.0312
+austronesian_ilo_008	Ilocano	Austronesian	allophant	0.6000	0.0250
+austronesian_ilo_008	Ilocano	Austronesian	allosaurus	0.8000	0.0750
+austronesian_ilo_008	Ilocano	Austronesian	multipa	0.6000	0.0167
+austronesian_ilo_008	Ilocano	Austronesian	powsm	0.6000	0.0167
+austronesian_ilo_008	Ilocano	Austronesian	wav2vec2phoneme	0.6000	0.0167
+austronesian_ilo_008	Ilocano	Austronesian	whipa	0.8000	0.0417
+austronesian_ilo_008	Ilocano	Austronesian	whipa_comb	0.6000	0.0250
+austronesian_ilo_008	Ilocano	Austronesian	zipa	0.6000	0.0167
+austronesian_ilo_008	Ilocano	Austronesian	zipa_large	0.6000	0.0167
+austronesian_ilo_009	Ilocano	Austronesian	allophant	0.6000	0.2042
+austronesian_ilo_009	Ilocano	Austronesian	allosaurus	0.6000	0.2167
+austronesian_ilo_009	Ilocano	Austronesian	multipa	0.6000	0.2042
+austronesian_ilo_009	Ilocano	Austronesian	powsm	0.4000	0.0167
+austronesian_ilo_009	Ilocano	Austronesian	wav2vec2phoneme	0.4000	0.0167
+austronesian_ilo_009	Ilocano	Austronesian	whipa	0.6000	0.1958
+austronesian_ilo_009	Ilocano	Austronesian	whipa_comb	0.4000	0.0167
+austronesian_ilo_009	Ilocano	Austronesian	zipa	0.6000	0.1958
+austronesian_ilo_009	Ilocano	Austronesian	zipa_large	0.2000	0.0208
+austronesian_ilo_010	Ilocano	Austronesian	allophant	0.5000	0.0104
+austronesian_ilo_010	Ilocano	Austronesian	allosaurus	1.0000	0.1094
+austronesian_ilo_010	Ilocano	Austronesian	multipa	0.7500	0.0312
+austronesian_ilo_010	Ilocano	Austronesian	powsm	0.5000	0.0104
+austronesian_ilo_010	Ilocano	Austronesian	wav2vec2phoneme	0.5000	0.0104
+austronesian_ilo_010	Ilocano	Austronesian	whipa	0.5000	0.0104
+austronesian_ilo_010	Ilocano	Austronesian	whipa_comb	0.7500	0.0417
+austronesian_ilo_010	Ilocano	Austronesian	zipa	0.7500	0.0208
+austronesian_ilo_010	Ilocano	Austronesian	zipa_large	1.0000	0.0312
+austronesian_pam_001	Kapampangan	Austronesian	allophant	1.0000	0.3333
+austronesian_pam_001	Kapampangan	Austronesian	allosaurus	1.0000	0.4028
+austronesian_pam_001	Kapampangan	Austronesian	multipa	1.0000	0.3889
+austronesian_pam_001	Kapampangan	Austronesian	powsm	1.0000	0.3264
+austronesian_pam_001	Kapampangan	Austronesian	wav2vec2phoneme	1.0000	0.3333
+austronesian_pam_001	Kapampangan	Austronesian	whipa	1.0000	0.3333
+austronesian_pam_001	Kapampangan	Austronesian	whipa_comb	1.0000	0.3403
+austronesian_pam_001	Kapampangan	Austronesian	zipa	1.0000	0.3125
+austronesian_pam_001	Kapampangan	Austronesian	zipa_large	1.0000	0.3056
+austronesian_pam_002	Kapampangan	Austronesian	allophant	0.6667	0.3194
+austronesian_pam_002	Kapampangan	Austronesian	allosaurus	1.0000	0.3819
+austronesian_pam_002	Kapampangan	Austronesian	multipa	0.6667	0.3264
+austronesian_pam_002	Kapampangan	Austronesian	powsm	0.6667	0.3125
+austronesian_pam_002	Kapampangan	Austronesian	wav2vec2phoneme	0.3333	0.3056
+austronesian_pam_002	Kapampangan	Austronesian	whipa	0.6667	0.3194
+austronesian_pam_002	Kapampangan	Austronesian	whipa_comb	0.6667	0.3264
+austronesian_pam_002	Kapampangan	Austronesian	zipa	0.3333	0.3056
+austronesian_pam_002	Kapampangan	Austronesian	zipa_large	0.3333	0.3056
+austronesian_pam_003	Kapampangan	Austronesian	allophant	0.4000	0.1917
+austronesian_pam_003	Kapampangan	Austronesian	allosaurus	0.6000	0.1458
+austronesian_pam_003	Kapampangan	Austronesian	multipa	0.4000	0.1833
+austronesian_pam_003	Kapampangan	Austronesian	powsm	0.4000	0.1917
+austronesian_pam_003	Kapampangan	Austronesian	wav2vec2phoneme	0.2000	0.1833
+austronesian_pam_003	Kapampangan	Austronesian	whipa	0.8000	0.2000
+austronesian_pam_003	Kapampangan	Austronesian	whipa_comb	0.6000	0.2000
+austronesian_pam_003	Kapampangan	Austronesian	zipa	0.2000	0.1833
+austronesian_pam_003	Kapampangan	Austronesian	zipa_large	0.4000	0.1292
+austronesian_pam_004	Kapampangan	Austronesian	allophant	0.2857	0.1369
+austronesian_pam_004	Kapampangan	Austronesian	allosaurus	0.8571	0.2173
+austronesian_pam_004	Kapampangan	Austronesian	multipa	0.4286	0.1429
+austronesian_pam_004	Kapampangan	Austronesian	powsm	0.2857	0.1369
+austronesian_pam_004	Kapampangan	Austronesian	wav2vec2phoneme	0.2857	0.1369
+austronesian_pam_004	Kapampangan	Austronesian	whipa	0.4286	0.1488
+austronesian_pam_004	Kapampangan	Austronesian	whipa_comb	0.1429	0.1310
+austronesian_pam_004	Kapampangan	Austronesian	zipa	0.4286	0.1488
+austronesian_pam_004	Kapampangan	Austronesian	zipa_large	0.4286	0.1429
+austronesian_pam_005	Kapampangan	Austronesian	allophant	0.5000	0.0000
+austronesian_pam_005	Kapampangan	Austronesian	allosaurus	1.0000	0.1667
+austronesian_pam_005	Kapampangan	Austronesian	multipa	0.5000	0.0000
+austronesian_pam_005	Kapampangan	Austronesian	powsm	0.5000	0.0625
+austronesian_pam_005	Kapampangan	Austronesian	wav2vec2phoneme	0.5000	0.0104
+austronesian_pam_005	Kapampangan	Austronesian	whipa	0.5000	0.0208
+austronesian_pam_005	Kapampangan	Austronesian	whipa_comb	0.5000	0.0312
+austronesian_pam_005	Kapampangan	Austronesian	zipa	1.5000	0.4896
+austronesian_pam_005	Kapampangan	Austronesian	zipa_large	1.0000	0.0521
+austronesian_pam_006	Kapampangan	Austronesian	allophant	0.5000	0.2292
+austronesian_pam_006	Kapampangan	Austronesian	allosaurus	0.7500	0.2656
+austronesian_pam_006	Kapampangan	Austronesian	multipa	0.0000	0.0000
+austronesian_pam_006	Kapampangan	Austronesian	powsm	0.2500	0.0052
+austronesian_pam_006	Kapampangan	Austronesian	wav2vec2phoneme	0.0000	0.0000
+austronesian_pam_006	Kapampangan	Austronesian	whipa	0.2500	0.0104
+austronesian_pam_006	Kapampangan	Austronesian	whipa_comb	0.5000	0.0156
+austronesian_pam_006	Kapampangan	Austronesian	zipa	0.2500	0.0104
+austronesian_pam_006	Kapampangan	Austronesian	zipa_large	0.5000	0.2396
+austronesian_pam_007	Kapampangan	Austronesian	allophant	0.6667	0.3056
+austronesian_pam_007	Kapampangan	Austronesian	allosaurus	0.6667	0.3333
+austronesian_pam_007	Kapampangan	Austronesian	multipa	0.6667	0.3125
+austronesian_pam_007	Kapampangan	Austronesian	powsm	0.3333	0.3056
+austronesian_pam_007	Kapampangan	Austronesian	wav2vec2phoneme	0.3333	0.3056
+austronesian_pam_007	Kapampangan	Austronesian	whipa	0.3333	0.3056
+austronesian_pam_007	Kapampangan	Austronesian	whipa_comb	0.6667	0.3056
+austronesian_pam_007	Kapampangan	Austronesian	zipa	0.3333	0.3056
+austronesian_pam_007	Kapampangan	Austronesian	zipa_large	0.3333	0.3056
+austronesian_pam_008	Kapampangan	Austronesian	allophant	0.7143	0.2619
+austronesian_pam_008	Kapampangan	Austronesian	allosaurus	0.7143	0.3393
+austronesian_pam_008	Kapampangan	Austronesian	multipa	0.4286	0.1369
+austronesian_pam_008	Kapampangan	Austronesian	powsm	0.5714	0.2738
+austronesian_pam_008	Kapampangan	Austronesian	wav2vec2phoneme	0.2857	0.2619
+austronesian_pam_008	Kapampangan	Austronesian	whipa	0.5714	0.1964
+austronesian_pam_008	Kapampangan	Austronesian	whipa_comb	0.4286	0.1429
+austronesian_pam_008	Kapampangan	Austronesian	zipa	0.4286	0.2738
+austronesian_pam_008	Kapampangan	Austronesian	zipa_large	0.2857	0.2619
+austronesian_pam_009	Kapampangan	Austronesian	allophant	1.0000	0.4375
+austronesian_pam_009	Kapampangan	Austronesian	allosaurus	1.0000	0.0208
+austronesian_pam_009	Kapampangan	Austronesian	multipa	0.0000	0.0000
+austronesian_pam_009	Kapampangan	Austronesian	powsm	0.0000	0.0000
+austronesian_pam_009	Kapampangan	Austronesian	wav2vec2phoneme	0.0000	0.0000
+austronesian_pam_009	Kapampangan	Austronesian	whipa	1.0000	0.4375
+austronesian_pam_009	Kapampangan	Austronesian	whipa_comb	3.0000	1.9792
+austronesian_pam_009	Kapampangan	Austronesian	zipa	0.0000	0.0000
+austronesian_pam_009	Kapampangan	Austronesian	zipa_large	0.0000	0.0000
+austronesian_pam_010	Kapampangan	Austronesian	allophant	1.0000	0.2847
+austronesian_pam_010	Kapampangan	Austronesian	allosaurus	1.0000	0.3333
+austronesian_pam_010	Kapampangan	Austronesian	multipa	1.0000	0.3194
+austronesian_pam_010	Kapampangan	Austronesian	powsm	0.6667	0.3333
+austronesian_pam_010	Kapampangan	Austronesian	wav2vec2phoneme	1.0000	0.2778
+austronesian_pam_010	Kapampangan	Austronesian	whipa	0.6667	0.3194
+austronesian_pam_010	Kapampangan	Austronesian	whipa_comb	1.0000	0.2847
+austronesian_pam_010	Kapampangan	Austronesian	zipa	1.3333	0.2708
+austronesian_pam_010	Kapampangan	Austronesian	zipa_large	1.3333	0.2708
+dravidian_kan_001	Kannada	Dravidian	allophant	1.0000	0.7083
+dravidian_kan_001	Kannada	Dravidian	allosaurus	1.2500	0.5625
+dravidian_kan_001	Kannada	Dravidian	multipa	0.2500	0.0208
+dravidian_kan_001	Kannada	Dravidian	powsm	0.2500	0.0104
+dravidian_kan_001	Kannada	Dravidian	wav2vec2phoneme	0.2500	0.0312
+dravidian_kan_001	Kannada	Dravidian	whipa	0.2500	0.0469
+dravidian_kan_001	Kannada	Dravidian	whipa_comb	0.7500	0.0625
+dravidian_kan_001	Kannada	Dravidian	zipa	0.5000	0.0208
+dravidian_kan_001	Kannada	Dravidian	zipa_large	0.7500	0.0312
+dravidian_kan_002	Kannada	Dravidian	allophant	0.5000	0.0104
+dravidian_kan_002	Kannada	Dravidian	allosaurus	1.0000	0.0625
+dravidian_kan_002	Kannada	Dravidian	multipa	0.2500	0.0208
+dravidian_kan_002	Kannada	Dravidian	powsm	0.2500	0.0208
+dravidian_kan_002	Kannada	Dravidian	wav2vec2phoneme	0.5000	0.0208
+dravidian_kan_002	Kannada	Dravidian	whipa	0.5000	0.0104
+dravidian_kan_002	Kannada	Dravidian	whipa_comb	0.2500	0.0104
+dravidian_kan_002	Kannada	Dravidian	zipa	0.5000	0.0208
+dravidian_kan_002	Kannada	Dravidian	zipa_large	1.2500	0.0104
+dravidian_kan_003	Kannada	Dravidian	allophant	0.7500	0.2969
+dravidian_kan_003	Kannada	Dravidian	allosaurus	0.7500	0.2865
+dravidian_kan_003	Kannada	Dravidian	multipa	0.2500	0.0104
+dravidian_kan_003	Kannada	Dravidian	powsm	0.0000	0.0000
+dravidian_kan_003	Kannada	Dravidian	wav2vec2phoneme	0.2500	0.0104
+dravidian_kan_003	Kannada	Dravidian	whipa	0.5000	0.0677
+dravidian_kan_003	Kannada	Dravidian	whipa_comb	0.5000	0.0417
+dravidian_kan_003	Kannada	Dravidian	zipa	0.2500	0.0104
+dravidian_kan_003	Kannada	Dravidian	zipa_large	0.2500	0.0104
+dravidian_kan_004	Kannada	Dravidian	allophant	0.5000	0.2500
+dravidian_kan_004	Kannada	Dravidian	allosaurus	0.7500	0.2917
+dravidian_kan_004	Kannada	Dravidian	multipa	0.2500	0.0104
+dravidian_kan_004	Kannada	Dravidian	powsm	0.5000	0.0208
+dravidian_kan_004	Kannada	Dravidian	wav2vec2phoneme	0.2500	0.0104
+dravidian_kan_004	Kannada	Dravidian	whipa	0.2500	0.0312
+dravidian_kan_004	Kannada	Dravidian	whipa_comb	0.5000	0.0208
+dravidian_kan_004	Kannada	Dravidian	zipa	0.7500	0.0104
+dravidian_kan_004	Kannada	Dravidian	zipa_large	0.5000	0.0000
+dravidian_kan_005	Kannada	Dravidian	allophant	0.5000	0.0469
+dravidian_kan_005	Kannada	Dravidian	allosaurus	1.0000	0.7604
+dravidian_kan_005	Kannada	Dravidian	multipa	0.2500	0.0573
+dravidian_kan_005	Kannada	Dravidian	powsm	0.2500	0.0365
+dravidian_kan_005	Kannada	Dravidian	wav2vec2phoneme	0.2500	0.0365
+dravidian_kan_005	Kannada	Dravidian	whipa	0.7500	0.0573
+dravidian_kan_005	Kannada	Dravidian	whipa_comb	0.7500	0.0573
+dravidian_kan_005	Kannada	Dravidian	zipa	0.5000	0.0573
+dravidian_kan_005	Kannada	Dravidian	zipa_large	0.2500	0.0469
+dravidian_kan_006	Kannada	Dravidian	allophant	0.7500	0.0312
+dravidian_kan_006	Kannada	Dravidian	allosaurus	1.2500	0.3698
+dravidian_kan_006	Kannada	Dravidian	multipa	0.2500	0.0573
+dravidian_kan_006	Kannada	Dravidian	powsm	0.2500	0.0469
+dravidian_kan_006	Kannada	Dravidian	wav2vec2phoneme	0.2500	0.0104
+dravidian_kan_006	Kannada	Dravidian	whipa	0.5000	0.0469
+dravidian_kan_006	Kannada	Dravidian	whipa_comb	0.5000	0.0469
+dravidian_kan_006	Kannada	Dravidian	zipa	0.7500	0.0573
+dravidian_kan_006	Kannada	Dravidian	zipa_large	0.7500	0.0469
+dravidian_kan_007	Kannada	Dravidian	allophant	0.7500	0.0521
+dravidian_kan_007	Kannada	Dravidian	allosaurus	0.7500	0.2812
+dravidian_kan_007	Kannada	Dravidian	multipa	0.5000	0.0208
+dravidian_kan_007	Kannada	Dravidian	powsm	0.5000	0.0208
+dravidian_kan_007	Kannada	Dravidian	wav2vec2phoneme	0.5000	0.0208
+dravidian_kan_007	Kannada	Dravidian	whipa	0.7500	0.0521
+dravidian_kan_007	Kannada	Dravidian	whipa_comb	0.7500	0.0312
+dravidian_kan_007	Kannada	Dravidian	zipa	0.5000	0.0208
+dravidian_kan_007	Kannada	Dravidian	zipa_large	0.5000	0.0208
+dravidian_kan_008	Kannada	Dravidian	allophant	0.5000	0.0677
+dravidian_kan_008	Kannada	Dravidian	allosaurus	0.7500	0.0625
+dravidian_kan_008	Kannada	Dravidian	multipa	0.2500	0.0573
+dravidian_kan_008	Kannada	Dravidian	powsm	0.2500	0.0469
+dravidian_kan_008	Kannada	Dravidian	wav2vec2phoneme	0.2500	0.0260
+dravidian_kan_008	Kannada	Dravidian	whipa	0.2500	0.0365
+dravidian_kan_008	Kannada	Dravidian	whipa_comb	0.5000	0.0469
+dravidian_kan_008	Kannada	Dravidian	zipa	0.7500	0.0573
+dravidian_kan_008	Kannada	Dravidian	zipa_large	0.7500	0.0469
+dravidian_kan_009	Kannada	Dravidian	allophant	0.6000	0.0417
+dravidian_kan_009	Kannada	Dravidian	allosaurus	0.8000	0.2375
+dravidian_kan_009	Kannada	Dravidian	multipa	0.6000	0.2458
+dravidian_kan_009	Kannada	Dravidian	powsm	0.6000	0.1917
+dravidian_kan_009	Kannada	Dravidian	wav2vec2phoneme	0.4000	0.2000
+dravidian_kan_009	Kannada	Dravidian	whipa	0.8000	0.2458
+dravidian_kan_009	Kannada	Dravidian	whipa_comb	0.8000	0.2458
+dravidian_kan_009	Kannada	Dravidian	zipa	0.6000	0.2458
+dravidian_kan_009	Kannada	Dravidian	zipa_large	0.6000	0.2375
+dravidian_kan_010	Kannada	Dravidian	allophant	0.8000	0.2542
+dravidian_kan_010	Kannada	Dravidian	allosaurus	0.8000	0.1583
+dravidian_kan_010	Kannada	Dravidian	multipa	0.6000	0.2542
+dravidian_kan_010	Kannada	Dravidian	powsm	0.6000	0.2458
+dravidian_kan_010	Kannada	Dravidian	wav2vec2phoneme	0.6000	0.2292
+dravidian_kan_010	Kannada	Dravidian	whipa	0.6000	0.2250
+dravidian_kan_010	Kannada	Dravidian	whipa_comb	0.8000	0.2458
+dravidian_kan_010	Kannada	Dravidian	zipa	0.6000	0.2542
+dravidian_kan_010	Kannada	Dravidian	zipa_large	0.6000	0.2458
+dravidian_bfq_001	Badaga	Dravidian	allophant	0.5000	0.0625
+dravidian_bfq_001	Badaga	Dravidian	allosaurus	1.0000	0.4792
+dravidian_bfq_001	Badaga	Dravidian	multipa	1.0000	0.0833
+dravidian_bfq_001	Badaga	Dravidian	powsm	0.5000	0.0208
+dravidian_bfq_001	Badaga	Dravidian	wav2vec2phoneme	1.0000	0.0833
+dravidian_bfq_001	Badaga	Dravidian	whipa	0.5000	0.0208
+dravidian_bfq_001	Badaga	Dravidian	whipa_comb	0.0000	0.0000
+dravidian_bfq_001	Badaga	Dravidian	zipa	0.5000	0.0729
+dravidian_bfq_001	Badaga	Dravidian	zipa_large	0.5000	0.0729
+dravidian_bfq_002	Badaga	Dravidian	allophant	0.5000	0.0208
+dravidian_bfq_002	Badaga	Dravidian	allosaurus	1.5000	0.5521
+dravidian_bfq_002	Badaga	Dravidian	multipa	0.5000	0.0208
+dravidian_bfq_002	Badaga	Dravidian	powsm	0.5000	0.0208
+dravidian_bfq_002	Badaga	Dravidian	wav2vec2phoneme	0.0000	0.0000
+dravidian_bfq_002	Badaga	Dravidian	whipa	0.5000	0.0208
+dravidian_bfq_002	Badaga	Dravidian	whipa_comb	1.0000	0.4792
+dravidian_bfq_002	Badaga	Dravidian	zipa	1.0000	0.4792
+dravidian_bfq_002	Badaga	Dravidian	zipa_large	1.0000	0.4792
+dravidian_bfq_003	Badaga	Dravidian	allophant	0.6667	0.6250
+dravidian_bfq_003	Badaga	Dravidian	allosaurus	0.6667	0.0833
+dravidian_bfq_003	Badaga	Dravidian	multipa	0.6667	0.0694
+dravidian_bfq_003	Badaga	Dravidian	powsm	0.6667	0.0833
+dravidian_bfq_003	Badaga	Dravidian	wav2vec2phoneme	0.6667	0.0833
+dravidian_bfq_003	Badaga	Dravidian	whipa	1.0000	0.3958
+dravidian_bfq_003	Badaga	Dravidian	whipa_comb	0.6667	0.1944
+dravidian_bfq_003	Badaga	Dravidian	zipa	0.6667	0.0694
+dravidian_bfq_003	Badaga	Dravidian	zipa_large	1.0000	0.3750
+dravidian_bfq_004	Badaga	Dravidian	allophant	1.0000	0.6528
+dravidian_bfq_004	Badaga	Dravidian	allosaurus	1.0000	0.4028
+dravidian_bfq_004	Badaga	Dravidian	multipa	0.6667	0.1250
+dravidian_bfq_004	Badaga	Dravidian	powsm	1.0000	0.3750
+dravidian_bfq_004	Badaga	Dravidian	wav2vec2phoneme	0.6667	0.3681
+dravidian_bfq_004	Badaga	Dravidian	whipa	0.6667	0.1597
+dravidian_bfq_004	Badaga	Dravidian	whipa_comb	0.6667	0.1944
+dravidian_bfq_004	Badaga	Dravidian	zipa	1.3333	0.4028
+dravidian_bfq_004	Badaga	Dravidian	zipa_large	1.3333	0.4028
+dravidian_bfq_005	Badaga	Dravidian	allophant	0.6667	0.0833
+dravidian_bfq_005	Badaga	Dravidian	allosaurus	0.6667	0.0903
+dravidian_bfq_005	Badaga	Dravidian	multipa	0.6667	0.0694
+dravidian_bfq_005	Badaga	Dravidian	powsm	1.0000	0.3611
+dravidian_bfq_005	Badaga	Dravidian	wav2vec2phoneme	0.6667	0.3472
+dravidian_bfq_005	Badaga	Dravidian	whipa	0.6667	0.0556
+dravidian_bfq_005	Badaga	Dravidian	whipa_comb	0.6667	0.0833
+dravidian_bfq_005	Badaga	Dravidian	zipa	1.0000	0.3750
+dravidian_bfq_005	Badaga	Dravidian	zipa_large	1.3333	0.3889
+dravidian_bfq_006	Badaga	Dravidian	allophant	0.6667	0.0694
+dravidian_bfq_006	Badaga	Dravidian	allosaurus	1.0000	0.3889
+dravidian_bfq_006	Badaga	Dravidian	multipa	0.6667	0.3472
+dravidian_bfq_006	Badaga	Dravidian	powsm	0.6667	0.0694
+dravidian_bfq_006	Badaga	Dravidian	wav2vec2phoneme	1.0000	0.3750
+dravidian_bfq_006	Badaga	Dravidian	whipa	1.0000	0.3889
+dravidian_bfq_006	Badaga	Dravidian	whipa_comb	1.0000	0.3889
+dravidian_bfq_006	Badaga	Dravidian	zipa	1.0000	0.0833
+dravidian_bfq_006	Badaga	Dravidian	zipa_large	1.3333	0.3889
+dravidian_bfq_007	Badaga	Dravidian	allophant	1.0000	0.1042
+dravidian_bfq_007	Badaga	Dravidian	allosaurus	1.0000	0.0833
+dravidian_bfq_007	Badaga	Dravidian	multipa	1.0000	0.5208
+dravidian_bfq_007	Badaga	Dravidian	powsm	1.0000	0.5208
+dravidian_bfq_007	Badaga	Dravidian	wav2vec2phoneme	1.0000	0.5417
+dravidian_bfq_007	Badaga	Dravidian	whipa	2.0000	1.2083
+dravidian_bfq_007	Badaga	Dravidian	whipa_comb	2.5000	1.5208
+dravidian_bfq_007	Badaga	Dravidian	zipa	1.0000	0.1042
+dravidian_bfq_007	Badaga	Dravidian	zipa_large	1.0000	0.1042
+dravidian_bfq_008	Badaga	Dravidian	allophant	0.5000	0.2396
+dravidian_bfq_008	Badaga	Dravidian	allosaurus	0.7500	0.1198
+dravidian_bfq_008	Badaga	Dravidian	multipa	0.5000	0.0000
+dravidian_bfq_008	Badaga	Dravidian	powsm	0.0000	0.0000
+dravidian_bfq_008	Badaga	Dravidian	wav2vec2phoneme	0.0000	0.0000
+dravidian_bfq_008	Badaga	Dravidian	whipa	0.7500	0.2292
+dravidian_bfq_008	Badaga	Dravidian	whipa_comb	0.7500	0.0885
+dravidian_bfq_008	Badaga	Dravidian	zipa	0.7500	0.2760
+dravidian_bfq_008	Badaga	Dravidian	zipa_large	1.2500	0.5052
+dravidian_bfq_009	Badaga	Dravidian	allophant	1.0000	0.4583
+dravidian_bfq_009	Badaga	Dravidian	allosaurus	1.5000	0.5417
+dravidian_bfq_009	Badaga	Dravidian	multipa	0.5000	0.4583
+dravidian_bfq_009	Badaga	Dravidian	powsm	0.5000	0.0417
+dravidian_bfq_009	Badaga	Dravidian	wav2vec2phoneme	1.0000	0.4792
+dravidian_bfq_009	Badaga	Dravidian	whipa	1.0000	0.1250
+dravidian_bfq_009	Badaga	Dravidian	whipa_comb	1.5000	0.5833
+dravidian_bfq_009	Badaga	Dravidian	zipa	0.5000	0.0417
+dravidian_bfq_009	Badaga	Dravidian	zipa_large	0.5000	0.0417
+dravidian_bfq_010	Badaga	Dravidian	allophant	0.5000	0.2604
+dravidian_bfq_010	Badaga	Dravidian	allosaurus	1.2500	0.5104
+dravidian_bfq_010	Badaga	Dravidian	multipa	0.5000	0.0312
+dravidian_bfq_010	Badaga	Dravidian	powsm	0.2500	0.0104
+dravidian_bfq_010	Badaga	Dravidian	wav2vec2phoneme	0.5000	0.0156
+dravidian_bfq_010	Badaga	Dravidian	whipa	0.5000	0.0417
+dravidian_bfq_010	Badaga	Dravidian	whipa_comb	0.2500	0.0312
+dravidian_bfq_010	Badaga	Dravidian	zipa	0.2500	0.0156
+dravidian_bfq_010	Badaga	Dravidian	zipa_large	0.5000	0.2448
+uralic_hun_001	Hungarian	Uralic	allophant	0.5000	0.0312
+uralic_hun_001	Hungarian	Uralic	allosaurus	1.0000	0.5104
+uralic_hun_001	Hungarian	Uralic	multipa	0.0000	0.0000
+uralic_hun_001	Hungarian	Uralic	powsm	0.5000	0.0365
+uralic_hun_001	Hungarian	Uralic	wav2vec2phoneme	0.5000	0.0677
+uralic_hun_001	Hungarian	Uralic	whipa	1.5000	0.7500
+uralic_hun_001	Hungarian	Uralic	whipa_comb	0.7500	0.0625
+uralic_hun_001	Hungarian	Uralic	zipa	0.7500	0.0990
+uralic_hun_001	Hungarian	Uralic	zipa_large	0.7500	0.0990
+uralic_hun_002	Hungarian	Uralic	allophant	1.0000	0.0938
+uralic_hun_002	Hungarian	Uralic	allosaurus	1.0000	0.0885
+uralic_hun_002	Hungarian	Uralic	multipa	0.5000	0.2552
+uralic_hun_002	Hungarian	Uralic	powsm	0.7500	0.2656
+uralic_hun_002	Hungarian	Uralic	wav2vec2phoneme	0.5000	0.0312
+uralic_hun_002	Hungarian	Uralic	whipa	1.7500	0.7760
+uralic_hun_002	Hungarian	Uralic	whipa_comb	1.0000	0.3594
+uralic_hun_002	Hungarian	Uralic	zipa	0.7500	0.0677
+uralic_hun_002	Hungarian	Uralic	zipa_large	0.7500	0.0677
+uralic_hun_003	Hungarian	Uralic	allophant	0.7500	0.0312
+uralic_hun_003	Hungarian	Uralic	allosaurus	0.7500	0.2812
+uralic_hun_003	Hungarian	Uralic	multipa	0.0000	0.0000
+uralic_hun_003	Hungarian	Uralic	powsm	0.7500	0.2865
+uralic_hun_003	Hungarian	Uralic	wav2vec2phoneme	0.5000	0.0677
+uralic_hun_003	Hungarian	Uralic	whipa	2.7500	1.9792
+uralic_hun_003	Hungarian	Uralic	whipa_comb	0.7500	0.0833
+uralic_hun_003	Hungarian	Uralic	zipa	0.5000	0.0729
+uralic_hun_003	Hungarian	Uralic	zipa_large	0.5000	0.0729
+uralic_hun_004	Hungarian	Uralic	allophant	0.7500	0.0312
+uralic_hun_004	Hungarian	Uralic	allosaurus	0.7500	0.0625
+uralic_hun_004	Hungarian	Uralic	multipa	0.0000	0.0000
+uralic_hun_004	Hungarian	Uralic	powsm	1.0000	0.5156
+uralic_hun_004	Hungarian	Uralic	wav2vec2phoneme	0.5000	0.2812
+uralic_hun_004	Hungarian	Uralic	whipa	3.7500	3.0625
+uralic_hun_004	Hungarian	Uralic	whipa_comb	2.2500	1.4115
+uralic_hun_004	Hungarian	Uralic	zipa	0.5000	0.0417
+uralic_hun_004	Hungarian	Uralic	zipa_large	0.5000	0.0417
+uralic_hun_005	Hungarian	Uralic	allophant	0.7500	0.0312
+uralic_hun_005	Hungarian	Uralic	allosaurus	1.0000	0.1458
+uralic_hun_005	Hungarian	Uralic	multipa	0.0000	0.0000
+uralic_hun_005	Hungarian	Uralic	powsm	0.5000	0.2396
+uralic_hun_005	Hungarian	Uralic	wav2vec2phoneme	0.5000	0.0677
+uralic_hun_005	Hungarian	Uralic	whipa	1.2500	0.5312
+uralic_hun_005	Hungarian	Uralic	whipa_comb	0.7500	0.0625
+uralic_hun_005	Hungarian	Uralic	zipa	0.5000	0.0729
+uralic_hun_005	Hungarian	Uralic	zipa_large	0.5000	0.0729
+uralic_hun_006	Hungarian	Uralic	allophant	0.2000	0.0083
+uralic_hun_006	Hungarian	Uralic	allosaurus	0.8000	0.1042
+uralic_hun_006	Hungarian	Uralic	multipa	0.4000	0.1917
+uralic_hun_006	Hungarian	Uralic	powsm	0.4000	0.1958
+uralic_hun_006	Hungarian	Uralic	wav2vec2phoneme	0.2000	0.0083
+uralic_hun_006	Hungarian	Uralic	whipa	2.6000	2.0750
+uralic_hun_006	Hungarian	Uralic	whipa_comb	1.2000	0.2500
+uralic_hun_006	Hungarian	Uralic	zipa	0.4000	0.0333
+uralic_hun_006	Hungarian	Uralic	zipa_large	0.4000	0.0333
+uralic_hun_007	Hungarian	Uralic	allophant	0.2000	0.0083
+uralic_hun_007	Hungarian	Uralic	allosaurus	0.8000	0.2792
+uralic_hun_007	Hungarian	Uralic	multipa	0.4000	0.2042
+uralic_hun_007	Hungarian	Uralic	powsm	0.2000	0.0083
+uralic_hun_007	Hungarian	Uralic	wav2vec2phoneme	0.4000	0.1958
+uralic_hun_007	Hungarian	Uralic	whipa	0.6000	0.0250
+uralic_hun_007	Hungarian	Uralic	whipa_comb	1.2000	0.2792
+uralic_hun_007	Hungarian	Uralic	zipa	0.8000	0.0500
+uralic_hun_007	Hungarian	Uralic	zipa_large	1.0000	0.2208
+uralic_hun_008	Hungarian	Uralic	allophant	0.6000	0.0333
+uralic_hun_008	Hungarian	Uralic	allosaurus	1.0000	0.2333
+uralic_hun_008	Hungarian	Uralic	multipa	0.8000	0.2208
+uralic_hun_008	Hungarian	Uralic	powsm	0.6000	0.0250
+uralic_hun_008	Hungarian	Uralic	wav2vec2phoneme	0.6000	0.2125
+uralic_hun_008	Hungarian	Uralic	whipa	1.4000	0.8542
+uralic_hun_008	Hungarian	Uralic	whipa_comb	1.0000	0.2542
+uralic_hun_008	Hungarian	Uralic	zipa	1.0000	0.0667
+uralic_hun_008	Hungarian	Uralic	zipa_large	1.0000	0.0750
+uralic_hun_009	Hungarian	Uralic	allophant	0.8000	0.2542
+uralic_hun_009	Hungarian	Uralic	allosaurus	1.0000	0.6417
+uralic_hun_009	Hungarian	Uralic	multipa	0.4000	0.0667
+uralic_hun_009	Hungarian	Uralic	powsm	0.0000	0.0000
+uralic_hun_009	Hungarian	Uralic	wav2vec2phoneme	0.2000	0.2042
+uralic_hun_009	Hungarian	Uralic	whipa	0.4000	0.0542
+uralic_hun_009	Hungarian	Uralic	whipa_comb	0.6000	0.2125
+uralic_hun_009	Hungarian	Uralic	zipa	0.8000	0.2292
+uralic_hun_009	Hungarian	Uralic	zipa_large	0.6000	0.2208
+uralic_hun_010	Hungarian	Uralic	allophant	0.6667	0.4097
+uralic_hun_010	Hungarian	Uralic	allosaurus	0.6667	0.0556
+uralic_hun_010	Hungarian	Uralic	multipa	0.6667	0.1111
+uralic_hun_010	Hungarian	Uralic	powsm	0.0000	0.0000
+uralic_hun_010	Hungarian	Uralic	wav2vec2phoneme	0.3333	0.3403
+uralic_hun_010	Hungarian	Uralic	whipa	2.3333	1.4375
+uralic_hun_010	Hungarian	Uralic	whipa_comb	0.3333	0.0903
+uralic_hun_010	Hungarian	Uralic	zipa	1.0000	0.3542
+uralic_hun_010	Hungarian	Uralic	zipa_large	1.0000	0.3681
+uralic_fin_001	Finnish	Uralic	allophant	0.4000	0.2000
+uralic_fin_001	Finnish	Uralic	allosaurus	0.8000	0.2542
+uralic_fin_001	Finnish	Uralic	multipa	0.2000	0.0167
+uralic_fin_001	Finnish	Uralic	powsm	0.2000	0.1833
+uralic_fin_001	Finnish	Uralic	wav2vec2phoneme	0.2000	0.1833
+uralic_fin_001	Finnish	Uralic	whipa	0.6000	0.1917
+uralic_fin_001	Finnish	Uralic	whipa_comb	0.4000	0.0333
+uralic_fin_001	Finnish	Uralic	zipa	0.2000	0.1833
+uralic_fin_001	Finnish	Uralic	zipa_large	0.2000	0.0167
+uralic_fin_002	Finnish	Uralic	allophant	1.0000	0.3472
+uralic_fin_002	Finnish	Uralic	allosaurus	1.0000	0.6458
+uralic_fin_002	Finnish	Uralic	multipa	0.6667	0.0278
+uralic_fin_002	Finnish	Uralic	powsm	0.0000	0.0000
+uralic_fin_002	Finnish	Uralic	wav2vec2phoneme	0.6667	0.3194
+uralic_fin_002	Finnish	Uralic	whipa	1.0000	0.1528
+uralic_fin_002	Finnish	Uralic	whipa_comb	1.0000	0.0972
+uralic_fin_002	Finnish	Uralic	zipa	0.3333	0.3056
+uralic_fin_002	Finnish	Uralic	zipa_large	0.6667	0.0417
+uralic_fin_003	Finnish	Uralic	allophant	0.6000	0.0333
+uralic_fin_003	Finnish	Uralic	allosaurus	0.6000	0.2125
+uralic_fin_003	Finnish	Uralic	multipa	0.2000	0.0083
+uralic_fin_003	Finnish	Uralic	powsm	0.0000	0.0000
+uralic_fin_003	Finnish	Uralic	wav2vec2phoneme	0.2000	0.1833
+uralic_fin_003	Finnish	Uralic	whipa	0.8000	0.2708
+uralic_fin_003	Finnish	Uralic	whipa_comb	0.6000	0.2000
+uralic_fin_003	Finnish	Uralic	zipa	0.0000	0.0000
+uralic_fin_003	Finnish	Uralic	zipa_large	0.0000	0.0000
+uralic_fin_004	Finnish	Uralic	allophant	0.6667	0.3194
+uralic_fin_004	Finnish	Uralic	allosaurus	1.3333	0.6528
+uralic_fin_004	Finnish	Uralic	multipa	0.6667	0.0694
+uralic_fin_004	Finnish	Uralic	powsm	0.0000	0.0000
+uralic_fin_004	Finnish	Uralic	wav2vec2phoneme	0.6667	0.3056
+uralic_fin_004	Finnish	Uralic	whipa	0.6667	0.1528
+uralic_fin_004	Finnish	Uralic	whipa_comb	1.0000	0.0694
+uralic_fin_004	Finnish	Uralic	zipa	1.0000	0.0556
+uralic_fin_004	Finnish	Uralic	zipa_large	1.0000	0.0556
+uralic_fin_005	Finnish	Uralic	allophant	1.0000	0.3472
+uralic_fin_005	Finnish	Uralic	allosaurus	0.6667	0.3958
+uralic_fin_005	Finnish	Uralic	multipa	0.3333	0.0139
+uralic_fin_005	Finnish	Uralic	powsm	0.3333	0.0278
+uralic_fin_005	Finnish	Uralic	wav2vec2phoneme	0.6667	0.3194
+uralic_fin_005	Finnish	Uralic	whipa	1.0000	0.4028
+uralic_fin_005	Finnish	Uralic	whipa_comb	1.0000	0.3611
+uralic_fin_005	Finnish	Uralic	zipa	0.6667	0.3542
+uralic_fin_005	Finnish	Uralic	zipa_large	0.6667	0.4097
+uralic_fin_006	Finnish	Uralic	allophant	0.5000	0.0278
+uralic_fin_006	Finnish	Uralic	allosaurus	0.6667	0.2431
+uralic_fin_006	Finnish	Uralic	multipa	0.1667	0.0069
+uralic_fin_006	Finnish	Uralic	powsm	0.0000	0.0000
+uralic_fin_006	Finnish	Uralic	wav2vec2phoneme	0.5000	0.1736
+uralic_fin_006	Finnish	Uralic	whipa	0.8333	0.2396
+uralic_fin_006	Finnish	Uralic	whipa_comb	0.8333	0.2500
+uralic_fin_006	Finnish	Uralic	zipa	0.6667	0.1875
+uralic_fin_006	Finnish	Uralic	zipa_large	0.1667	0.0139
+uralic_fin_007	Finnish	Uralic	allophant	0.6000	0.1833
+uralic_fin_007	Finnish	Uralic	allosaurus	1.0000	0.1542
+uralic_fin_007	Finnish	Uralic	multipa	0.6000	0.2167
+uralic_fin_007	Finnish	Uralic	powsm	0.2000	0.0167
+uralic_fin_007	Finnish	Uralic	wav2vec2phoneme	0.4000	0.3667
+uralic_fin_007	Finnish	Uralic	whipa	0.6000	0.2167
+uralic_fin_007	Finnish	Uralic	whipa_comb	0.6000	0.2000
+uralic_fin_007	Finnish	Uralic	zipa	0.2000	0.0083
+uralic_fin_007	Finnish	Uralic	zipa_large	0.2000	0.1833
+uralic_fin_008	Finnish	Uralic	allophant	0.6667	0.3194
+uralic_fin_008	Finnish	Uralic	allosaurus	2.3333	1.3333
+uralic_fin_008	Finnish	Uralic	multipa	1.0000	0.3611
+uralic_fin_008	Finnish	Uralic	powsm	0.3333	0.1111
+uralic_fin_008	Finnish	Uralic	wav2vec2phoneme	0.6667	0.3194
+uralic_fin_008	Finnish	Uralic	whipa	0.6667	0.3194
+uralic_fin_008	Finnish	Uralic	whipa_comb	0.6667	0.0833
+uralic_fin_008	Finnish	Uralic	zipa	0.3333	0.3056
+uralic_fin_008	Finnish	Uralic	zipa_large	0.3333	0.0139
+uralic_fin_009	Finnish	Uralic	allophant	0.6667	0.3194
+uralic_fin_009	Finnish	Uralic	allosaurus	1.3333	0.6458
+uralic_fin_009	Finnish	Uralic	multipa	0.3333	0.0139
+uralic_fin_009	Finnish	Uralic	powsm	0.0000	0.0000
+uralic_fin_009	Finnish	Uralic	wav2vec2phoneme	0.6667	0.3194
+uralic_fin_009	Finnish	Uralic	whipa	0.3333	0.2917
+uralic_fin_009	Finnish	Uralic	whipa_comb	0.6667	0.0486
+uralic_fin_009	Finnish	Uralic	zipa	0.3333	0.0139
+uralic_fin_009	Finnish	Uralic	zipa_large	0.6667	0.0417
+uralic_fin_010	Finnish	Uralic	allophant	0.6000	0.0792
+uralic_fin_010	Finnish	Uralic	allosaurus	1.4000	0.7708
+uralic_fin_010	Finnish	Uralic	multipa	0.6000	0.2000
+uralic_fin_010	Finnish	Uralic	powsm	0.0000	0.0000
+uralic_fin_010	Finnish	Uralic	wav2vec2phoneme	0.4000	0.3583
+uralic_fin_010	Finnish	Uralic	whipa	1.2000	0.6083
+uralic_fin_010	Finnish	Uralic	whipa_comb	1.0000	0.2417
+uralic_fin_010	Finnish	Uralic	zipa	0.0000	0.0000
+uralic_fin_010	Finnish	Uralic	zipa_large	0.0000	0.0000
+nakhdaghestanian_agx_001	Aghul	Nakh-Daghestanian	allophant	0.6667	0.3056
+nakhdaghestanian_agx_001	Aghul	Nakh-Daghestanian	allosaurus	1.0000	0.0764
+nakhdaghestanian_agx_001	Aghul	Nakh-Daghestanian	multipa	0.6667	0.3194
+nakhdaghestanian_agx_001	Aghul	Nakh-Daghestanian	powsm	0.3333	0.0417
+nakhdaghestanian_agx_001	Aghul	Nakh-Daghestanian	wav2vec2phoneme	0.6667	0.6111
+nakhdaghestanian_agx_001	Aghul	Nakh-Daghestanian	whipa	1.6667	0.8472
+nakhdaghestanian_agx_001	Aghul	Nakh-Daghestanian	whipa_comb	1.0000	0.3333
+nakhdaghestanian_agx_001	Aghul	Nakh-Daghestanian	zipa	0.6667	0.3194
+nakhdaghestanian_agx_001	Aghul	Nakh-Daghestanian	zipa_large	0.3333	0.3056
+nakhdaghestanian_agx_002	Aghul	Nakh-Daghestanian	allophant	1.0000	0.2917
+nakhdaghestanian_agx_002	Aghul	Nakh-Daghestanian	allosaurus	1.0000	0.5000
+nakhdaghestanian_agx_002	Aghul	Nakh-Daghestanian	multipa	1.0000	0.2760
+nakhdaghestanian_agx_002	Aghul	Nakh-Daghestanian	powsm	0.7500	0.2708
+nakhdaghestanian_agx_002	Aghul	Nakh-Daghestanian	wav2vec2phoneme	0.5000	0.2396
+nakhdaghestanian_agx_002	Aghul	Nakh-Daghestanian	whipa	1.0000	0.2604
+nakhdaghestanian_agx_002	Aghul	Nakh-Daghestanian	whipa_comb	1.0000	0.3229
+nakhdaghestanian_agx_002	Aghul	Nakh-Daghestanian	zipa	0.7500	0.2917
+nakhdaghestanian_agx_002	Aghul	Nakh-Daghestanian	zipa_large	0.7500	0.2917
+nakhdaghestanian_agx_003	Aghul	Nakh-Daghestanian	allophant	0.6667	0.6111
+nakhdaghestanian_agx_003	Aghul	Nakh-Daghestanian	allosaurus	1.0000	0.2083
+nakhdaghestanian_agx_003	Aghul	Nakh-Daghestanian	multipa	0.6667	0.3056
+nakhdaghestanian_agx_003	Aghul	Nakh-Daghestanian	powsm	0.3333	0.0417
+nakhdaghestanian_agx_003	Aghul	Nakh-Daghestanian	wav2vec2phoneme	0.3333	0.0417
+nakhdaghestanian_agx_003	Aghul	Nakh-Daghestanian	whipa	0.6667	0.3056
+nakhdaghestanian_agx_003	Aghul	Nakh-Daghestanian	whipa_comb	1.0000	0.3333
+nakhdaghestanian_agx_003	Aghul	Nakh-Daghestanian	zipa	0.6667	0.6111
+nakhdaghestanian_agx_003	Aghul	Nakh-Daghestanian	zipa_large	0.3333	0.3056
+nakhdaghestanian_agx_004	Aghul	Nakh-Daghestanian	allophant	0.8571	0.1845
+nakhdaghestanian_agx_004	Aghul	Nakh-Daghestanian	allosaurus	0.8571	0.1815
+nakhdaghestanian_agx_004	Aghul	Nakh-Daghestanian	multipa	0.5714	0.1756
+nakhdaghestanian_agx_004	Aghul	Nakh-Daghestanian	powsm	0.4286	0.1726
+nakhdaghestanian_agx_004	Aghul	Nakh-Daghestanian	wav2vec2phoneme	0.5714	0.0417
+nakhdaghestanian_agx_004	Aghul	Nakh-Daghestanian	whipa	0.8571	0.1845
+nakhdaghestanian_agx_004	Aghul	Nakh-Daghestanian	whipa_comb	0.8571	0.1964
+nakhdaghestanian_agx_004	Aghul	Nakh-Daghestanian	zipa	0.5714	0.0774
+nakhdaghestanian_agx_004	Aghul	Nakh-Daghestanian	zipa_large	0.4286	0.0655
+nakhdaghestanian_agx_005	Aghul	Nakh-Daghestanian	allophant	0.6667	0.3056
+nakhdaghestanian_agx_005	Aghul	Nakh-Daghestanian	allosaurus	1.3333	0.4931
+nakhdaghestanian_agx_005	Aghul	Nakh-Daghestanian	multipa	1.0000	0.4306
+nakhdaghestanian_agx_005	Aghul	Nakh-Daghestanian	powsm	0.3333	0.0417
+nakhdaghestanian_agx_005	Aghul	Nakh-Daghestanian	wav2vec2phoneme	1.0000	0.2639
+nakhdaghestanian_agx_005	Aghul	Nakh-Daghestanian	whipa	1.0000	0.3194
+nakhdaghestanian_agx_005	Aghul	Nakh-Daghestanian	whipa_comb	1.0000	0.1458
+nakhdaghestanian_agx_005	Aghul	Nakh-Daghestanian	zipa	0.6667	0.2361
+nakhdaghestanian_agx_005	Aghul	Nakh-Daghestanian	zipa_large	0.6667	0.2361
+nakhdaghestanian_agx_006	Aghul	Nakh-Daghestanian	allophant	0.6667	0.3056
+nakhdaghestanian_agx_006	Aghul	Nakh-Daghestanian	allosaurus	1.0000	0.2847
+nakhdaghestanian_agx_006	Aghul	Nakh-Daghestanian	multipa	1.0000	0.3472
+nakhdaghestanian_agx_006	Aghul	Nakh-Daghestanian	powsm	0.3333	0.0417
+nakhdaghestanian_agx_006	Aghul	Nakh-Daghestanian	wav2vec2phoneme	0.6667	0.3472
+nakhdaghestanian_agx_006	Aghul	Nakh-Daghestanian	whipa	0.6667	0.3194
+nakhdaghestanian_agx_006	Aghul	Nakh-Daghestanian	whipa_comb	1.3333	0.3611
+nakhdaghestanian_agx_006	Aghul	Nakh-Daghestanian	zipa	0.3333	0.0417
+nakhdaghestanian_agx_006	Aghul	Nakh-Daghestanian	zipa_large	0.6667	0.3472
+nakhdaghestanian_agx_007	Aghul	Nakh-Daghestanian	allophant	0.8333	0.2222
+nakhdaghestanian_agx_007	Aghul	Nakh-Daghestanian	allosaurus	0.8333	0.3194
+nakhdaghestanian_agx_007	Aghul	Nakh-Daghestanian	multipa	0.6667	0.3194
+nakhdaghestanian_agx_007	Aghul	Nakh-Daghestanian	powsm	0.8333	0.2465
+nakhdaghestanian_agx_007	Aghul	Nakh-Daghestanian	wav2vec2phoneme	0.8333	0.2431
+nakhdaghestanian_agx_007	Aghul	Nakh-Daghestanian	whipa	0.8333	0.3264
+nakhdaghestanian_agx_007	Aghul	Nakh-Daghestanian	whipa_comb	0.8333	0.3333
+nakhdaghestanian_agx_007	Aghul	Nakh-Daghestanian	zipa	0.8333	0.1736
+nakhdaghestanian_agx_007	Aghul	Nakh-Daghestanian	zipa_large	0.8333	0.2396
+nakhdaghestanian_agx_008	Aghul	Nakh-Daghestanian	allophant	0.8571	0.2917
+nakhdaghestanian_agx_008	Aghul	Nakh-Daghestanian	allosaurus	0.8571	0.3571
+nakhdaghestanian_agx_008	Aghul	Nakh-Daghestanian	multipa	0.7143	0.2917
+nakhdaghestanian_agx_008	Aghul	Nakh-Daghestanian	powsm	0.4286	0.2798
+nakhdaghestanian_agx_008	Aghul	Nakh-Daghestanian	wav2vec2phoneme	0.5714	0.2857
+nakhdaghestanian_agx_008	Aghul	Nakh-Daghestanian	whipa	0.8571	0.3244
+nakhdaghestanian_agx_008	Aghul	Nakh-Daghestanian	whipa_comb	1.0000	0.2976
+nakhdaghestanian_agx_008	Aghul	Nakh-Daghestanian	zipa	0.5714	0.2054
+nakhdaghestanian_agx_008	Aghul	Nakh-Daghestanian	zipa_large	0.5714	0.1994
+nakhdaghestanian_agx_009	Aghul	Nakh-Daghestanian	allophant	0.8571	0.4137
+nakhdaghestanian_agx_009	Aghul	Nakh-Daghestanian	allosaurus	0.8571	0.1042
+nakhdaghestanian_agx_009	Aghul	Nakh-Daghestanian	multipa	0.5714	0.0923
+nakhdaghestanian_agx_009	Aghul	Nakh-Daghestanian	powsm	0.5714	0.1756
+nakhdaghestanian_agx_009	Aghul	Nakh-Daghestanian	wav2vec2phoneme	0.5714	0.1756
+nakhdaghestanian_agx_009	Aghul	Nakh-Daghestanian	whipa	0.8571	0.3125
+nakhdaghestanian_agx_009	Aghul	Nakh-Daghestanian	whipa_comb	0.8571	0.2976
+nakhdaghestanian_agx_009	Aghul	Nakh-Daghestanian	zipa	0.5714	0.1964
+nakhdaghestanian_agx_009	Aghul	Nakh-Daghestanian	zipa_large	0.5714	0.2054
+nakhdaghestanian_agx_010	Aghul	Nakh-Daghestanian	allophant	0.6667	0.3056
+nakhdaghestanian_agx_010	Aghul	Nakh-Daghestanian	allosaurus	1.0000	0.3889
+nakhdaghestanian_agx_010	Aghul	Nakh-Daghestanian	multipa	1.0000	0.3611
+nakhdaghestanian_agx_010	Aghul	Nakh-Daghestanian	powsm	1.0000	0.3750
+nakhdaghestanian_agx_010	Aghul	Nakh-Daghestanian	wav2vec2phoneme	0.6667	0.3750
+nakhdaghestanian_agx_010	Aghul	Nakh-Daghestanian	whipa	1.3333	0.6806
+nakhdaghestanian_agx_010	Aghul	Nakh-Daghestanian	whipa_comb	1.0000	0.1111
+nakhdaghestanian_agx_010	Aghul	Nakh-Daghestanian	zipa	0.6667	0.0833
+nakhdaghestanian_agx_010	Aghul	Nakh-Daghestanian	zipa_large	1.0000	0.3750
+nakhdaghestanian_cji_001	Chamalal	Nakh-Daghestanian	allophant	0.6000	0.2583
+nakhdaghestanian_cji_001	Chamalal	Nakh-Daghestanian	allosaurus	1.2000	0.6792
+nakhdaghestanian_cji_001	Chamalal	Nakh-Daghestanian	multipa	0.6000	0.0750
+nakhdaghestanian_cji_001	Chamalal	Nakh-Daghestanian	powsm	0.8000	0.2792
+nakhdaghestanian_cji_001	Chamalal	Nakh-Daghestanian	wav2vec2phoneme	0.6000	0.0667
+nakhdaghestanian_cji_001	Chamalal	Nakh-Daghestanian	whipa	0.8000	0.0750
+nakhdaghestanian_cji_001	Chamalal	Nakh-Daghestanian	whipa_comb	1.0000	0.3042
+nakhdaghestanian_cji_001	Chamalal	Nakh-Daghestanian	zipa	0.8000	0.2333
+nakhdaghestanian_cji_001	Chamalal	Nakh-Daghestanian	zipa_large	0.8000	0.2333
+nakhdaghestanian_cji_002	Chamalal	Nakh-Daghestanian	allophant	0.6667	0.3056
+nakhdaghestanian_cji_002	Chamalal	Nakh-Daghestanian	allosaurus	1.0000	0.3681
+nakhdaghestanian_cji_002	Chamalal	Nakh-Daghestanian	multipa	0.6667	0.0903
+nakhdaghestanian_cji_002	Chamalal	Nakh-Daghestanian	powsm	0.6667	0.1458
+nakhdaghestanian_cji_002	Chamalal	Nakh-Daghestanian	wav2vec2phoneme	0.0000	0.0000
+nakhdaghestanian_cji_002	Chamalal	Nakh-Daghestanian	whipa	0.6667	0.0417
+nakhdaghestanian_cji_002	Chamalal	Nakh-Daghestanian	whipa_comb	0.6667	0.4375
+nakhdaghestanian_cji_002	Chamalal	Nakh-Daghestanian	zipa	1.0000	0.1528
+nakhdaghestanian_cji_002	Chamalal	Nakh-Daghestanian	zipa_large	1.0000	0.1736
+nakhdaghestanian_cji_003	Chamalal	Nakh-Daghestanian	allophant	0.7500	0.5521
+nakhdaghestanian_cji_003	Chamalal	Nakh-Daghestanian	allosaurus	0.7500	0.0625
+nakhdaghestanian_cji_003	Chamalal	Nakh-Daghestanian	multipa	0.7500	0.0625
+nakhdaghestanian_cji_003	Chamalal	Nakh-Daghestanian	powsm	1.0000	0.3073
+nakhdaghestanian_cji_003	Chamalal	Nakh-Daghestanian	wav2vec2phoneme	0.7500	0.5417
+nakhdaghestanian_cji_003	Chamalal	Nakh-Daghestanian	whipa	0.7500	0.0417
+nakhdaghestanian_cji_003	Chamalal	Nakh-Daghestanian	whipa_comb	1.0000	0.5312
+nakhdaghestanian_cji_003	Chamalal	Nakh-Daghestanian	zipa	1.5000	0.5521
+nakhdaghestanian_cji_003	Chamalal	Nakh-Daghestanian	zipa_large	1.5000	0.5521
+nakhdaghestanian_cji_004	Chamalal	Nakh-Daghestanian	allophant	1.0000	0.2135
+nakhdaghestanian_cji_004	Chamalal	Nakh-Daghestanian	allosaurus	0.5000	0.4531
+nakhdaghestanian_cji_004	Chamalal	Nakh-Daghestanian	multipa	1.0000	0.2969
+nakhdaghestanian_cji_004	Chamalal	Nakh-Daghestanian	powsm	1.0000	0.2500
+nakhdaghestanian_cji_004	Chamalal	Nakh-Daghestanian	wav2vec2phoneme	1.0000	0.2604
+nakhdaghestanian_cji_004	Chamalal	Nakh-Daghestanian	whipa	1.0000	0.2396
+nakhdaghestanian_cji_004	Chamalal	Nakh-Daghestanian	whipa_comb	1.0000	0.3438
+nakhdaghestanian_cji_004	Chamalal	Nakh-Daghestanian	zipa	1.0000	0.2396
+nakhdaghestanian_cji_004	Chamalal	Nakh-Daghestanian	zipa_large	1.0000	0.2031
+nakhdaghestanian_cji_005	Chamalal	Nakh-Daghestanian	allophant	0.8000	0.2208
+nakhdaghestanian_cji_005	Chamalal	Nakh-Daghestanian	allosaurus	1.0000	0.2792
+nakhdaghestanian_cji_005	Chamalal	Nakh-Daghestanian	multipa	0.6000	0.0333
+nakhdaghestanian_cji_005	Chamalal	Nakh-Daghestanian	powsm	0.6000	0.0333
+nakhdaghestanian_cji_005	Chamalal	Nakh-Daghestanian	wav2vec2phoneme	0.6000	0.0333
+nakhdaghestanian_cji_005	Chamalal	Nakh-Daghestanian	whipa	0.8000	0.0750
+nakhdaghestanian_cji_005	Chamalal	Nakh-Daghestanian	whipa_comb	0.6000	0.0500
+nakhdaghestanian_cji_005	Chamalal	Nakh-Daghestanian	zipa	0.8000	0.0375
+nakhdaghestanian_cji_005	Chamalal	Nakh-Daghestanian	zipa_large	0.8000	0.0375
+nakhdaghestanian_cji_006	Chamalal	Nakh-Daghestanian	allophant	1.3333	0.7153
+nakhdaghestanian_cji_006	Chamalal	Nakh-Daghestanian	allosaurus	1.3333	0.4375
+nakhdaghestanian_cji_006	Chamalal	Nakh-Daghestanian	multipa	1.0000	0.0694
+nakhdaghestanian_cji_006	Chamalal	Nakh-Daghestanian	powsm	1.0000	0.1111
+nakhdaghestanian_cji_006	Chamalal	Nakh-Daghestanian	wav2vec2phoneme	1.0000	0.4375
+nakhdaghestanian_cji_006	Chamalal	Nakh-Daghestanian	whipa	2.3333	1.3056
+nakhdaghestanian_cji_006	Chamalal	Nakh-Daghestanian	whipa_comb	2.0000	1.1042
+nakhdaghestanian_cji_006	Chamalal	Nakh-Daghestanian	zipa	1.3333	0.4028
+nakhdaghestanian_cji_006	Chamalal	Nakh-Daghestanian	zipa_large	2.3333	1.3125
+nakhdaghestanian_cji_007	Chamalal	Nakh-Daghestanian	allophant	0.5000	0.0729
+nakhdaghestanian_cji_007	Chamalal	Nakh-Daghestanian	allosaurus	1.2500	0.5365
+nakhdaghestanian_cji_007	Chamalal	Nakh-Daghestanian	multipa	0.2500	0.2292
+nakhdaghestanian_cji_007	Chamalal	Nakh-Daghestanian	powsm	0.7500	0.2500
+nakhdaghestanian_cji_007	Chamalal	Nakh-Daghestanian	wav2vec2phoneme	0.2500	0.0104
+nakhdaghestanian_cji_007	Chamalal	Nakh-Daghestanian	whipa	0.5000	0.2500
+nakhdaghestanian_cji_007	Chamalal	Nakh-Daghestanian	whipa_comb	1.0000	0.0833
+nakhdaghestanian_cji_007	Chamalal	Nakh-Daghestanian	zipa	0.5000	0.0312
+nakhdaghestanian_cji_007	Chamalal	Nakh-Daghestanian	zipa_large	0.5000	0.0312
+nakhdaghestanian_cji_008	Chamalal	Nakh-Daghestanian	allophant	1.0000	0.2500
+nakhdaghestanian_cji_008	Chamalal	Nakh-Daghestanian	allosaurus	0.7500	0.2865
+nakhdaghestanian_cji_008	Chamalal	Nakh-Daghestanian	multipa	0.7500	0.2969
+nakhdaghestanian_cji_008	Chamalal	Nakh-Daghestanian	powsm	1.0000	0.2500
+nakhdaghestanian_cji_008	Chamalal	Nakh-Daghestanian	wav2vec2phoneme	1.0000	0.2604
+nakhdaghestanian_cji_008	Chamalal	Nakh-Daghestanian	whipa	0.2500	0.0677
+nakhdaghestanian_cji_008	Chamalal	Nakh-Daghestanian	whipa_comb	1.0000	0.3229
+nakhdaghestanian_cji_008	Chamalal	Nakh-Daghestanian	zipa	1.0000	0.2500
+nakhdaghestanian_cji_008	Chamalal	Nakh-Daghestanian	zipa_large	1.0000	0.2500
+nakhdaghestanian_cji_009	Chamalal	Nakh-Daghestanian	allophant	1.2500	0.3021
+nakhdaghestanian_cji_009	Chamalal	Nakh-Daghestanian	allosaurus	1.0000	0.7292
+nakhdaghestanian_cji_009	Chamalal	Nakh-Daghestanian	multipa	1.0000	0.3281
+nakhdaghestanian_cji_009	Chamalal	Nakh-Daghestanian	powsm	0.7500	0.4792
+nakhdaghestanian_cji_009	Chamalal	Nakh-Daghestanian	wav2vec2phoneme	0.5000	0.0312
+nakhdaghestanian_cji_009	Chamalal	Nakh-Daghestanian	whipa	1.0000	0.2812
+nakhdaghestanian_cji_009	Chamalal	Nakh-Daghestanian	whipa_comb	1.2500	0.7344
+nakhdaghestanian_cji_009	Chamalal	Nakh-Daghestanian	zipa	1.0000	0.4844
+nakhdaghestanian_cji_009	Chamalal	Nakh-Daghestanian	zipa_large	1.2500	0.7188
+nakhdaghestanian_cji_010	Chamalal	Nakh-Daghestanian	allophant	0.6000	0.1042
+nakhdaghestanian_cji_010	Chamalal	Nakh-Daghestanian	allosaurus	0.8000	0.2792
+nakhdaghestanian_cji_010	Chamalal	Nakh-Daghestanian	multipa	0.4000	0.2375
+nakhdaghestanian_cji_010	Chamalal	Nakh-Daghestanian	powsm	0.6000	0.0833
+nakhdaghestanian_cji_010	Chamalal	Nakh-Daghestanian	wav2vec2phoneme	0.4000	0.0750
+nakhdaghestanian_cji_010	Chamalal	Nakh-Daghestanian	whipa	0.8000	0.2500
+nakhdaghestanian_cji_010	Chamalal	Nakh-Daghestanian	whipa_comb	0.8000	0.0958
+nakhdaghestanian_cji_010	Chamalal	Nakh-Daghestanian	zipa	0.4000	0.1083
+nakhdaghestanian_cji_010	Chamalal	Nakh-Daghestanian	zipa_large	0.4000	0.0792

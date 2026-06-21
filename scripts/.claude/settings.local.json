@@ -1,0 +1,34 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(/home/allan/phonetic_eval/envs/env_allophant/bin/pip list *)",
+      "Bash(/home/allan/phonetic_eval/envs/env_allophant/bin/python -m pip list)",
+      "Bash(uv --version)",
+      "Bash(/home/allan/phonetic_eval/envs/env_allophant/bin/python -c \"import allophant, torch, torchaudio; print\\('allophant OK, torch', torch.__version__, 'cuda', torch.cuda.is_available\\(\\)\\)\")",
+      "Bash(/home/allan/phonetic_eval/envs/env_allosaurus/bin/python -c \"import allosaurus, torch; print\\('allosaurus OK, torch', torch.__version__\\)\")",
+      "Bash(/home/allan/phonetic_eval/envs/env_hf/bin/python -c \"import torch, transformers, torchaudio, librosa, soundfile; print\\('hf OK transformers', transformers.__version__\\)\")",
+      "Bash(timeout 15 git ls-remote https://github.com/pacscilab/voxangeles HEAD)",
+      "Bash(timeout 15 curl -sI https://huggingface.co)",
+      "Bash(curl -s -o /dev/null -w '%{http_code}' https://huggingface.co/api/models/__TRACKED_VAR__)",
+      "Bash(curl -sL \"https://raw.githubusercontent.com/jshrdt/whipa/main/README.md\")",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\\\\n\" \"https://raw.githubusercontent.com/ctaguchi/multipa/main/README.md\")",
+      "Bash(curl -s \"https://api.github.com/repos/pacscilab/voxangeles\")",
+      "Bash(curl -sL \"https://codeload.github.com/pacscilab/voxangeles/tar.gz/refs/heads/main\" -o vox.tar.gz)",
+      "Bash(tar tzf *)",
+      "Bash(tar xzf *)",
+      "Bash(mv voxangeles-main *)",
+      "Bash(rm vox.tar.gz)",
+      "Bash(unzip -l voxangeles/data/audited_aligned/ces.zip)",
+      "Bash(/home/allan/phonetic_eval/envs/env_score/bin/python -c 'import jiwer,panphon;print\\(\"ok\"\\)')",
+      "Bash(echo \"env_score: $\\(/home/allan/phonetic_eval/envs/env_score/bin/python -c 'import jiwer,panphon;print\\(\"ok\"\\)'\\)\")",
+      "Bash(uv pip *)",
+      "Bash(envs/env_allophant/bin/python -c \"import soundfile; print\\('ok', soundfile.__version__\\)\")",
+      "Bash(awk '/START wav2vec2phoneme/{f=1} /END wav2vec2phoneme/{f=0} f' ~/phonetic_eval/results/run_tier12.log)",
+      "Bash(sed -n '120,190p' envs/env_hf/lib64/python3.12/site-packages/transformers/models/wav2vec2_phoneme/tokenization_wav2vec2_phoneme.py)",
+      "Bash(envs/env_allophant/bin/python -m allophant --help)",
+      "Bash(envs/env_allophant/bin/python /tmp/allo_probe.py)",
+      "Bash(sed -i 's/\"phonemes\"/\"phoneme\"/g' /tmp/allo_test.py)",
+      "Bash(envs/env_allophant/bin/python /tmp/allo_test.py)"
+    ]
+  }
+}

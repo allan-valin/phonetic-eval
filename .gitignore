@@ -1,0 +1,20 @@
+# --- large / regenerable / license-restricted assets (NOT committed) ---
+audio/
+corpora/
+envs/
+models/
+papers/
+results/
+runs/*/results.tar.gz
+*.tar.gz
+
+# build / cache
+__pycache__/
+*.pyc
+.cache/
+
+# local editor / agent settings + verbose logs
+.claude/
+*.log
+
+# raw per-file predictions are archived in runs/<name>/results.tar.gz, not tracked

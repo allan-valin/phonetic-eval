@@ -1,0 +1,18 @@
+[2026-06-21 23:30:12] PHASE balanced START
+[2026-06-21 23:30:12] build: scripts/build_testset.py --families 11 --langs-per-family 2 --utts 40
+  Abkhaz-Adyge     abk: 40 utts
+
+Wrote 720 files to audio/ and references.tsv
+Families: ['Abkhaz-Adyge', 'Afro-Asiatic', 'Atlantic-Congo', 'Austroasiatic', 'Austronesian', 'Indo-European', 'Nakh-Daghestanian', 'Sino-Tibetan', 'Uralic']
+Languages: ['Abkhaz', 'Adyghe', 'Arabic, North Levantine Spoken', 'Maltese', 'Cherepon', 'Ganda', 'Bruu', 'Khmer (Cambodian)', 'Ilocano', 'Kapampangan', 'Farsi, Western', 'Icelandic', 'Aghul', 'Chamalal', 'Burmese', 'Chinese, Cantonese', 'Finnish', 'Hungarian']
+[2026-06-21 23:30:42] built 720 wav files
+[2026-06-21 23:30:42] clearing old results/*.txt
+[2026-06-21 23:30:42] model zipa-small start
+[2026-06-21 23:31:05] model zipa-small done rc=0
+[2026-06-21 23:31:05] model zipa-large start
+[2026-06-21 23:31:52] model zipa-large done rc=0
+[2026-06-21 23:31:52] model allosaurus start
+[2026-06-21 23:32:24] model allosaurus done rc=0
+[2026-06-21 23:32:24] model allophant start
+[2026-06-21 23:33:54] model allophant done rc=0
+[2026-06-21 23:33:54] model wav2vec2 start
