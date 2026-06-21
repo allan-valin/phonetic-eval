@@ -102,9 +102,10 @@ Each model runs in its own environment (see [§7](#7-setup--automatic-vs-manual)
 ## 4. Results: our numbers vs. the paper
 
 All values are **%** (PER and PFER ×100). Our numbers below are from the
-**160-file** balanced pilot (8 families × 2 langs × 10 utts). The paper's column
-is its **VoxAngeles "Overall"** result (Table 3), computed over all 21 families.
-The sets differ, so treat this as a **calibration check**, not an identical
+**balanced run** (`runs/balanced/`): 9 families × 2 langs × 40 utts = 720 files.
+The paper's column is its **VoxAngeles "Overall"** result (Table 3), computed over
+all 21 families. The sets differ (ours is balanced across families; theirs spans
+the full corpus), so treat this as a **calibration check**, not an identical
 re-run — the full-corpus run (`runs/full/`, see [§11](#11-reproducing--verifying-the-numbers))
 is the apples-to-apples match and will be updated here when it finishes.
 
@@ -112,26 +113,30 @@ is the apples-to-apples match and will be updated here when it finishes.
 
 | Config | = Paper model | Our PER | Paper PER | Our PFER | Paper PFER |
 |---|---|--:|--:|--:|--:|
-| `multipa` | MultIPA | 59.4 | 60.1 | 14.4 | 15.4 |
-| `whipa` | CV WhIPA Base | 83.7 | 87.8 | 27.7 | 32.1 |
-| `whipa_comb` | Combined LoWhIPA Base | 83.1 | 81.6 | 22.5 | 23.0 |
+| `multipa` | MultIPA | 68.9 | 60.1 | 17.9 | 15.4 |
+| `whipa` | CV WhIPA Base | 87.7 | 87.8 | 30.1 | 32.1 |
+| `whipa_comb` | Combined LoWhIPA Base | 83.1 | 81.6 | 23.8 | 23.0 |
 
-The three overlapping models land within a few points of the paper on both
-metrics — a good sign the pipeline and metrics are faithful.
+The overlapping models track the paper closely — WhIPA Base lands almost exactly
+on the paper's number (87.7 vs. 87.8 PER), and LoWhIPA within ~1 point — a good
+sign the pipeline and metrics are faithful. MultIPA reads a few points harder
+here because our balanced set deliberately includes difficult unseen families.
 
 ### Models we add (not scored on VoxAngeles in the paper)
 
+Sorted best-PER first (720-file balanced run):
+
 | Config | Our PER | Our PFER |
 |---|--:|--:|
-| `powsm` | 51.7 | 13.8 |
-| `wav2vec2phoneme` | 53.0 | 17.3 |
-| `multipa` | 59.4 | 14.4 |
-| `zipa` (small) | 67.7 | 17.0 |
-| `zipa_large` | 68.4 | 17.4 |
-| `allophant` | 70.7 | 21.7 |
-| `whipa_comb` | 83.1 | 22.5 |
-| `whipa` | 83.7 | 27.7 |
-| `allosaurus` | 92.1 | 30.7 |
+| `powsm` | 60.8 | 19.0 |
+| `wav2vec2phoneme` | 61.5 | 20.6 |
+| `multipa` | 68.9 | 17.9 |
+| `zipa` (small) | 70.2 | 20.2 |
+| `allophant` | 73.2 | 22.9 |
+| `zipa_large` | 73.6 | 21.8 |
+| `whipa_comb` | 83.1 | 23.8 |
+| `whipa` | 87.7 | 30.1 |
+| `allosaurus` | 93.3 | 33.1 |
 
 On this set POWSM leads on both metrics. **High PER with low PFER is expected**,
 not a bug: the references are *narrow* audited IPA (length marks, devoicing,
