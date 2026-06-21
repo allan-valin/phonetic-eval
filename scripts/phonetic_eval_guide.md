@@ -5,7 +5,7 @@ Linux server. It is written to be self-contained: you can follow it top to
 bottom, and you can paste any section into Claude CLI when you need help with a
 specific step.
 
-**Server:** 10.32.64.30 (university VPN required, accessed via SSH)
+**Server:** <SERVER_IP> (university VPN required, accessed via SSH)
 **Goal:** run several phonetic transcription models on shared test audio, then
 score them with Phone Error Rate (PER) and Phonological Feature Error Rate (PFER).
 **Test corpora chosen:** VoxAngeles, DoReCo, THCHS-30, ASC.
@@ -52,7 +52,7 @@ score them with Phone Error Rate (PER) and Phonological Feature Error Rate (PFER
 On your own machine, with the university VPN active, open PowerShell and run:
 
 ```powershell
-ssh your_username@10.32.64.30
+ssh your_username@<SERVER_IP>
 ```
 
 Replace `your_username` with the account the professor gave you. Enter your
@@ -72,9 +72,9 @@ machine** (not from inside the SSH session). Examples:
 
 ```powershell
 # laptop -> server
-scp -r C:\path\to\local\folder your_username@10.32.64.30:/home/your_username/
+scp -r C:\path\to\local\folder your_username@<SERVER_IP>:/home/your_username/
 # server -> laptop
-scp your_username@10.32.64.30:/home/your_username/phonetic_eval/results.zip C:\path\to\save\
+scp your_username@<SERVER_IP>:/home/your_username/phonetic_eval/results.zip C:\path\to\save\
 ```
 
 ---
@@ -232,7 +232,7 @@ licence and download bundles). There is no simple one-line CLI. Recommended:
 download the 3-4 language bundles you want on your laptop, then `scp` them up:
 ```powershell
 # on your laptop, after downloading bundles to a local folder:
-scp -r C:\path\to\doreco_bundles your_username@10.32.64.30:/home/your_username/phonetic_eval/corpora/doreco/
+scp -r C:\path\to\doreco_bundles your_username@<SERVER_IP>:/home/your_username/phonetic_eval/corpora/doreco/
 ```
 DoReCo transcriptions are in **X-SAMPA** and need conversion to IPA. Use the
 Python library `jhasegaw/phonecodes` (academically citable):

@@ -17,4 +17,7 @@ __pycache__/
 .claude/
 *.log
 
+# private working notes (contain server/SSH details)
+RESUME.md
+
 # raw per-file predictions are archived in runs/<name>/results.tar.gz, not tracked
