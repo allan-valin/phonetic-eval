@@ -46,11 +46,14 @@ MULTIPA_CHECKPOINT = "ctaguchi/wav2vec2-large-xlsr-japlmthufielta-ipa1000-ns"
 #              -> zero-shot on our 6 test languages.
 #   base-comb: LoRA adapter, trained on Arabic (ASC) + MultIPA-CV + Mandarin
 #              (THCHS-30) -> more broadly multilingual; the fairer representative.
+# Each variant: (model dir under models/, lora?, results subfolder, base Whisper).
+#   base-* use whisper-base (74M, CPU-friendly); large-cv is the paper's headline
+#   whisper-large-v2 backbone (~1.5B) -> much slower on CPU, but ~halves base PER.
 WHIPA_VARIANTS = {
-    "base-cv":   ("whipa_base_cv",     False, "whipa"),
-    "base-comb": ("lowhipa_base_comb", True,  "whipa_comb"),
+    "base-cv":   ("whipa_base_cv",     False, "whipa",       "openai/whisper-base"),
+    "base-comb": ("lowhipa_base_comb", True,  "whipa_comb",  "openai/whisper-base"),
+    "large-cv":  ("whipa_large_cv",    False, "whipa_large", "openai/whisper-large-v2"),
 }
-WHIPA_BASE_MODEL = "openai/whisper-base"
 WHIPA_REPO_CODE = os.path.join(PROJECT_DIR, "corpora", "whipa_repo", "code")
 # ZIPA (Tier 3): ONNX CTC path — no k2/icefall needed. model.onnx + tokens.txt
 # downloaded from an anyspeech HF hub into models/zipa_*/ (see RESUME.md).
@@ -153,11 +156,10 @@ def run_whipa(variant="base-cv"):
     from deploy import WHIPA
     from scripts.metrics import retokenize_ipa
 
-    model_subdir, lora, out_name = WHIPA_VARIANTS[variant]
+    model_subdir, lora, out_name, base_model = WHIPA_VARIANTS[variant]
     model_path = os.path.join(PROJECT_DIR, "models", model_subdir)
     outdir = ensure_outdir(out_name)
-    whipa = WHIPA(model_path=model_path, base_model_name=WHIPA_BASE_MODEL,
-                  lora=lora)
+    whipa = WHIPA(model_path=model_path, base_model_name=base_model, lora=lora)
     model, tokenizer = whipa.model, whipa.tokenizer
     n_beams = whipa.ft_config.get("gen_args", {}).get("num_beams", 5)
     max_phones_per_sec = 20.0
