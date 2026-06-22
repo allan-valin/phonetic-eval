@@ -1,10 +1,10 @@
-model	n	mean_PER	mean_PFER
-allophant	720	0.7318	0.2292
-allosaurus	720	0.9326	0.3312
-multipa	720	0.6892	0.1786
-powsm	720	0.6079	0.1900
-wav2vec2phoneme	720	0.6145	0.2058
-whipa	720	0.8766	0.3008
-whipa_comb	720	0.8313	0.2376
-zipa	720	0.7017	0.2022
-zipa_large	720	0.7355	0.2180
+model	n	mean_PER	mean_PFER	mean_PER_folded	mean_PFER_folded
+allophant	720	0.7318	0.2292	0.5266	0.2026
+allosaurus	720	0.9326	0.3312	0.8420	0.3241
+multipa	720	0.6892	0.1786	0.5677	0.1620
+powsm	720	0.6079	0.1900	0.5053	0.1719
+wav2vec2phoneme	720	0.6145	0.2058	0.4903	0.1774
+whipa	720	0.8766	0.3008	0.7459	0.2762
+whipa_comb	720	0.8313	0.2376	0.6201	0.2060
+zipa	720	0.7017	0.2022	0.5564	0.1703
+zipa_large	720	0.7355	0.2180	0.5858	0.1845

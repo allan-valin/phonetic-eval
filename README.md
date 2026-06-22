@@ -14,7 +14,7 @@ conflicting dependencies never meet.
 1. [What this does](#1-what-this-does)
 2. [The paper this is based on](#2-the-paper-this-is-based-on)
 3. [Models evaluated](#3-models-evaluated)
-4. [Results: our numbers vs. the paper](#4-results-our-numbers-vs-the-paper)
+4. [Results: recomputed numbers vs. the STIPA paper](#4-results-recomputed-numbers-vs-the-stipa-paper)
 5. [How the evaluation works](#5-how-the-evaluation-works)
 6. [Repository layout](#6-repository-layout)
 7. [Setup — automatic vs. manual](#7-setup--automatic-vs-manual)
@@ -93,51 +93,60 @@ Each model runs in its own environment (see [§7](#7-setup--automatic-vs-manual)
 
 > WhIPA variants here use **whisper-base** (74M) for CPU speed; the paper's
 > headline results use **whisper-large-v2**. So our WhIPA rows are honest but on
-> the smaller backbone — see [§4](#4-results-our-numbers-vs-the-paper).
+> the smaller backbone — see [§4](#4-results-recomputed-numbers-vs-the-stipa-paper).
 
 [↑ Back to top](#table-of-contents)
 
 ---
 
-## 4. Results: our numbers vs. the paper
+## 4. Results: recomputed numbers vs. the STIPA paper
 
-All values are **%** (PER and PFER ×100). Our numbers below are from the
-**full-corpus run** (`runs/full/`): all 21 families, 95 languages, 5416 files —
-the apples-to-apples match for the paper's **VoxAngeles "Overall"** result
-(Table 3, also computed over the full corpus). A **balanced run** (`runs/balanced/`:
-9 families × 2 langs × 40 utts = 720 files) is kept as a cross-check; its numbers
-read a few points harder because it deliberately over-weights difficult unseen
-families. See [§11](#11-reproducing--verifying-the-numbers) for how both were produced.
+The reference benchmark throughout this section is the **STIPA paper** (Suchardt,
+El-Shazli & Cassotti, EMNLP 2025; [see §2](#2-the-paper-this-is-based-on)) — *not* the
+individual model papers linked in [§3](#3-models-evaluated). All values are **%**
+(PER and PFER ×100). The **Recomputed** columns are our own re-run of each model on
+VoxAngeles (this repo); the **STIPA paper** columns are that paper's published
+VoxAngeles "Overall" result (its Table 3).
 
-### Models also evaluated in the paper (direct comparison)
+Recomputed numbers below are from the **full-corpus run** (`runs/full/`): all 21
+families, 95 languages, 5416 files — the apples-to-apples match for the STIPA
+paper's "Overall", which is also computed over the full corpus. A **balanced run**
+(`runs/balanced/`: 9 families × 2 langs × 40 utts = 720 files) is kept as a
+cross-check; its numbers read a few points harder because it deliberately
+over-weights difficult unseen families. See
+[§11](#11-reproducing--verifying-the-numbers) for how both were produced.
 
-| Config | = Paper model | Our PER | Paper PER | Our PFER | Paper PFER |
+### Models also evaluated in the STIPA paper (direct comparison)
+
+| Config | = STIPA-paper model | Recomputed PER | STIPA-paper PER | Recomputed PFER | STIPA-paper PFER |
 |---|---|--:|--:|--:|--:|
 | `multipa` | MultIPA | 62.4 | 60.1 | 15.0 | 15.4 |
 | `whipa` | CV WhIPA Base | 83.7 | 87.8 | 27.1 | 32.1 |
 | `whipa_comb` | Combined LoWhIPA Base | 77.8 | 81.6 | 19.3 | 23.0 |
 
-The overlapping models track the paper closely on the full corpus — MultIPA within
-~2 PER points (62.4 vs. 60.1) and almost exact on PFER (15.0 vs. 15.4), WhIPA Base
-within ~4 points, and LoWhIPA within ~4 — a good sign the pipeline and metrics are
-faithful. The small residual gap is consistent with our references being the
-*narrow* audited IPA (see the PER/PFER note below).
+The overlapping models track the STIPA paper closely on the full corpus — MultIPA
+within ~2 PER points (62.4 vs. 60.1) and almost exact on PFER (15.0 vs. 15.4),
+WhIPA Base within ~4 points, and LoWhIPA within ~4 — a good sign the pipeline and
+metrics are faithful. The small residual gap is consistent with our references
+being the *narrow* audited IPA (see the PER/PFER note below).
 
-### Models we add (not scored on VoxAngeles in the paper)
+### Models we add (not scored on VoxAngeles in the STIPA paper)
 
-Sorted best-PER first (5416-file full-corpus run):
+Sorted best-PER first (5416-file full-corpus run). **Strict** columns score the raw
+narrow IPA; **folded** columns score after `fold_to_broad()` strips diacritics,
+length and tone (see [§10](#10-scoring-per--pfer)):
 
-| Config | Our PER | Our PFER |
-|---|--:|--:|
-| `wav2vec2phoneme` | 53.0 | 15.4 |
-| `powsm` | 55.5 | 16.1 |
-| `multipa` | 62.4 | 15.0 |
-| `zipa` (small) | 64.2 | 18.0 |
-| `zipa_large` | 69.1 | 20.3 |
-| `allophant` | 71.0 | 20.5 |
-| `whipa_comb` | 77.8 | 19.3 |
-| `whipa` | 83.7 | 27.1 |
-| `allosaurus` | 91.7 | 32.7 |
+| Config | PER (strict) | PER (folded) | PFER (strict) | PFER (folded) |
+|---|--:|--:|--:|--:|
+| `wav2vec2phoneme` | 53.0 | 41.7 | 15.4 | 13.6 |
+| `powsm` | 55.5 | 45.7 | 16.1 | 15.1 |
+| `multipa` | 62.4 | 50.3 | 15.0 | 14.1 |
+| `zipa` (small) | 64.2 | 50.4 | 18.0 | 15.9 |
+| `zipa_large` | 69.1 | 54.5 | 20.3 | 18.1 |
+| `allophant` | 71.0 | 50.6 | 20.5 | 18.6 |
+| `whipa_comb` | 77.8 | 55.4 | 19.3 | 17.1 |
+| `whipa` | 83.7 | 68.8 | 27.1 | 25.4 |
+| `allosaurus` | 91.7 | 82.6 | 32.7 | 32.5 |
 
 On the full corpus `wav2vec2phoneme` leads on PER (it and POWSM swap the top two
 spots between the balanced and full sets), while `multipa` edges the best PFER.
@@ -145,6 +154,10 @@ spots between the balanced and full sets), while `multipa` edges the best PFER.
 not a bug: the references are *narrow* audited IPA (length marks, devoicing,
 dentals) while models emit *broad* phones — exact-match PER punishes `iː`≠`i`,
 but feature-based PFER stays low because the phones are articulatorily close.
+**Folding the references to broad phones drops PER by ~11–22 points** (e.g.
+`whipa_comb` 77.8→55.4, `wav2vec2phoneme` 53.0→41.7) while barely moving PFER —
+direct confirmation that most of the strict-PER penalty is reference granularity,
+not recognition error.
 
 Full per-family breakdowns: `runs/<name>/summary_by_family.tsv`; reference
 snapshot to verify against: `runs/PREVIOUS_RESULTS.md`.
@@ -394,6 +407,15 @@ What to know per model:
   code embedded in each filename.
 - After a run, eyeball a few outputs: `head results/multipa/*.txt`.
 
+### 9c. Manual — the upstream way (no wrapper)
+
+`run_inference.py` (§9b) is *this project's* convenience wrapper. To run each model
+**the way its own authors document it** — install from the upstream README/model
+card, prepare the audio yourself, call the author's command, read IPA off
+stdout — see [`docs/manual_runs/`](docs/manual_runs/README.md): one standalone file
+per model, plus a shared audio-prep section. Useful for understanding exactly what
+the wrapper automates, or for reproducing a model without this repo at all.
+
 [↑ Back to top](#table-of-contents)
 
 ---
@@ -413,6 +435,15 @@ Unicode and strips non-phone tokens before scoring; see the metric notes in
 [§5](#5-how-the-evaluation-works) and the cleaning logic in the script's
 `clean_ipa()`.
 
+**Two granularities per metric.** Each TSV reports PER and PFER twice: a *strict*
+column scored on the raw narrow IPA, and a `*_folded` column scored after
+`fold_to_broad()` removes every diacritic, length and tone mark (it drops all
+Unicode `Mn`/`Lm`/`Sk` code points on the NFD form), collapsing e.g. `iː`→`i`,
+`b̥`→`b`, `t̪`→`t`. The folded numbers are a **diagnostic** of how much PER comes
+from reference granularity rather than recognition error — they do not replace the
+strict metric. The gap is large for PER and small for PFER (see the [§4](#4-results-recomputed-numbers-vs-the-stipa-paper)
+table), because PFER already credits articulatory closeness.
+
 [↑ Back to top](#table-of-contents)
 
 ---
@@ -430,10 +461,10 @@ To confirm a model still reproduces `runs/PREVIOUS_RESULTS.md`:
 Archived runs live in `runs/<name>/` (each with its own `references.tsv` and
 summaries). The **full-corpus** run (`runs/full/`) is the set directly comparable
 to the paper's Table 3; when it completes, its `summary_by_model.tsv` replaces the
-calibration numbers in [§4](#4-results-our-numbers-vs-the-paper).
+calibration numbers in [§4](#4-results-recomputed-numbers-vs-the-stipa-paper).
 
 A high PER with a low PFER is **expected**, not a regression — it is the
-broad-vs-narrow IPA mismatch described in [§4](#4-results-our-numbers-vs-the-paper)
+broad-vs-narrow IPA mismatch described in [§4](#4-results-recomputed-numbers-vs-the-stipa-paper)
 and `RESUME.md`.
 
 [↑ Back to top](#table-of-contents)

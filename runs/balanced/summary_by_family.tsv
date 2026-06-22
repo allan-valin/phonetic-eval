@@ -1,82 +1,82 @@
-model	family	n	mean_PER	mean_PFER
-allophant	Abkhaz-Adyge	80	0.9917	0.3705
-allophant	Afro-Asiatic	80	0.6701	0.1822
-allophant	Atlantic-Congo	80	0.6506	0.2088
-allophant	Austroasiatic	80	0.7433	0.2515
-allophant	Austronesian	80	0.5987	0.1687
-allophant	Indo-European	80	0.7600	0.1878
-allophant	Nakh-Daghestanian	80	0.7842	0.2924
-allophant	Sino-Tibetan	80	0.6910	0.1862
-allophant	Uralic	80	0.6963	0.2144
-allosaurus	Abkhaz-Adyge	80	1.1657	0.4868
-allosaurus	Afro-Asiatic	80	0.9171	0.2976
-allosaurus	Atlantic-Congo	80	0.9783	0.4501
-allosaurus	Austroasiatic	80	0.9225	0.3006
-allosaurus	Austronesian	80	0.7544	0.2231
-allosaurus	Indo-European	80	0.9619	0.3000
-allosaurus	Nakh-Daghestanian	80	0.9426	0.3230
-allosaurus	Sino-Tibetan	80	0.8331	0.2374
-allosaurus	Uralic	80	0.9175	0.3625
-multipa	Abkhaz-Adyge	80	0.9481	0.3395
-multipa	Afro-Asiatic	80	0.5816	0.1158
-multipa	Atlantic-Congo	80	0.5269	0.1316
-multipa	Austroasiatic	80	0.8254	0.2463
-multipa	Austronesian	80	0.5780	0.1453
-multipa	Indo-European	80	0.7646	0.1410
-multipa	Nakh-Daghestanian	80	0.7522	0.1931
-multipa	Sino-Tibetan	80	0.7094	0.1665
-multipa	Uralic	80	0.5169	0.1282
-powsm	Abkhaz-Adyge	80	1.0358	0.4845
-powsm	Afro-Asiatic	80	0.6224	0.1437
-powsm	Atlantic-Congo	80	0.4739	0.1644
-powsm	Austroasiatic	80	0.6873	0.2097
-powsm	Austronesian	80	0.4018	0.1263
-powsm	Indo-European	80	0.6969	0.1476
-powsm	Nakh-Daghestanian	80	0.6729	0.2054
-powsm	Sino-Tibetan	80	0.4935	0.1147
-powsm	Uralic	80	0.3867	0.1139
-wav2vec2phoneme	Abkhaz-Adyge	80	0.9188	0.3851
-wav2vec2phoneme	Afro-Asiatic	80	0.5137	0.1429
-wav2vec2phoneme	Atlantic-Congo	80	0.3934	0.1120
-wav2vec2phoneme	Austroasiatic	80	0.6871	0.2609
-wav2vec2phoneme	Austronesian	80	0.4308	0.1395
-wav2vec2phoneme	Indo-European	80	0.7400	0.1904
-wav2vec2phoneme	Nakh-Daghestanian	80	0.7062	0.2756
-wav2vec2phoneme	Sino-Tibetan	80	0.6719	0.1808
-wav2vec2phoneme	Uralic	80	0.4683	0.1650
-whipa	Abkhaz-Adyge	80	1.0283	0.3784
-whipa	Afro-Asiatic	80	0.6767	0.1781
-whipa	Atlantic-Congo	80	0.9075	0.2963
-whipa	Austroasiatic	80	1.0752	0.4735
-whipa	Austronesian	80	0.6095	0.1654
-whipa	Indo-European	80	0.8423	0.1945
-whipa	Nakh-Daghestanian	80	0.9770	0.3502
-whipa	Sino-Tibetan	80	0.7615	0.1926
-whipa	Uralic	80	1.0110	0.4782
-whipa_comb	Abkhaz-Adyge	80	1.0694	0.4660
-whipa_comb	Afro-Asiatic	80	0.6785	0.1553
-whipa_comb	Atlantic-Congo	80	0.7929	0.1363
-whipa_comb	Austroasiatic	80	0.7840	0.2597
-whipa_comb	Austronesian	80	0.7314	0.2022
-whipa_comb	Indo-European	80	0.9035	0.2286
-whipa_comb	Nakh-Daghestanian	80	0.9187	0.2766
-whipa_comb	Sino-Tibetan	80	0.8765	0.2439
-whipa_comb	Uralic	80	0.7269	0.1702
-zipa	Abkhaz-Adyge	80	0.9482	0.3409
-zipa	Afro-Asiatic	80	0.6845	0.1688
-zipa	Atlantic-Congo	80	0.5487	0.1814
-zipa	Austroasiatic	80	0.7060	0.2271
-zipa	Austronesian	80	0.4893	0.1372
-zipa	Indo-European	80	0.8444	0.1557
-zipa	Nakh-Daghestanian	80	0.7622	0.2285
-zipa	Sino-Tibetan	80	0.7319	0.2101
-zipa	Uralic	80	0.5998	0.1703
-zipa_large	Abkhaz-Adyge	80	1.0101	0.3767
-zipa_large	Afro-Asiatic	80	0.7041	0.1618
-zipa_large	Atlantic-Congo	80	0.6044	0.2167
-zipa_large	Austroasiatic	80	0.7627	0.2474
-zipa_large	Austronesian	80	0.5204	0.1432
-zipa_large	Indo-European	80	0.8092	0.1677
-zipa_large	Nakh-Daghestanian	80	0.8272	0.2642
-zipa_large	Sino-Tibetan	80	0.7096	0.1972
-zipa_large	Uralic	80	0.6723	0.1872
+model	family	n	mean_PER	mean_PFER	mean_PER_folded	mean_PFER_folded
+allophant	Abkhaz-Adyge	80	0.9917	0.3705	0.7869	0.2903
+allophant	Afro-Asiatic	80	0.6701	0.1822	0.4578	0.1465
+allophant	Atlantic-Congo	80	0.6506	0.2088	0.4506	0.2039
+allophant	Austroasiatic	80	0.7433	0.2515	0.5560	0.2226
+allophant	Austronesian	80	0.5987	0.1687	0.4328	0.1600
+allophant	Indo-European	80	0.7600	0.1878	0.4879	0.1635
+allophant	Nakh-Daghestanian	80	0.7842	0.2924	0.5559	0.2606
+allophant	Sino-Tibetan	80	0.6910	0.1862	0.5102	0.1798
+allophant	Uralic	80	0.6963	0.2144	0.5015	0.1965
+allosaurus	Abkhaz-Adyge	80	1.1657	0.4868	1.1235	0.4111
+allosaurus	Afro-Asiatic	80	0.9171	0.2976	0.7930	0.2775
+allosaurus	Atlantic-Congo	80	0.9783	0.4501	0.9020	0.4689
+allosaurus	Austroasiatic	80	0.9225	0.3006	0.7935	0.3004
+allosaurus	Austronesian	80	0.7544	0.2231	0.6647	0.2333
+allosaurus	Indo-European	80	0.9619	0.3000	0.8267	0.2888
+allosaurus	Nakh-Daghestanian	80	0.9426	0.3230	0.8836	0.3126
+allosaurus	Sino-Tibetan	80	0.8331	0.2374	0.7650	0.2425
+allosaurus	Uralic	80	0.9175	0.3625	0.8260	0.3822
+multipa	Abkhaz-Adyge	80	0.9481	0.3395	0.8050	0.2572
+multipa	Afro-Asiatic	80	0.5816	0.1158	0.4706	0.1052
+multipa	Atlantic-Congo	80	0.5269	0.1316	0.4387	0.1275
+multipa	Austroasiatic	80	0.8254	0.2463	0.6104	0.2262
+multipa	Austronesian	80	0.5780	0.1453	0.4428	0.1356
+multipa	Indo-European	80	0.7646	0.1410	0.6471	0.1326
+multipa	Nakh-Daghestanian	80	0.7522	0.1931	0.6478	0.1777
+multipa	Sino-Tibetan	80	0.7094	0.1665	0.6044	0.1698
+multipa	Uralic	80	0.5169	0.1282	0.4421	0.1260
+powsm	Abkhaz-Adyge	80	1.0358	0.4845	0.9666	0.4098
+powsm	Afro-Asiatic	80	0.6224	0.1437	0.4529	0.1263
+powsm	Atlantic-Congo	80	0.4739	0.1644	0.4136	0.1608
+powsm	Austroasiatic	80	0.6873	0.2097	0.4965	0.1864
+powsm	Austronesian	80	0.4018	0.1263	0.3371	0.1213
+powsm	Indo-European	80	0.6969	0.1476	0.5173	0.1428
+powsm	Nakh-Daghestanian	80	0.6729	0.2054	0.6116	0.1708
+powsm	Sino-Tibetan	80	0.4935	0.1147	0.4271	0.1140
+powsm	Uralic	80	0.3867	0.1139	0.3254	0.1147
+wav2vec2phoneme	Abkhaz-Adyge	80	0.9188	0.3851	0.8105	0.3150
+wav2vec2phoneme	Afro-Asiatic	80	0.5137	0.1429	0.3545	0.1032
+wav2vec2phoneme	Atlantic-Congo	80	0.3934	0.1120	0.3307	0.1082
+wav2vec2phoneme	Austroasiatic	80	0.6871	0.2609	0.5669	0.2304
+wav2vec2phoneme	Austronesian	80	0.4308	0.1395	0.3538	0.1373
+wav2vec2phoneme	Indo-European	80	0.7400	0.1904	0.5017	0.1650
+wav2vec2phoneme	Nakh-Daghestanian	80	0.7062	0.2756	0.5885	0.2299
+wav2vec2phoneme	Sino-Tibetan	80	0.6719	0.1808	0.5225	0.1560
+wav2vec2phoneme	Uralic	80	0.4683	0.1650	0.3840	0.1513
+whipa	Abkhaz-Adyge	80	1.0283	0.3784	0.9357	0.2950
+whipa	Afro-Asiatic	80	0.6767	0.1781	0.5721	0.1579
+whipa	Atlantic-Congo	80	0.9075	0.2963	0.6611	0.2855
+whipa	Austroasiatic	80	1.0752	0.4735	0.9425	0.4429
+whipa	Austronesian	80	0.6095	0.1654	0.4945	0.1548
+whipa	Indo-European	80	0.8423	0.1945	0.7523	0.1815
+whipa	Nakh-Daghestanian	80	0.9770	0.3502	0.8666	0.3273
+whipa	Sino-Tibetan	80	0.7615	0.1926	0.5962	0.1757
+whipa	Uralic	80	1.0110	0.4782	0.8919	0.4655
+whipa_comb	Abkhaz-Adyge	80	1.0694	0.4660	0.9852	0.3651
+whipa_comb	Afro-Asiatic	80	0.6785	0.1553	0.4788	0.1414
+whipa_comb	Atlantic-Congo	80	0.7929	0.1363	0.4410	0.1168
+whipa_comb	Austroasiatic	80	0.7840	0.2597	0.6292	0.2284
+whipa_comb	Austronesian	80	0.7314	0.2022	0.4864	0.1871
+whipa_comb	Indo-European	80	0.9035	0.2286	0.6777	0.2092
+whipa_comb	Nakh-Daghestanian	80	0.9187	0.2766	0.7118	0.2349
+whipa_comb	Sino-Tibetan	80	0.8765	0.2439	0.6571	0.2155
+whipa_comb	Uralic	80	0.7269	0.1702	0.5140	0.1555
+zipa	Abkhaz-Adyge	80	0.9482	0.3409	0.8317	0.2574
+zipa	Afro-Asiatic	80	0.6845	0.1688	0.4728	0.1317
+zipa	Atlantic-Congo	80	0.5487	0.1814	0.4287	0.1775
+zipa	Austroasiatic	80	0.7060	0.2271	0.5231	0.1907
+zipa	Austronesian	80	0.4893	0.1372	0.4005	0.1248
+zipa	Indo-European	80	0.8444	0.1557	0.5894	0.1390
+zipa	Nakh-Daghestanian	80	0.7622	0.2285	0.6898	0.1879
+zipa	Sino-Tibetan	80	0.7319	0.2101	0.5671	0.1670
+zipa	Uralic	80	0.5998	0.1703	0.5044	0.1563
+zipa_large	Abkhaz-Adyge	80	1.0101	0.3767	0.8809	0.2879
+zipa_large	Afro-Asiatic	80	0.7041	0.1618	0.4956	0.1251
+zipa_large	Atlantic-Congo	80	0.6044	0.2167	0.4683	0.2118
+zipa_large	Austroasiatic	80	0.7627	0.2474	0.5531	0.2109
+zipa_large	Austronesian	80	0.5204	0.1432	0.4256	0.1305
+zipa_large	Indo-European	80	0.8092	0.1677	0.5954	0.1430
+zipa_large	Nakh-Daghestanian	80	0.8272	0.2642	0.7451	0.2263
+zipa_large	Sino-Tibetan	80	0.7096	0.1972	0.5677	0.1539
+zipa_large	Uralic	80	0.6723	0.1872	0.5400	0.1714

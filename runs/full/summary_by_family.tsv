@@ -1,190 +1,190 @@
-model	family	n	mean_PER	mean_PFER
-allophant	Abkhaz-Adyge	172	0.9608	0.3355
-allophant	Afro-Asiatic	531	0.7175	0.1777
-allophant	Athabaskan-Eyak-Tlingit	62	0.8174	0.2193
-allophant	Atlantic-Congo	922	0.7012	0.2008
-allophant	Austroasiatic	115	0.7239	0.2480
-allophant	Austronesian	417	0.6321	0.1844
-allophant	Central Sudanic	23	0.9783	0.2862
-allophant	Dravidian	138	0.7602	0.2236
-allophant	Ijoid	82	0.6565	0.2134
-allophant	Indo-European	1645	0.6822	0.1855
-allophant	Kakua-Nukak	63	0.8323	0.3170
-allophant	Kru	99	0.7357	0.1916
-allophant	Mande	69	0.7065	0.2016
-allophant	Nakh-Daghestanian	114	0.7636	0.2639
-allophant	Nuclear Torricelli	70	0.7337	0.1842
-allophant	Salishan	46	0.8657	0.3644
-allophant	Sino-Tibetan	476	0.7373	0.2296
-allophant	Siouan	42	0.7020	0.2016
-allophant	Turkic	56	0.5879	0.1371
-allophant	Unknown	46	0.5798	0.0951
-allophant	Uralic	228	0.7021	0.2289
-allosaurus	Abkhaz-Adyge	172	1.1121	0.4592
-allosaurus	Afro-Asiatic	531	0.8921	0.2840
-allosaurus	Athabaskan-Eyak-Tlingit	62	0.8910	0.2882
-allosaurus	Atlantic-Congo	922	0.9619	0.3937
-allosaurus	Austroasiatic	115	0.9215	0.3014
-allosaurus	Austronesian	417	0.8206	0.2753
-allosaurus	Central Sudanic	23	1.1739	0.3927
-allosaurus	Dravidian	138	0.9982	0.3338
-allosaurus	Ijoid	82	0.9154	0.3078
-allosaurus	Indo-European	1645	0.8905	0.2995
-allosaurus	Kakua-Nukak	63	0.9338	0.3244
-allosaurus	Kru	99	0.9454	0.3689
-allosaurus	Mande	69	0.9286	0.3428
-allosaurus	Nakh-Daghestanian	114	0.9394	0.3253
-allosaurus	Nuclear Torricelli	70	0.9063	0.3356
-allosaurus	Salishan	46	0.9645	0.3804
-allosaurus	Sino-Tibetan	476	0.8988	0.3003
-allosaurus	Siouan	42	0.9018	0.3529
-allosaurus	Turkic	56	0.9605	0.3683
-allosaurus	Unknown	46	0.7038	0.2441
-allosaurus	Uralic	228	0.9743	0.3798
-multipa	Abkhaz-Adyge	172	0.8942	0.3089
-multipa	Afro-Asiatic	531	0.5899	0.1229
-multipa	Athabaskan-Eyak-Tlingit	62	0.7350	0.1747
-multipa	Atlantic-Congo	922	0.5284	0.1352
-multipa	Austroasiatic	115	0.8233	0.2448
-multipa	Austronesian	417	0.5324	0.1265
-multipa	Central Sudanic	23	0.7174	0.1467
-multipa	Dravidian	138	0.5203	0.1144
-multipa	Ijoid	82	0.4944	0.0971
-multipa	Indo-European	1645	0.6384	0.1331
-multipa	Kakua-Nukak	63	0.7585	0.2483
-multipa	Kru	99	0.6819	0.1960
-multipa	Mande	69	0.6442	0.2223
-multipa	Nakh-Daghestanian	114	0.7268	0.1854
-multipa	Nuclear Torricelli	70	0.6527	0.1417
-multipa	Salishan	46	0.8247	0.3063
-multipa	Sino-Tibetan	476	0.7481	0.1901
-multipa	Siouan	42	0.6006	0.1645
-multipa	Turkic	56	0.7293	0.1279
-multipa	Unknown	46	0.3779	0.0663
-multipa	Uralic	228	0.5114	0.1331
-powsm	Abkhaz-Adyge	172	0.9176	0.3791
-powsm	Afro-Asiatic	531	0.5521	0.1258
-powsm	Athabaskan-Eyak-Tlingit	62	0.7148	0.1865
-powsm	Atlantic-Congo	922	0.4731	0.1517
-powsm	Austroasiatic	115	0.6530	0.1908
-powsm	Austronesian	417	0.3867	0.1194
-powsm	Central Sudanic	23	0.6739	0.1626
-powsm	Dravidian	138	0.5716	0.1384
-powsm	Ijoid	82	0.4918	0.1367
-powsm	Indo-European	1645	0.5438	0.1211
-powsm	Kakua-Nukak	63	0.6806	0.2370
-powsm	Kru	99	0.6066	0.2826
-powsm	Mande	69	0.5840	0.2292
-powsm	Nakh-Daghestanian	114	0.6353	0.1968
-powsm	Nuclear Torricelli	70	0.5271	0.1061
-powsm	Salishan	46	1.1514	0.6132
-powsm	Sino-Tibetan	476	0.7030	0.2529
-powsm	Siouan	42	0.4278	0.1446
-powsm	Turkic	56	0.6583	0.1086
-powsm	Unknown	46	0.2886	0.0366
-powsm	Uralic	228	0.4463	0.1320
-wav2vec2phoneme	Abkhaz-Adyge	172	0.8618	0.3178
-wav2vec2phoneme	Afro-Asiatic	531	0.5232	0.1244
-wav2vec2phoneme	Athabaskan-Eyak-Tlingit	62	0.6596	0.1905
-wav2vec2phoneme	Atlantic-Congo	922	0.3985	0.1177
-wav2vec2phoneme	Austroasiatic	115	0.6698	0.2405
-wav2vec2phoneme	Austronesian	417	0.4136	0.1306
-wav2vec2phoneme	Central Sudanic	23	0.7391	0.2346
-wav2vec2phoneme	Dravidian	138	0.5455	0.1372
-wav2vec2phoneme	Ijoid	82	0.3737	0.1042
-wav2vec2phoneme	Indo-European	1645	0.5405	0.1381
-wav2vec2phoneme	Kakua-Nukak	63	0.6741	0.2486
-wav2vec2phoneme	Kru	99	0.4740	0.1665
-wav2vec2phoneme	Mande	69	0.5441	0.2312
-wav2vec2phoneme	Nakh-Daghestanian	114	0.6754	0.2556
-wav2vec2phoneme	Nuclear Torricelli	70	0.6155	0.1705
-wav2vec2phoneme	Salishan	46	0.7497	0.2603
-wav2vec2phoneme	Sino-Tibetan	476	0.6813	0.2022
-wav2vec2phoneme	Siouan	42	0.4784	0.1853
-wav2vec2phoneme	Turkic	56	0.5020	0.1457
-wav2vec2phoneme	Unknown	46	0.3420	0.0646
-wav2vec2phoneme	Uralic	228	0.4517	0.1424
-whipa	Abkhaz-Adyge	172	1.0394	0.3502
-whipa	Afro-Asiatic	531	0.7460	0.2153
-whipa	Athabaskan-Eyak-Tlingit	62	0.9596	0.3500
-whipa	Atlantic-Congo	922	0.9085	0.3103
-whipa	Austroasiatic	115	0.9910	0.4163
-whipa	Austronesian	417	0.6479	0.1761
-whipa	Central Sudanic	23	1.0870	0.3478
-whipa	Dravidian	138	0.7741	0.2327
-whipa	Ijoid	82	0.6581	0.1506
-whipa	Indo-European	1645	0.7790	0.2193
-whipa	Kakua-Nukak	63	0.9840	0.3816
-whipa	Kru	99	0.8394	0.2582
-whipa	Mande	69	0.8435	0.2963
-whipa	Nakh-Daghestanian	114	1.0127	0.4048
-whipa	Nuclear Torricelli	70	0.8919	0.2759
-whipa	Salishan	46	1.0986	0.4784
-whipa	Sino-Tibetan	476	0.8462	0.2635
-whipa	Siouan	42	1.1345	0.5781
-whipa	Turkic	56	0.9184	0.2685
-whipa	Unknown	46	0.5915	0.1705
-whipa	Uralic	228	1.0958	0.5289
-whipa_comb	Abkhaz-Adyge	172	1.0822	0.3988
-whipa_comb	Afro-Asiatic	531	0.6988	0.1415
-whipa_comb	Athabaskan-Eyak-Tlingit	62	0.8170	0.1982
-whipa_comb	Atlantic-Congo	922	0.7823	0.1645
-whipa_comb	Austroasiatic	115	0.7650	0.2550
-whipa_comb	Austronesian	417	0.6470	0.1511
-whipa_comb	Central Sudanic	23	1.0652	0.3442
-whipa_comb	Dravidian	138	0.7457	0.1905
-whipa_comb	Ijoid	82	0.7330	0.1621
-whipa_comb	Indo-European	1645	0.7683	0.1834
-whipa_comb	Kakua-Nukak	63	0.8270	0.2561
-whipa_comb	Kru	99	0.7767	0.2230
-whipa_comb	Mande	69	0.7767	0.2546
-whipa_comb	Nakh-Daghestanian	114	0.9529	0.3014
-whipa_comb	Nuclear Torricelli	70	0.7653	0.1719
-whipa_comb	Salishan	46	0.9632	0.3700
-whipa_comb	Sino-Tibetan	476	0.8771	0.2362
-whipa_comb	Siouan	42	0.8524	0.2908
-whipa_comb	Turkic	56	0.7843	0.1655
-whipa_comb	Unknown	46	0.5901	0.0630
-whipa_comb	Uralic	228	0.7189	0.1781
-zipa	Abkhaz-Adyge	172	0.9299	0.2897
-zipa	Afro-Asiatic	531	0.6504	0.1565
-zipa	Athabaskan-Eyak-Tlingit	62	0.8296	0.2220
-zipa	Atlantic-Congo	922	0.5189	0.1798
-zipa	Austroasiatic	115	0.7001	0.2176
-zipa	Austronesian	417	0.4516	0.1234
-zipa	Central Sudanic	23	0.7391	0.2024
-zipa	Dravidian	138	0.7913	0.1746
-zipa	Ijoid	82	0.5495	0.1560
-zipa	Indo-European	1645	0.6675	0.1636
-zipa	Kakua-Nukak	63	0.6925	0.2380
-zipa	Kru	99	0.6354	0.2453
-zipa	Mande	69	0.7149	0.2676
-zipa	Nakh-Daghestanian	114	0.7120	0.2102
-zipa	Nuclear Torricelli	70	0.6187	0.1274
-zipa	Salishan	46	0.7523	0.3228
-zipa	Sino-Tibetan	476	0.7490	0.2210
-zipa	Siouan	42	0.4950	0.2012
-zipa	Turkic	56	0.6682	0.1733
-zipa	Unknown	46	0.4355	0.0542
-zipa	Uralic	228	0.6650	0.1865
-zipa_large	Abkhaz-Adyge	172	1.0000	0.3445
-zipa_large	Afro-Asiatic	531	0.7052	0.1744
-zipa_large	Athabaskan-Eyak-Tlingit	62	0.7972	0.1949
-zipa_large	Atlantic-Congo	922	0.6084	0.2286
-zipa_large	Austroasiatic	115	0.7646	0.2516
-zipa_large	Austronesian	417	0.5019	0.1311
-zipa_large	Central Sudanic	23	0.7826	0.2378
-zipa_large	Dravidian	138	0.8745	0.2108
-zipa_large	Ijoid	82	0.5787	0.1786
-zipa_large	Indo-European	1645	0.6920	0.1767
-zipa_large	Kakua-Nukak	63	0.6994	0.2292
-zipa_large	Kru	99	0.7206	0.2911
-zipa_large	Mande	69	0.7795	0.3111
-zipa_large	Nakh-Daghestanian	114	0.7460	0.2446
-zipa_large	Nuclear Torricelli	70	0.6600	0.1413
-zipa_large	Salishan	46	0.7840	0.3203
-zipa_large	Sino-Tibetan	476	0.7812	0.2331
-zipa_large	Siouan	42	0.5843	0.2374
-zipa_large	Turkic	56	0.6419	0.1453
-zipa_large	Unknown	46	0.4994	0.0770
-zipa_large	Uralic	228	0.7602	0.2315
+model	family	n	mean_PER	mean_PFER	mean_PER_folded	mean_PFER_folded
+allophant	Abkhaz-Adyge	172	0.9608	0.3355	0.7312	0.2816
+allophant	Afro-Asiatic	531	0.7175	0.1777	0.4963	0.1612
+allophant	Athabaskan-Eyak-Tlingit	62	0.8174	0.2193	0.6723	0.1892
+allophant	Atlantic-Congo	922	0.7012	0.2008	0.4800	0.1912
+allophant	Austroasiatic	115	0.7239	0.2480	0.5296	0.2087
+allophant	Austronesian	417	0.6321	0.1844	0.4673	0.1768
+allophant	Central Sudanic	23	0.9783	0.2862	0.7391	0.2708
+allophant	Dravidian	138	0.7602	0.2236	0.5415	0.1988
+allophant	Ijoid	82	0.6565	0.2134	0.4165	0.1958
+allophant	Indo-European	1645	0.6822	0.1855	0.4818	0.1617
+allophant	Kakua-Nukak	63	0.8323	0.3170	0.6733	0.3038
+allophant	Kru	99	0.7357	0.1916	0.5155	0.1904
+allophant	Mande	69	0.7065	0.2016	0.5215	0.1812
+allophant	Nakh-Daghestanian	114	0.7636	0.2639	0.5280	0.2352
+allophant	Nuclear Torricelli	70	0.7337	0.1842	0.6006	0.1734
+allophant	Salishan	46	0.8657	0.3644	0.7684	0.3466
+allophant	Sino-Tibetan	476	0.7373	0.2296	0.5315	0.2042
+allophant	Siouan	42	0.7020	0.2016	0.4365	0.1924
+allophant	Turkic	56	0.5879	0.1371	0.4537	0.1196
+allophant	Unknown	46	0.5798	0.0951	0.3659	0.0885
+allophant	Uralic	228	0.7021	0.2289	0.4850	0.2159
+allosaurus	Abkhaz-Adyge	172	1.1121	0.4592	1.0786	0.4071
+allosaurus	Afro-Asiatic	531	0.8921	0.2840	0.7778	0.2826
+allosaurus	Athabaskan-Eyak-Tlingit	62	0.8910	0.2882	0.7453	0.2653
+allosaurus	Atlantic-Congo	922	0.9619	0.3937	0.8829	0.4002
+allosaurus	Austroasiatic	115	0.9215	0.3014	0.7987	0.3067
+allosaurus	Austronesian	417	0.8206	0.2753	0.7436	0.2859
+allosaurus	Central Sudanic	23	1.1739	0.3927	1.1304	0.3909
+allosaurus	Dravidian	138	0.9982	0.3338	0.8444	0.3332
+allosaurus	Ijoid	82	0.9154	0.3078	0.7863	0.3015
+allosaurus	Indo-European	1645	0.8905	0.2995	0.7882	0.2962
+allosaurus	Kakua-Nukak	63	0.9338	0.3244	0.8622	0.3330
+allosaurus	Kru	99	0.9454	0.3689	0.8832	0.3743
+allosaurus	Mande	69	0.9286	0.3428	0.8547	0.3251
+allosaurus	Nakh-Daghestanian	114	0.9394	0.3253	0.8782	0.3143
+allosaurus	Nuclear Torricelli	70	0.9063	0.3356	0.8355	0.3349
+allosaurus	Salishan	46	0.9645	0.3804	0.9423	0.3780
+allosaurus	Sino-Tibetan	476	0.8988	0.3003	0.8240	0.2970
+allosaurus	Siouan	42	0.9018	0.3529	0.8581	0.3676
+allosaurus	Turkic	56	0.9605	0.3683	0.9050	0.3756
+allosaurus	Unknown	46	0.7038	0.2441	0.5574	0.2345
+allosaurus	Uralic	228	0.9743	0.3798	0.8816	0.3934
+multipa	Abkhaz-Adyge	172	0.8942	0.3089	0.7404	0.2321
+multipa	Afro-Asiatic	531	0.5899	0.1229	0.4766	0.1164
+multipa	Athabaskan-Eyak-Tlingit	62	0.7350	0.1747	0.6170	0.1474
+multipa	Atlantic-Congo	922	0.5284	0.1352	0.4277	0.1296
+multipa	Austroasiatic	115	0.8233	0.2448	0.6116	0.2245
+multipa	Austronesian	417	0.5324	0.1265	0.4079	0.1183
+multipa	Central Sudanic	23	0.7174	0.1467	0.5217	0.1368
+multipa	Dravidian	138	0.5203	0.1144	0.3882	0.1080
+multipa	Ijoid	82	0.4944	0.0971	0.4213	0.0964
+multipa	Indo-European	1645	0.6384	0.1331	0.5134	0.1278
+multipa	Kakua-Nukak	63	0.7585	0.2483	0.6439	0.2531
+multipa	Kru	99	0.6819	0.1960	0.6320	0.1974
+multipa	Mande	69	0.6442	0.2223	0.5283	0.2140
+multipa	Nakh-Daghestanian	114	0.7268	0.1854	0.6147	0.1712
+multipa	Nuclear Torricelli	70	0.6527	0.1417	0.5456	0.1378
+multipa	Salishan	46	0.8247	0.3063	0.8013	0.2867
+multipa	Sino-Tibetan	476	0.7481	0.1901	0.5968	0.1703
+multipa	Siouan	42	0.6006	0.1645	0.4601	0.1595
+multipa	Turkic	56	0.7293	0.1279	0.6412	0.1186
+multipa	Unknown	46	0.3779	0.0663	0.2321	0.0565
+multipa	Uralic	228	0.5114	0.1331	0.4096	0.1289
+powsm	Abkhaz-Adyge	172	0.9176	0.3791	0.8316	0.3242
+powsm	Afro-Asiatic	531	0.5521	0.1258	0.4226	0.1216
+powsm	Athabaskan-Eyak-Tlingit	62	0.7148	0.1865	0.5824	0.1777
+powsm	Atlantic-Congo	922	0.4731	0.1517	0.4134	0.1484
+powsm	Austroasiatic	115	0.6530	0.1908	0.4662	0.1707
+powsm	Austronesian	417	0.3867	0.1194	0.3341	0.1139
+powsm	Central Sudanic	23	0.6739	0.1626	0.6739	0.1626
+powsm	Dravidian	138	0.5716	0.1384	0.4050	0.1264
+powsm	Ijoid	82	0.4918	0.1367	0.4212	0.1324
+powsm	Indo-European	1645	0.5438	0.1211	0.4210	0.1136
+powsm	Kakua-Nukak	63	0.6806	0.2370	0.5759	0.2261
+powsm	Kru	99	0.6066	0.2826	0.5800	0.2804
+powsm	Mande	69	0.5840	0.2292	0.4905	0.2181
+powsm	Nakh-Daghestanian	114	0.6353	0.1968	0.5589	0.1695
+powsm	Nuclear Torricelli	70	0.5271	0.1061	0.4273	0.1015
+powsm	Salishan	46	1.1514	0.6132	1.1340	0.5951
+powsm	Sino-Tibetan	476	0.7030	0.2529	0.6112	0.2378
+powsm	Siouan	42	0.4278	0.1446	0.3766	0.1341
+powsm	Turkic	56	0.6583	0.1086	0.6013	0.1008
+powsm	Unknown	46	0.2886	0.0366	0.1600	0.0267
+powsm	Uralic	228	0.4463	0.1320	0.3472	0.1298
+wav2vec2phoneme	Abkhaz-Adyge	172	0.8618	0.3178	0.7142	0.2620
+wav2vec2phoneme	Afro-Asiatic	531	0.5232	0.1244	0.3964	0.1094
+wav2vec2phoneme	Athabaskan-Eyak-Tlingit	62	0.6596	0.1905	0.4777	0.1390
+wav2vec2phoneme	Atlantic-Congo	922	0.3985	0.1177	0.3387	0.1085
+wav2vec2phoneme	Austroasiatic	115	0.6698	0.2405	0.5461	0.2105
+wav2vec2phoneme	Austronesian	417	0.4136	0.1306	0.3576	0.1282
+wav2vec2phoneme	Central Sudanic	23	0.7391	0.2346	0.6957	0.2319
+wav2vec2phoneme	Dravidian	138	0.5455	0.1372	0.3887	0.1092
+wav2vec2phoneme	Ijoid	82	0.3737	0.1042	0.2748	0.0886
+wav2vec2phoneme	Indo-European	1645	0.5405	0.1381	0.4059	0.1175
+wav2vec2phoneme	Kakua-Nukak	63	0.6741	0.2486	0.5623	0.2489
+wav2vec2phoneme	Kru	99	0.4740	0.1665	0.4211	0.1656
+wav2vec2phoneme	Mande	69	0.5441	0.2312	0.3987	0.2062
+wav2vec2phoneme	Nakh-Daghestanian	114	0.6754	0.2556	0.5418	0.2181
+wav2vec2phoneme	Nuclear Torricelli	70	0.6155	0.1705	0.4969	0.1611
+wav2vec2phoneme	Salishan	46	0.7497	0.2603	0.6866	0.2363
+wav2vec2phoneme	Sino-Tibetan	476	0.6813	0.2022	0.5470	0.1788
+wav2vec2phoneme	Siouan	42	0.4784	0.1853	0.3256	0.1553
+wav2vec2phoneme	Turkic	56	0.5020	0.1457	0.3819	0.1286
+wav2vec2phoneme	Unknown	46	0.3420	0.0646	0.1965	0.0580
+wav2vec2phoneme	Uralic	228	0.4517	0.1424	0.3344	0.1332
+whipa	Abkhaz-Adyge	172	1.0394	0.3502	0.8962	0.2777
+whipa	Afro-Asiatic	531	0.7460	0.2153	0.6129	0.2032
+whipa	Athabaskan-Eyak-Tlingit	62	0.9596	0.3500	0.8650	0.3098
+whipa	Atlantic-Congo	922	0.9085	0.3103	0.6963	0.2943
+whipa	Austroasiatic	115	0.9910	0.4163	0.8716	0.3893
+whipa	Austronesian	417	0.6479	0.1761	0.4992	0.1654
+whipa	Central Sudanic	23	1.0870	0.3478	0.8913	0.3315
+whipa	Dravidian	138	0.7741	0.2327	0.6122	0.2151
+whipa	Ijoid	82	0.6581	0.1506	0.5116	0.1405
+whipa	Indo-European	1645	0.7790	0.2193	0.6497	0.2073
+whipa	Kakua-Nukak	63	0.9840	0.3816	0.8324	0.3672
+whipa	Kru	99	0.8394	0.2582	0.6958	0.2443
+whipa	Mande	69	0.8435	0.2963	0.7091	0.2760
+whipa	Nakh-Daghestanian	114	1.0127	0.4048	0.8888	0.3811
+whipa	Nuclear Torricelli	70	0.8919	0.2759	0.7440	0.2598
+whipa	Salishan	46	1.0986	0.4784	1.0694	0.4247
+whipa	Sino-Tibetan	476	0.8462	0.2635	0.6896	0.2407
+whipa	Siouan	42	1.1345	0.5781	0.9952	0.5723
+whipa	Turkic	56	0.9184	0.2685	0.8248	0.2576
+whipa	Unknown	46	0.5915	0.1705	0.3990	0.1606
+whipa	Uralic	228	1.0958	0.5289	0.9673	0.5183
+whipa_comb	Abkhaz-Adyge	172	1.0822	0.3988	0.9117	0.3154
+whipa_comb	Afro-Asiatic	531	0.6988	0.1415	0.5000	0.1267
+whipa_comb	Athabaskan-Eyak-Tlingit	62	0.8170	0.1982	0.6103	0.1681
+whipa_comb	Atlantic-Congo	922	0.7823	0.1645	0.4955	0.1452
+whipa_comb	Austroasiatic	115	0.7650	0.2550	0.5926	0.2301
+whipa_comb	Austronesian	417	0.6470	0.1511	0.4218	0.1359
+whipa_comb	Central Sudanic	23	1.0652	0.3442	0.8913	0.3188
+whipa_comb	Dravidian	138	0.7457	0.1905	0.5401	0.1657
+whipa_comb	Ijoid	82	0.7330	0.1621	0.5066	0.1410
+whipa_comb	Indo-European	1645	0.7683	0.1834	0.5482	0.1638
+whipa_comb	Kakua-Nukak	63	0.8270	0.2561	0.6573	0.2445
+whipa_comb	Kru	99	0.7767	0.2230	0.5988	0.2128
+whipa_comb	Mande	69	0.7767	0.2546	0.6223	0.2432
+whipa_comb	Nakh-Daghestanian	114	0.9529	0.3014	0.7128	0.2550
+whipa_comb	Nuclear Torricelli	70	0.7653	0.1719	0.5443	0.1529
+whipa_comb	Salishan	46	0.9632	0.3700	0.8519	0.3542
+whipa_comb	Sino-Tibetan	476	0.8771	0.2362	0.6582	0.2074
+whipa_comb	Siouan	42	0.8524	0.2908	0.5883	0.2475
+whipa_comb	Turkic	56	0.7843	0.1655	0.5401	0.1370
+whipa_comb	Unknown	46	0.5901	0.0630	0.2830	0.0439
+whipa_comb	Uralic	228	0.7189	0.1781	0.5134	0.1635
+zipa	Abkhaz-Adyge	172	0.9299	0.2897	0.7835	0.2303
+zipa	Afro-Asiatic	531	0.6504	0.1565	0.4886	0.1414
+zipa	Athabaskan-Eyak-Tlingit	62	0.8296	0.2220	0.6763	0.1752
+zipa	Atlantic-Congo	922	0.5189	0.1798	0.4385	0.1675
+zipa	Austroasiatic	115	0.7001	0.2176	0.5025	0.1821
+zipa	Austronesian	417	0.4516	0.1234	0.3569	0.1156
+zipa	Central Sudanic	23	0.7391	0.2024	0.7391	0.2024
+zipa	Dravidian	138	0.7913	0.1746	0.4930	0.1442
+zipa	Ijoid	82	0.5495	0.1560	0.4601	0.1386
+zipa	Indo-European	1645	0.6675	0.1636	0.5112	0.1422
+zipa	Kakua-Nukak	63	0.6925	0.2380	0.5938	0.2306
+zipa	Kru	99	0.6354	0.2453	0.6050	0.2460
+zipa	Mande	69	0.7149	0.2676	0.6173	0.2363
+zipa	Nakh-Daghestanian	114	0.7120	0.2102	0.6121	0.1733
+zipa	Nuclear Torricelli	70	0.6187	0.1274	0.4563	0.1161
+zipa	Salishan	46	0.7523	0.3228	0.7224	0.3089
+zipa	Sino-Tibetan	476	0.7490	0.2210	0.5786	0.1849
+zipa	Siouan	42	0.4950	0.2012	0.4177	0.1764
+zipa	Turkic	56	0.6682	0.1733	0.5565	0.1593
+zipa	Unknown	46	0.4355	0.0542	0.2119	0.0489
+zipa	Uralic	228	0.6650	0.1865	0.4905	0.1755
+zipa_large	Abkhaz-Adyge	172	1.0000	0.3445	0.8385	0.2672
+zipa_large	Afro-Asiatic	531	0.7052	0.1744	0.5315	0.1603
+zipa_large	Athabaskan-Eyak-Tlingit	62	0.7972	0.1949	0.6125	0.1524
+zipa_large	Atlantic-Congo	922	0.6084	0.2286	0.5142	0.2157
+zipa_large	Austroasiatic	115	0.7646	0.2516	0.5409	0.2105
+zipa_large	Austronesian	417	0.5019	0.1311	0.3765	0.1222
+zipa_large	Central Sudanic	23	0.7826	0.2378	0.7826	0.2378
+zipa_large	Dravidian	138	0.8745	0.2108	0.5165	0.1794
+zipa_large	Ijoid	82	0.5787	0.1786	0.5043	0.1607
+zipa_large	Indo-European	1645	0.6920	0.1767	0.5377	0.1528
+zipa_large	Kakua-Nukak	63	0.6994	0.2292	0.6033	0.2074
+zipa_large	Kru	99	0.7206	0.2911	0.6879	0.2859
+zipa_large	Mande	69	0.7795	0.3111	0.6800	0.2793
+zipa_large	Nakh-Daghestanian	114	0.7460	0.2446	0.6473	0.2091
+zipa_large	Nuclear Torricelli	70	0.6600	0.1413	0.4986	0.1313
+zipa_large	Salishan	46	0.7840	0.3203	0.7408	0.3106
+zipa_large	Sino-Tibetan	476	0.7812	0.2331	0.6209	0.1973
+zipa_large	Siouan	42	0.5843	0.2374	0.5288	0.2129
+zipa_large	Turkic	56	0.6419	0.1453	0.5278	0.1269
+zipa_large	Unknown	46	0.4994	0.0770	0.2761	0.0718
+zipa_large	Uralic	228	0.7602	0.2315	0.5431	0.2194
