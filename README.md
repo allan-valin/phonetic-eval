@@ -176,15 +176,57 @@ CommonVoice — is far lower than its 60.1 here: same model, easier benchmark.)
 
 ### Strict vs. folded, and why PER ≫ PFER
 
-On the full corpus `wav2vec2phoneme` leads on PER (it and POWSM swap the top two
-spots between the balanced and full sets), while `multipa` edges the best PFER.
-**High PER with low PFER is expected**, not a bug: the references are *narrow*
-audited IPA (length marks, devoicing, dentals) while models emit *broad* phones —
-exact-match PER punishes `iː`≠`i`, but feature-based PFER stays low because the
-phones are articulatorily close. **Folding the references to broad phones drops PER
-by ~11–22 points** (e.g. `whipa_comb` 77.8→55.4, `wav2vec2phoneme` 53.0→41.7,
-shown in the table above) while barely moving PFER — direct confirmation that most
-of the strict-PER penalty is reference granularity, not recognition error.
+**What "strict" and "folded" mean** (the two scoring modes, defined precisely in
+[`scripts/evaluate.py`](scripts/evaluate.py)):
+
+- **Strict** — compare the predicted phones to the reference *exactly as written*.
+  Each IPA symbol is matched as a whole Unicode grapheme, so a length mark or
+  diacritic is part of the token: `iː` ≠ `i`, `b̥` ≠ `b`, `t̪` ≠ `t` are all full
+  mismatches. This is the harsh, literal metric.
+- **Folded** — first normalise both prediction and reference to *broad* phones by
+  deleting the diacritic/length/tone marks (concretely: decompose to Unicode NFD,
+  then drop all code points in categories `Mn`/`Lm`/`Sk` — combining marks,
+  modifier letters, tone-bar symbols), *then* compare. So `iː`→`i` and `b̥`→`b`
+  line up. This measures "did the model get the base phone right, ignoring fine
+  phonetic detail."
+
+The same two error metrics are computed in each mode — **PER** (phone error rate:
+Levenshtein edit distance over phones ÷ reference length, an exact token match) and
+**PFER** (phonological-feature error rate: panphon's feature-weighted edit distance
+÷ reference phones, so a substitution costs *less* the more articulatory features
+the two phones share). PER is all-or-nothing per phone; PFER is graded.
+
+**Worked example** — Icelandic `indoeuropean_isl_001.wav`, reference **`b iː ð`**.
+Values are % (lower is better); `strict → folded`:
+
+| Config | hypothesis | PER (strict→folded) | PFER (strict→folded) |
+|---|---|--:|--:|
+| `allosaurus` | `b̥ i ð` | 66.7 → 0.0 | 1.4 → 0.0 |
+| `wav2vec2phoneme` | `b iː θ` | 33.3 → 33.3 | 1.4 → 1.4 |
+| `allophant` | `b iɪ d̪` | 66.7 → 66.7 | 33.3 → 33.3 |
+| `multipa` | `piθ` | 100.0 → 66.7 | 4.2 → 2.8 |
+| `zipa` (small) | `p i t s` | 133.3 → 100.0 | 38.2 → 36.8 |
+| `zipa_large` | `b i θ` | 66.7 → 33.3 | 2.8 → 1.4 |
+| `powsm` | `p e iː θ` | 100.0 → 100.0 | 33.3 → 33.3 |
+| `whipa` | `biz` | 66.7 → 33.3 | 4.2 → 2.8 |
+| `whipa_comb` | `piːtː` | 66.7 → 66.7 | 6.9 → 5.6 |
+
+Read `allosaurus`: it heard `b̥ i ð` — phonetically a near-perfect match, but
+strict PER is **66.7%** because `b̥`≠`b` and `i`≠`iː` count as two wrong phones.
+Fold away the diacritic and length mark and PER drops to **0.0%**; PFER was already
+~0 because those phones are one feature apart. That single row is the whole story
+of this benchmark in miniature. (Note `multipa`/`whipa`/`whipa_comb` emit no spaces,
+e.g. `piθ`; the scorer segments such strings into phones with panphon before
+scoring.)
+
+**At the corpus level** `wav2vec2phoneme` leads on PER (it and POWSM swap the top
+two spots between the balanced and full sets), while `multipa` edges the best PFER.
+**High PER with low PFER is expected**, not a bug — the references are *narrow*
+audited IPA while models emit *broad* phones. **Folding the references to broad
+phones drops PER by ~11–22 points** (e.g. `whipa_comb` 77.8→55.4,
+`wav2vec2phoneme` 53.0→41.7, shown in the table above) while barely moving PFER —
+direct confirmation that most of the strict-PER penalty is reference granularity,
+not recognition error.
 
 Full per-family breakdowns: `runs/<name>/summary_by_family.tsv`; reference
 snapshot to verify against: `runs/PREVIOUS_RESULTS.md`.
