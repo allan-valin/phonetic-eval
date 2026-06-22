@@ -14,3 +14,27 @@ Wrote 5416 files to audio/ and references.tsv across 95 langs / 21 families
 [2026-06-22 00:43:09] model allosaurus start
 [2026-06-22 00:46:29] model allosaurus done rc=0
 [2026-06-22 00:46:29] model allophant start
+[2026-06-22 00:56:21] model allophant done rc=0
+[2026-06-22 00:56:21] model wav2vec2 start
+[2026-06-22 01:05:43] model wav2vec2 done rc=0
+[2026-06-22 01:05:43] model multipa start
+[2026-06-22 01:15:05] model multipa done rc=0
+[2026-06-22 01:15:05] model powsm start
+[2026-06-22 03:40:23] model powsm done rc=0
+[2026-06-22 03:40:23] model whipa-cv start
+[2026-06-22 05:08:28] model whipa-cv done rc=0
+[2026-06-22 05:08:28] model whipa-comb start
+[2026-06-22 07:19:15] model whipa-comb done rc=0
+[2026-06-22 07:19:15] scoring
+[2026-06-22 07:19:26] PHASE full COMPLETE (5416 files)
+----- summary_by_model -----
+model            n     mean_PER  mean_PFER
+allophant        5416  0.7101    0.2051
+allosaurus       5416  0.9168    0.3265
+multipa          5416  0.6237    0.1504
+powsm            5416  0.5552    0.1606
+wav2vec2phoneme  5416  0.5296    0.1536
+whipa            5416  0.8372    0.2710
+whipa_comb       5416  0.7784    0.1931
+zipa             5416  0.6415    0.1797
+zipa_large       5416  0.6912    0.2032
