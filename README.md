@@ -93,9 +93,14 @@ are ordered by paper publication date** (oldest first); §4 uses the same order.
 | `whipa_comb` (base-comb) | LoWhIPA Base (LoRA, Combined) | 2025-11 | [EMNLP 2025](https://aclanthology.org/2025.emnlp-main.1600/) | [hf weights](https://huggingface.co/jshrdt/lowhipa-base-comb) |
 | `whipa_large` (large-cv) | WhIPA **Large** (whisper-large-v2, full fine-tune, CV) | 2025-11 | [EMNLP 2025](https://aclanthology.org/2025.emnlp-main.1600/) | [hf weights](https://huggingface.co/jshrdt/whipa-large-cv) |
 
-> WhIPA variants here use **whisper-base** (74M) for CPU speed; the paper's
-> headline results use **whisper-large-v2**. So our WhIPA rows are honest but on
-> the smaller backbone — see [§4](#4-results-recomputed-numbers-vs-the-stipa-paper).
+> WhIPA variants here use **whisper-base** (74M) for CPU speed; we also run
+> whisper-large-v2 (`whipa_large`). See [§4](#4-results-recomputed-numbers-vs-the-stipa-paper).
+
+> 🎯 **Why these specific checkpoints** (and why we did *not* test each model's
+> other released variants — e.g. ZIPA transducer/iterations, Allophant
+> shared/hierarchy, MultIPA 2k/full) is justified with the papers' own numbers in
+> [`docs/model_selection.md`](docs/model_selection.md) — written for the paper's
+> model-selection section.
 
 [↑ Back to top](#table-of-contents)
 
