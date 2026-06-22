@@ -62,6 +62,15 @@ whipa_comb	Indo-European	80	0.9035	0.2286	0.6777	0.2092
 whipa_comb	Nakh-Daghestanian	80	0.9187	0.2766	0.7118	0.2349
 whipa_comb	Sino-Tibetan	80	0.8765	0.2439	0.6571	0.2155
 whipa_comb	Uralic	80	0.7269	0.1702	0.5140	0.1555
+whipa_large	Abkhaz-Adyge	80	1.0175	0.3699	0.8896	0.2895
+whipa_large	Afro-Asiatic	80	0.5595	0.0998	0.4651	0.0844
+whipa_large	Atlantic-Congo	80	0.6661	0.1106	0.4220	0.1094
+whipa_large	Austroasiatic	80	0.8060	0.2679	0.6162	0.2374
+whipa_large	Austronesian	80	0.6188	0.1643	0.4863	0.1533
+whipa_large	Indo-European	80	0.8269	0.2066	0.7717	0.2048
+whipa_large	Nakh-Daghestanian	80	0.7831	0.2324	0.7023	0.2076
+whipa_large	Sino-Tibetan	80	0.8644	0.2185	0.7156	0.2179
+whipa_large	Uralic	80	0.4852	0.1201	0.3748	0.1164
 zipa	Abkhaz-Adyge	80	0.9482	0.3409	0.8317	0.2574
 zipa	Afro-Asiatic	80	0.6845	0.1688	0.4728	0.1317
 zipa	Atlantic-Congo	80	0.5487	0.1814	0.4287	0.1775

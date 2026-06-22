@@ -34,6 +34,11 @@ whipa_comb	Austronesian	20	0.5041	0.1173	0.3970	0.1102
 whipa_comb	Indo-European	40	0.6049	0.1599	0.4733	0.1519
 whipa_comb	Turkic	20	0.6275	0.1420	0.5350	0.1340
 whipa_comb	Uralic	20	0.4093	0.1445	0.3023	0.1392
+whipa_large	Atlantic-Congo	20	0.3252	0.1076	0.3160	0.1112
+whipa_large	Austronesian	20	0.4095	0.1512	0.3997	0.1511
+whipa_large	Indo-European	40	0.4666	0.1117	0.3919	0.1084
+whipa_large	Turkic	20	0.4462	0.1110	0.4470	0.1084
+whipa_large	Uralic	20	0.2044	0.0843	0.1320	0.0816
 zipa	Atlantic-Congo	20	0.1661	0.0795	0.1661	0.0738
 zipa	Austronesian	20	0.1817	0.0559	0.1520	0.0479
 zipa	Indo-European	40	0.4287	0.0687	0.3166	0.0581

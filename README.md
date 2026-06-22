@@ -91,6 +91,7 @@ are ordered by paper publication date** (oldest first); §4 uses the same order.
 | `powsm` | POWSM (ESPnet S2T, `<pr>` task) | 2025-10 | [arXiv:2510.24992](https://arxiv.org/abs/2510.24992) | [hf/espnet/powsm](https://huggingface.co/espnet/powsm) |
 | `whipa` (base-cv) | WhIPA Base (full fine-tune, CV) | 2025-11 | [EMNLP 2025](https://aclanthology.org/2025.emnlp-main.1600/) | [github/jshrdt/whipa](https://github.com/jshrdt/whipa) · [hf weights](https://huggingface.co/jshrdt/whipa-base-cv) |
 | `whipa_comb` (base-comb) | LoWhIPA Base (LoRA, Combined) | 2025-11 | [EMNLP 2025](https://aclanthology.org/2025.emnlp-main.1600/) | [hf weights](https://huggingface.co/jshrdt/lowhipa-base-comb) |
+| `whipa_large` (large-cv) | WhIPA **Large** (whisper-large-v2, full fine-tune, CV) | 2025-11 | [EMNLP 2025](https://aclanthology.org/2025.emnlp-main.1600/) | [hf weights](https://huggingface.co/jshrdt/whipa-large-cv) |
 
 > WhIPA variants here use **whisper-base** (74M) for CPU speed; the paper's
 > headline results use **whisper-large-v2**. So our WhIPA rows are honest but on
@@ -267,6 +268,7 @@ Rows ordered by publication date; values are % (`strict → folded`):
 | `powsm` | **23.7 → 22.3** | **8.2 → 7.8** |
 | `whipa` | 62.9 → 53.9 | 18.9 → 18.7 |
 | `whipa_comb` | 55.2 → 42.6 | 14.6 → 13.9 |
+| `whipa_large` | 38.6 → 34.6 | 11.3 → 11.2 |
 
 Two things jump out, both confirming the reference-granularity story:
 
@@ -283,6 +285,31 @@ POWSM and ZIPA lead on this broad connected-speech set (a different ordering fro
 narrow VoxAngeles, where `wav2vec2phoneme` led). Reproduce with
 `envs/env_hf/bin/python scripts/build_fleurs_g2p.py` then `bash scripts/run_fleurs.sh`
 (archives to `runs/fleurs_g2p/`).
+
+### WhIPA backbone: base vs. large (whisper-base → whisper-large-v2)
+
+The STIPA paper's headline numbers use **whisper-large-v2**; our `whipa`/`whipa_comb`
+rows above are the CPU-friendly **whisper-base** (74M) variants. To check the
+backbone effect we also ran **`whipa_large`** (whisper-large-v2, ~1.5B, full
+fine-tune — same `whipa-large-cv` weights as the paper) on the **balanced**
+VoxAngeles set (720; same 720 files the base model was scored on) and on FLEURS.
+Values % (`strict → folded`):
+
+| Set | `whipa` (base) PER | `whipa_large` PER | `whipa` PFER | `whipa_large` PFER | Δ PER |
+|---|--:|--:|--:|--:|--:|
+| VoxAngeles balanced (720) | 87.7 → 74.6 | 73.6 → 60.5 | 30.1 → 27.6 | 19.9 → 18.0 | **−14.0** |
+| FLEURS + G2P (120) | 62.9 → 53.9 | 38.6 → 34.6 | 18.9 → 18.7 | 11.3 → 11.2 | **−24.2** |
+
+Going base→large cuts strict PER by **14 points on narrow VoxAngeles** and **24 on
+broad FLEURS** — a big, consistent gain (though short of the paper's "≈halved"
+claim, which is on the paper's *seen* languages; our test languages are unseen by
+this checkpoint). The backbone helps *more* on broad connected speech, where the
+larger model's language modelling pays off: on FLEURS `whipa_large` (38.6) jumps
+from near-worst to mid-pack, edging past `multipa` and `allophant`. On narrow
+VoxAngeles it improves but stays behind the broad-phone CTC models — fine phonetic
+detail in the references caps how far a bigger broad model can go. `whipa_large`
+was run only on these two sets (not the 5416-file full corpus) because
+whisper-large-v2 is ~10× slower on CPU; reproduce with `bash scripts/run_whipa_large.sh`.
 
 Full per-family breakdowns: `runs/<name>/summary_by_family.tsv`; reference
 snapshot to verify against: `runs/PREVIOUS_RESULTS.md`.
