@@ -241,12 +241,20 @@ VoxAngeles on every axis:
 | coverage | 21 families | 6 langs / 5 families, 120 utts |
 
 The references here are **predicted by [Epitran](https://github.com/dmort27/epitran)**
-(rule-based grapheme→phoneme, the same G2P the STIPA paper used for Common Voice) on
-the FLEURS sentence transcripts — *not* ground truth. We picked orthographically
-transparent languages (Spanish, German, Turkish, Finnish, Swahili, Indonesian) where
-G2P is reliable. Treat this as a **benchmark-design demonstration, not a model
-ranking** — it measures agreement-with-G2P on broad phones. Rows ordered by
-publication date; values are % (`strict → folded`):
+(rule-based grapheme→phoneme, the same G2P family the STIPA paper used for Common
+Voice) on the FLEURS sentence transcripts — *not* ground truth. We picked
+orthographically transparent languages (Spanish, German, Turkish, Finnish, Swahili,
+Indonesian — 6 langs / 5 families, 120 utts, ~13 s each) where G2P is reliable.
+Treat this as a **benchmark-design demonstration, not a model ranking** — it
+measures agreement-with-G2P on broad phones.
+
+> 📐 **Full design & methodology** (speech source, language-selection criteria,
+> G2P + tokenization pipeline, sample stats, limitations/threats to validity,
+> reproducibility, citations) is in
+> [`docs/fleurs_g2p_design.md`](docs/fleurs_g2p_design.md) — written for citing in a
+> paper.
+
+Rows ordered by publication date; values are % (`strict → folded`):
 
 | Config | PER (strict→folded) | PFER (strict→folded) |
 |---|--:|--:|
