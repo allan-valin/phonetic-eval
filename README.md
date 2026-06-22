@@ -77,19 +77,20 @@ numbers, then (b) place the newer models on the same scale.
 ## 3. Models evaluated
 
 Each model runs in its own environment (see [§7](#7-setup--automatic-vs-manual)).
-"Config name" is the `--model`/`--variant` you pass to `run_inference.py`.
+"Config name" is the `--model`/`--variant` you pass to `run_inference.py`. **Rows
+are ordered by paper publication date** (oldest first); §4 uses the same order.
 
-| Config name | Model | Paper | Code / Weights |
-|---|---|---|---|
-| `allosaurus` | Allosaurus (universal phone recognizer) | [arXiv:2002.11800](https://arxiv.org/abs/2002.11800) | [github/xinjli/allosaurus](https://github.com/xinjli/allosaurus) |
-| `wav2vec2phoneme` | Wav2Vec2Phoneme (XLSR-53, espeak-CV-ft) | [arXiv:2109.11680](https://arxiv.org/abs/2109.11680) | [hf/facebook/wav2vec2-xlsr-53-espeak-cv-ft](https://huggingface.co/facebook/wav2vec2-xlsr-53-espeak-cv-ft) |
-| `multipa` | MultIPA (Taguchi & Sakai) | [arXiv:2308.03917](https://arxiv.org/abs/2308.03917) | [github/ctaguchi/multipa](https://github.com/ctaguchi/multipa) · [hf model](https://huggingface.co/ctaguchi/wav2vec2-large-xlsr-japlmthufielta-ipa1000-ns) |
-| `allophant` | Allophant (feature-composition) | [arXiv:2306.04306](https://arxiv.org/abs/2306.04306) | [hf/kgnlp/allophant](https://huggingface.co/kgnlp/allophant) |
-| `zipa` (small) | ZIPA-small (Zipformer, ONNX) | [arXiv:2505.23170](https://arxiv.org/abs/2505.23170) | [github/lingjzhu/zipa](https://github.com/lingjzhu/zipa) · [hf weights](https://huggingface.co/anyspeech/zipa-small-crctc-ns-700k) |
-| `zipa_large` | ZIPA-large (Zipformer, ONNX) | [arXiv:2505.23170](https://arxiv.org/abs/2505.23170) | [hf weights](https://huggingface.co/anyspeech/zipa-large-crctc-ns-800k) |
-| `powsm` | POWSM (ESPnet S2T, `<pr>` task) | [arXiv:2510.24992](https://arxiv.org/abs/2510.24992) | [hf/espnet/powsm](https://huggingface.co/espnet/powsm) |
-| `whipa` (base-cv) | WhIPA Base (full fine-tune, CV) | [EMNLP 2025](https://aclanthology.org/2025.emnlp-main.1600/) | [github/jshrdt/whipa](https://github.com/jshrdt/whipa) · [hf weights](https://huggingface.co/jshrdt/whipa-base-cv) |
-| `whipa_comb` (base-comb) | LoWhIPA Base (LoRA, Combined) | [EMNLP 2025](https://aclanthology.org/2025.emnlp-main.1600/) | [hf weights](https://huggingface.co/jshrdt/lowhipa-base-comb) |
+| Config name | Model | Published | Paper | Code / Weights |
+|---|---|--:|---|---|
+| `allosaurus` | Allosaurus (universal phone recognizer) | 2020 | [arXiv:2002.11800](https://arxiv.org/abs/2002.11800) (ICASSP 2020) | [github/xinjli/allosaurus](https://github.com/xinjli/allosaurus) |
+| `wav2vec2phoneme` | Wav2Vec2Phoneme (XLSR-53, espeak-CV-ft) | 2021 | [arXiv:2109.11680](https://arxiv.org/abs/2109.11680) (Interspeech 2022) | [hf/facebook/wav2vec2-xlsr-53-espeak-cv-ft](https://huggingface.co/facebook/wav2vec2-xlsr-53-espeak-cv-ft) |
+| `allophant` | Allophant (feature-composition) | 2023-06 | [arXiv:2306.04306](https://arxiv.org/abs/2306.04306) (Interspeech 2023) | [hf/kgnlp/allophant](https://huggingface.co/kgnlp/allophant) |
+| `multipa` | MultIPA (Taguchi & Sakai) | 2023-08 | [arXiv:2308.03917](https://arxiv.org/abs/2308.03917) (Interspeech 2023) | [github/ctaguchi/multipa](https://github.com/ctaguchi/multipa) · [hf model](https://huggingface.co/ctaguchi/wav2vec2-large-xlsr-japlmthufielta-ipa1000-ns) |
+| `zipa` (small) | ZIPA-small (Zipformer, ONNX) | 2025-05 | [arXiv:2505.23170](https://arxiv.org/abs/2505.23170) (ACL 2025) | [github/lingjzhu/zipa](https://github.com/lingjzhu/zipa) · [hf weights](https://huggingface.co/anyspeech/zipa-small-crctc-ns-700k) |
+| `zipa_large` | ZIPA-large (Zipformer, ONNX) | 2025-05 | [arXiv:2505.23170](https://arxiv.org/abs/2505.23170) (ACL 2025) | [hf weights](https://huggingface.co/anyspeech/zipa-large-crctc-ns-800k) |
+| `powsm` | POWSM (ESPnet S2T, `<pr>` task) | 2025-10 | [arXiv:2510.24992](https://arxiv.org/abs/2510.24992) | [hf/espnet/powsm](https://huggingface.co/espnet/powsm) |
+| `whipa` (base-cv) | WhIPA Base (full fine-tune, CV) | 2025-11 | [EMNLP 2025](https://aclanthology.org/2025.emnlp-main.1600/) | [github/jshrdt/whipa](https://github.com/jshrdt/whipa) · [hf weights](https://huggingface.co/jshrdt/whipa-base-cv) |
+| `whipa_comb` (base-comb) | LoWhIPA Base (LoRA, Combined) | 2025-11 | [EMNLP 2025](https://aclanthology.org/2025.emnlp-main.1600/) | [hf weights](https://huggingface.co/jshrdt/lowhipa-base-comb) |
 
 > WhIPA variants here use **whisper-base** (74M) for CPU speed; the paper's
 > headline results use **whisper-large-v2**. So our WhIPA rows are honest but on
@@ -116,7 +117,52 @@ cross-check; its numbers read a few points harder because it deliberately
 over-weights difficult unseen families. See
 [§11](#11-reproducing--verifying-the-numbers) for how both were produced.
 
-### Models also evaluated in the STIPA paper (direct comparison)
+### Each model: as published vs. on our VoxAngeles
+
+This is the headline comparison and the most useful one to read carefully. Each
+model's **own paper** reports a low error rate — but on its *own* benchmark, which
+is typically the model's **seen / in-domain / broadly-transcribed** test data (the
+favourable case). Our columns re-run the same model on **narrow, audited VoxAngeles
+IPA across 21 families** (the hard case). The numbers are **not directly
+comparable** — different test languages, different reference granularity — and that
+is exactly the point: it shows how far a "good benchmark" number travels when you
+move to a hard, narrow, broad-coverage one.
+
+Rows are **ordered by publication date**. Reported numbers are the headline figure
+from each paper (table cited). Our VoxAngeles columns show **strict→folded** (full
+corpus; folding strips diacritics/length/tone, see [§10](#10-scoring-per--pfer)).
+All values are **%** (PER and PFER ×100); lower is better.
+
+| Config | Yr | Reported PER | Reported PFER | …on its own benchmark | Our VoxAngeles PER | Our VoxAngeles PFER |
+|---|--:|--:|--:|---|--:|--:|
+| `allosaurus` | 2020 | 25.0 | — | 11-lang multiling., *seen* (Li T1) | 91.7→82.6 | 32.7→32.5 |
+| `wav2vec2phoneme` | 2021 | 22.2 | — | CommonVoice 13-lang, x-ling (Xu T8) | 53.0→41.7 | 15.4→13.6 |
+| `allophant` | 2023 | 45.6 | 19.4 † | UCLA, zero-shot (Glocker T1) | 71.0→50.6 | 20.5→18.6 |
+| `multipa` | 2023 | 21.0 | 5.7 | CommonVoice, *supervised* (Taguchi T3) | 62.4→50.3 | 15.0→14.1 |
+| `zipa` (small) | 2025 | — | 3.2 ‡ | IPAPack++, *seen* (Zhu T2) | 64.2→50.4 | 18.0→15.9 |
+| `zipa_large` | 2025 | — | 2.7 ‡ | IPAPack++, *seen* (Zhu T2) | 69.1→54.5 | 20.3→18.1 |
+| `powsm` | 2025 | — | 2.6 ‡ | IPAPack++, in-domain (POWSM T2) | 55.5→45.7 | 16.1→15.1 |
+| `whipa` | 2025 | 87.8 | 32.1 | **VoxAngeles** (STIPA T3) | 83.7→68.8 | 27.1→25.4 |
+| `whipa_comb` | 2025 | 81.6 | 23.0 | **VoxAngeles** (STIPA T3) | 77.8→55.4 | 19.3→17.1 |
+
+† Allophant's paper reports **AER** (articulatory-attribute error rate), a
+feature-level error related to but not identical to PFER.
+‡ ZIPA and POWSM report **PFER** in the same panphon feature-distance family we use,
+so the scale *is* comparable — which makes the contrast stark: the same `zipa`
+small model is ~3.2 on its in-domain seen set but ~18 on our narrow VoxAngeles,
+~6× the error purely from benchmark difficulty and reference granularity.
+
+Read the table left-to-right per row: a model that looks near-solved on its home
+turf (MultIPA 21.0 PER supervised; ZIPA/POWSM PFER ~3) lands far higher on narrow
+multi-family VoxAngeles. The only rows on the **same** benchmark as us are
+`whipa`/`whipa_comb` (the STIPA paper also used VoxAngeles) — and there our
+recompute matches their published numbers within ~4 points (see calibration below).
+
+### Calibration: models the STIPA paper also ran on VoxAngeles
+
+These three are the **apples-to-apples** check — same benchmark, so the columns
+*are* comparable. Our recompute tracking the STIPA paper closely is the evidence
+that the pipeline and metrics are faithful.
 
 | Config | = STIPA-paper model | Recomputed PER | STIPA-paper PER | Recomputed PFER | STIPA-paper PFER |
 |---|---|--:|--:|--:|--:|
@@ -124,40 +170,21 @@ over-weights difficult unseen families. See
 | `whipa` | CV WhIPA Base | 83.7 | 87.8 | 27.1 | 32.1 |
 | `whipa_comb` | Combined LoWhIPA Base | 77.8 | 81.6 | 19.3 | 23.0 |
 
-The overlapping models track the STIPA paper closely on the full corpus — MultIPA
-within ~2 PER points (62.4 vs. 60.1) and almost exact on PFER (15.0 vs. 15.4),
-WhIPA Base within ~4 points, and LoWhIPA within ~4 — a good sign the pipeline and
-metrics are faithful. The small residual gap is consistent with our references
-being the *narrow* audited IPA (see the PER/PFER note below).
+MultIPA lands within ~2 PER points and near-exact on PFER; WhIPA Base and LoWhIPA
+within ~4. (Note MultIPA's *own-paper* number above — 21.0 PER on supervised
+CommonVoice — is far lower than its 60.1 here: same model, easier benchmark.)
 
-### Models we add (not scored on VoxAngeles in the STIPA paper)
-
-Sorted best-PER first (5416-file full-corpus run). **Strict** columns score the raw
-narrow IPA; **folded** columns score after `fold_to_broad()` strips diacritics,
-length and tone (see [§10](#10-scoring-per--pfer)):
-
-| Config | PER (strict) | PER (folded) | PFER (strict) | PFER (folded) |
-|---|--:|--:|--:|--:|
-| `wav2vec2phoneme` | 53.0 | 41.7 | 15.4 | 13.6 |
-| `powsm` | 55.5 | 45.7 | 16.1 | 15.1 |
-| `multipa` | 62.4 | 50.3 | 15.0 | 14.1 |
-| `zipa` (small) | 64.2 | 50.4 | 18.0 | 15.9 |
-| `zipa_large` | 69.1 | 54.5 | 20.3 | 18.1 |
-| `allophant` | 71.0 | 50.6 | 20.5 | 18.6 |
-| `whipa_comb` | 77.8 | 55.4 | 19.3 | 17.1 |
-| `whipa` | 83.7 | 68.8 | 27.1 | 25.4 |
-| `allosaurus` | 91.7 | 82.6 | 32.7 | 32.5 |
+### Strict vs. folded, and why PER ≫ PFER
 
 On the full corpus `wav2vec2phoneme` leads on PER (it and POWSM swap the top two
 spots between the balanced and full sets), while `multipa` edges the best PFER.
-**High PER with low PFER is expected**,
-not a bug: the references are *narrow* audited IPA (length marks, devoicing,
-dentals) while models emit *broad* phones — exact-match PER punishes `iː`≠`i`,
-but feature-based PFER stays low because the phones are articulatorily close.
-**Folding the references to broad phones drops PER by ~11–22 points** (e.g.
-`whipa_comb` 77.8→55.4, `wav2vec2phoneme` 53.0→41.7) while barely moving PFER —
-direct confirmation that most of the strict-PER penalty is reference granularity,
-not recognition error.
+**High PER with low PFER is expected**, not a bug: the references are *narrow*
+audited IPA (length marks, devoicing, dentals) while models emit *broad* phones —
+exact-match PER punishes `iː`≠`i`, but feature-based PFER stays low because the
+phones are articulatorily close. **Folding the references to broad phones drops PER
+by ~11–22 points** (e.g. `whipa_comb` 77.8→55.4, `wav2vec2phoneme` 53.0→41.7,
+shown in the table above) while barely moving PFER — direct confirmation that most
+of the strict-PER penalty is reference granularity, not recognition error.
 
 Full per-family breakdowns: `runs/<name>/summary_by_family.tsv`; reference
 snapshot to verify against: `runs/PREVIOUS_RESULTS.md`.
@@ -361,6 +388,19 @@ Resample anything else with
 ---
 
 ## 9. Running inference
+
+**What the code actually is.** `scripts/run_inference.py` is a thin **wrapper**:
+for each model it has one function (`run_allosaurus`, `run_hf_ctc`, `run_zipa`,
+`run_powsm`, `run_whipa`, `run_allophant`) that reproduces the **same call the
+model's own authors document** — the snippets in [`docs/manual_runs/`](docs/manual_runs/README.md)
+— plus a shared audio loader (`_load_audio_mono16k`) and a uniform output writer so
+every model lands in `results/<model>/<clip>.txt` as space-separated phones. It
+adds no new model: the per-model logic is exactly the upstream usage, gathered into
+one file with consistent I/O and a few documented bug-fixes/output-parsing tweaks
+(noted inline and in the manual docs). `scripts/evaluate.py` then scores those
+folders with PER/PFER (see [§10](#10-scoring-per--pfer)). So the "automatic" path
+below and the "upstream way" in `docs/manual_runs/` run the *same* model code —
+one just orchestrates all nine in their own environments.
 
 ### 9a. Automatic — everything via one script
 
