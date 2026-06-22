@@ -1,0 +1,33 @@
+[2026-06-22 18:59:34] PHASE fleurs_g2p START (120 files)
+[2026-06-22 18:59:34] clearing old results/*.txt
+[2026-06-22 18:59:34] model zipa-small start
+[2026-06-22 18:59:52] model zipa-small done rc=0
+[2026-06-22 18:59:52] model zipa-large start
+[2026-06-22 19:00:44] model zipa-large done rc=0
+[2026-06-22 19:00:44] model allosaurus start
+[2026-06-22 19:01:37] model allosaurus done rc=0
+[2026-06-22 19:01:37] model allophant start
+[2026-06-22 19:03:04] model allophant done rc=0
+[2026-06-22 19:03:04] model wav2vec2 start
+[2026-06-22 19:04:35] model wav2vec2 done rc=0
+[2026-06-22 19:04:35] model multipa start
+[2026-06-22 19:06:07] model multipa done rc=0
+[2026-06-22 19:06:07] model powsm start
+[2026-06-22 19:27:30] model powsm done rc=0
+[2026-06-22 19:27:30] model whipa-cv start
+[2026-06-22 19:36:47] model whipa-cv done rc=0
+[2026-06-22 19:36:47] model whipa-comb start
+[2026-06-22 19:43:23] model whipa-comb done rc=0
+[2026-06-22 19:43:23] scoring
+[2026-06-22 19:45:58] PHASE fleurs_g2p COMPLETE (120 files)
+----- summary_by_model -----
+model            n    mean_PER  mean_PFER  mean_PER_folded  mean_PFER_folded
+allophant        120  0.4972    0.1674     0.4493           0.1612
+allosaurus       120  0.6422    0.1889     0.5716           0.1880
+multipa          120  0.4747    0.1367     0.4158           0.1362
+powsm            120  0.2367    0.0816     0.2228           0.0784
+wav2vec2phoneme  120  0.3687    0.1081     0.3458           0.1048
+whipa            120  0.6286    0.1891     0.5389           0.1872
+whipa_comb       120  0.5524    0.1459     0.4259           0.1390
+zipa             120  0.3248    0.0772     0.2769           0.0696
+zipa_large       120  0.3147    0.0758     0.2598           0.0675

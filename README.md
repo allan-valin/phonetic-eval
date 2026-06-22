@@ -228,6 +228,54 @@ phones drops PER by ~11–22 points** (e.g. `whipa_comb` 77.8→55.4,
 direct confirmation that most of the strict-PER penalty is reference granularity,
 not recognition error.
 
+### Contrast set: FLEURS + G2P (broad phonemic, connected speech)
+
+To show how much of the VoxAngeles difficulty is its *reference style* rather than
+the audio, we built a deliberately easier **contrast set** — the mirror image of
+VoxAngeles on every axis:
+
+| | VoxAngeles | FLEURS + G2P |
+|---|---|---|
+| speech | isolated words | full read-out **sentences** (connected) |
+| reference | **gold** narrow phonetic IPA (human-audited) | **silver** broad *phonemic* IPA (Epitran G2P) |
+| coverage | 21 families | 6 langs / 5 families, 120 utts |
+
+The references here are **predicted by [Epitran](https://github.com/dmort27/epitran)**
+(rule-based grapheme→phoneme, the same G2P the STIPA paper used for Common Voice) on
+the FLEURS sentence transcripts — *not* ground truth. We picked orthographically
+transparent languages (Spanish, German, Turkish, Finnish, Swahili, Indonesian) where
+G2P is reliable. Treat this as a **benchmark-design demonstration, not a model
+ranking** — it measures agreement-with-G2P on broad phones. Rows ordered by
+publication date; values are % (`strict → folded`):
+
+| Config | PER (strict→folded) | PFER (strict→folded) |
+|---|--:|--:|
+| `allosaurus` | 64.2 → 57.2 | 18.9 → 18.8 |
+| `wav2vec2phoneme` | 36.9 → 34.6 | 10.8 → 10.5 |
+| `allophant` | 49.7 → 44.9 | 16.7 → 16.1 |
+| `multipa` | 47.5 → 41.6 | 13.7 → 13.6 |
+| `zipa` (small) | 32.5 → 27.7 | 7.7 → 7.0 |
+| `zipa_large` | 31.5 → 26.0 | 7.6 → 6.8 |
+| `powsm` | **23.7 → 22.3** | **8.2 → 7.8** |
+| `whipa` | 62.9 → 53.9 | 18.9 → 18.7 |
+| `whipa_comb` | 55.2 → 42.6 | 14.6 → 13.9 |
+
+Two things jump out, both confirming the reference-granularity story:
+
+1. **PER roughly halves vs. VoxAngeles** for the same models (POWSM 55.5→23.7,
+   `zipa_large` 69.1→31.5) — same models, same metric, just broad predicted refs on
+   connected speech instead of narrow gold refs on isolated words.
+2. **Folding barely changes the FLEURS numbers** (POWSM 23.7→22.3) whereas it moved
+   VoxAngeles a lot (POWSM 55.5→45.7) — because the G2P references are *already
+   broad*, there is almost no diacritic/length detail left to fold. In effect
+   **folded-VoxAngeles ≈ strict-FLEURS**: both are broad-phone comparisons, and they
+   land in the same range.
+
+POWSM and ZIPA lead on this broad connected-speech set (a different ordering from
+narrow VoxAngeles, where `wav2vec2phoneme` led). Reproduce with
+`envs/env_hf/bin/python scripts/build_fleurs_g2p.py` then `bash scripts/run_fleurs.sh`
+(archives to `runs/fleurs_g2p/`).
+
 Full per-family breakdowns: `runs/<name>/summary_by_family.tsv`; reference
 snapshot to verify against: `runs/PREVIOUS_RESULTS.md`.
 
